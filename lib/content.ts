@@ -1,7 +1,22 @@
 import fs from "node:fs";
 import path from "node:path";
-import matter from "gray-matter";
+import yaml from "js-yaml";
 import readingTime from "reading-time";
+
+/**
+ * Minimal frontmatter parser (replaces gray-matter, which pinned a vulnerable
+ * js-yaml 3). Splits the leading `--- ... ---` YAML block from the MDX body.
+ * Our frontmatter is first-party, so a tiny, dependency-light parser is safe.
+ */
+function parseFrontmatter(raw: string): {
+  data: Record<string, unknown>;
+  content: string;
+} {
+  const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/.exec(raw);
+  if (!match) return { data: {}, content: raw };
+  const data = (yaml.load(match[1]) as Record<string, unknown>) ?? {};
+  return { data, content: match[2] ?? "" };
+}
 
 /**
  * Lightweight file-based content layer.
@@ -54,7 +69,7 @@ function isProd(): boolean {
 function parseFile(collection: Collection, fileName: string): ContentDoc | null {
   const fullPath = path.join(collectionDir(collection), fileName);
   const raw = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(raw);
+  const { data, content } = parseFrontmatter(raw);
 
   const fm = data as Partial<BaseFrontmatter>;
   if (!fm.title || !fm.date) {
