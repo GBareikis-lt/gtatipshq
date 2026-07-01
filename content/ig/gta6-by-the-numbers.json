@@ -1,0 +1,44 @@
+{
+  "name": "gta6-by-the-numbers",
+  "handle": "@leonidatips",
+  "theme": { "highlight": "#FFD400", "bg": "#0a0a0a" },
+  "caption": "GTA 6 is shaping up to be the biggest entertainment launch in history. 🌴 Which number surprised you most? 👇 Follow @leonidatips for daily GTA 6 news, tips & the countdown to launch.",
+  "hashtags": [
+    "#GTA6", "#GTAVI", "#GTA6news", "#ViceCity", "#Leonida",
+    "#RockstarGames", "#GTA6countdown", "#gaming", "#GTA6leaks", "#PS5"
+  ],
+  "slides": [
+    {
+      "background": "assets/ig/gta6-by-the-numbers/01.jpg",
+      "headline": "*GTA 6* is coming. Here's why it'll be the *biggest* game in *history*."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/02.jpg",
+      "headline": "The first trailer hit *93 million* views in *24 hours* — a record for any non-music video."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/03.jpg",
+      "headline": "GTA 6 is reportedly the most *expensive* game ever made — estimates run into the *billions*."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/04.jpg",
+      "headline": "Release date: *November 19, 2026*. Launching on *PS5* and *Xbox Series X|S*."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/05.jpg",
+      "headline": "The map is the *biggest* Rockstar has ever built — a modern Vice City in the state of *Leonida*."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/06.jpg",
+      "headline": "For the first time ever, you play as a *duo* — *Lucia* and *Jason*."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/07.jpg",
+      "headline": "Analysts expect GTA 6 to break every *sales record* — possibly *$1 billion* in just *days*."
+    },
+    {
+      "background": "assets/ig/gta6-by-the-numbers/08.jpg",
+      "headline": "Follow *@leonidatips* for daily GTA 6 news, tips & the *countdown*."
+    }
+  ]
+}
