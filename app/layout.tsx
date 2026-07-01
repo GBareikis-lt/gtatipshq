@@ -64,6 +64,9 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
+  verification: {
+    google: "CWw_S2SqYP6hQLp8b6bRqr2ryF6IT0vApmHFHAyXpgw",
+  },
 };
 
 export const viewport: Viewport = {
