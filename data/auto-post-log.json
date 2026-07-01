@@ -2,9 +2,27 @@
   "seen": {
     "aecdf61f6e8226c3": "2026-07-01T10:05:30.141Z",
     "9a779ef829d4a4e4": "2026-07-01T10:05:43.573Z",
-    "b8037cf03d10ee36": "2026-07-01T10:06:02.664Z"
+    "b8037cf03d10ee36": "2026-07-01T10:06:02.664Z",
+    "efcb6a2a679c3359": "2026-07-01T14:32:44.396Z",
+    "a2ec49de4e7ffe92": "2026-07-01T14:32:58.283Z"
   },
   "posts": [
+    {
+      "id": "a2ec49de4e7ffe92",
+      "slug": "gta-6-ultimate-edition-what-we-know-so-far",
+      "collection": "news",
+      "title": "GTA 6 Ultimate Edition: What We Know So Far",
+      "source": "https://www.purexbox.com/features/poll-if-youre-buying-gta-6-are-you-getting-the-standard-or-ultimate-edition",
+      "postedAt": "2026-07-01T14:32:58.283Z"
+    },
+    {
+      "id": "efcb6a2a679c3359",
+      "slug": "gta-6-tops-playstation-store-charts-worldwide",
+      "collection": "news",
+      "title": "GTA 6 Tops PlayStation Store Charts Worldwide",
+      "source": "https://www.eurogamer.net/gta-6-top-pre-orders-playstation-store-worldwide",
+      "postedAt": "2026-07-01T14:32:44.396Z"
+    },
     {
       "id": "b8037cf03d10ee36",
       "slug": "gta-6-map-edges-what-gloriana-tells-us",
