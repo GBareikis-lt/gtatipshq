@@ -1,4 +1,33 @@
 {
-  "seen": {},
-  "posts": []
+  "seen": {
+    "aecdf61f6e8226c3": "2026-07-01T10:05:30.141Z",
+    "9a779ef829d4a4e4": "2026-07-01T10:05:43.573Z",
+    "b8037cf03d10ee36": "2026-07-01T10:06:02.664Z"
+  },
+  "posts": [
+    {
+      "id": "b8037cf03d10ee36",
+      "slug": "gta-6-map-edges-what-gloriana-tells-us",
+      "collection": "news",
+      "title": "GTA 6 Map Edges: What Gloriana Tells Us",
+      "source": "https://www.reddit.com/r/GTA6/comments/1uk6g9u/gloriana_edges_of_the_map/",
+      "postedAt": "2026-07-01T10:06:02.664Z"
+    },
+    {
+      "id": "9a779ef829d4a4e4",
+      "slug": "gta-6-preorders-bundle-a-free-gta-trial-here-s-the-catch",
+      "collection": "news",
+      "title": "GTA 6 Preorders Bundle a Free GTA+ Trial — Here's the Catch",
+      "source": "https://www.gamespot.com/articles/gta-6-preorders-include-auto-renewing-membership-to-something-you-might-not-actually-want/",
+      "postedAt": "2026-07-01T10:05:43.573Z"
+    },
+    {
+      "id": "aecdf61f6e8226c3",
+      "slug": "gta-6-studio-faces-union-drive-ahead-of-november-launch",
+      "collection": "news",
+      "title": "GTA 6 Studio Faces Union Drive Ahead of November Launch",
+      "source": "https://www.eurogamer.net/rockstar-games-union-push-before-gta-6-launch",
+      "postedAt": "2026-07-01T10:05:30.141Z"
+    }
+  ]
 }
