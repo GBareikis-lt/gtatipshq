@@ -6,14 +6,14 @@ name: Auto-post GTA 6 content
 
 on:
   schedule:
-    # Every 6 hours (UTC). Adjust as you like.
-    - cron: "0 */6 * * *"
+    # Every 12 hours (UTC), i.e. 00:00 and 12:00. Adjust as you like.
+    - cron: "0 */12 * * *"
   workflow_dispatch:
     inputs:
       max:
         description: "Max posts this run"
         required: false
-        default: "3"
+        default: "2"
 
 concurrency:
   group: auto-post
@@ -42,7 +42,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AUTO_POST_MODEL: ${{ vars.AUTO_POST_MODEL || 'claude-sonnet-4-6' }}
-          AUTO_POST_MAX: ${{ github.event.inputs.max || '3' }}
+          AUTO_POST_MAX: ${{ github.event.inputs.max || '2' }}
           # Hard monthly spend cap (USD). Override via repo variable.
           AUTO_POST_MONTHLY_USD: ${{ vars.AUTO_POST_MONTHLY_USD || '5' }}
         run: node scripts/auto-post.mjs --max "$AUTO_POST_MAX"
