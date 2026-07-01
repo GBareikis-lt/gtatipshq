@@ -26,7 +26,7 @@ export const HERO_STYLE =
 
 export async function generateImage(
   scenePrompt,
-  { key, size = "landscape_4_3", imageUrl = null, strength = 0.72, styleAnchor = SCENE_STYLE } = {},
+  { key, size = "landscape_4_3", imageUrl = null, strength = 0.85, styleAnchor = SCENE_STYLE } = {},
 ) {
   if (!key) throw new Error("FAL_KEY is not set");
 

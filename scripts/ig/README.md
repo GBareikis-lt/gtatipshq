@@ -23,10 +23,10 @@ Needs `ANTHROPIC_API_KEY` (put it in `.env`). Output → `out/ig/<name>/`:
 All AI-generated (needs `FAL_KEY` in `.env`):
 
 - **Hero slides** (first + last): an **original GTA-VI-cover-art-style character**
-  (a fresh fictional persona — never a real/copyrighted character). If you have
-  images in `assets/ig/library/`, one is used as an **img2img style reference**
-  so the character matches your art style (FLUX dev, ~$0.03). No library → pure
-  text-to-image. Disable seeding with `--no-ref`.
+  (a fresh fictional persona — never a real/copyrighted character), text-to-image
+  by default (clean, reliable). Pass **`--ref`** to instead style-seed from a
+  `assets/ig/library/` image (img2img, FLUX dev ~$0.03) — only use clean,
+  full-bleed art as references, or borders/text leak into the result.
 - **Info slides** (the middle): a **unique atmospheric fal.ai scene** per slide
   (FLUX schnell, ~$0.003).
 - No `FAL_KEY` → everything falls back to the **Vice City sunset gradient**, so a

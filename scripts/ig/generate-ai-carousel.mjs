@@ -153,11 +153,14 @@ async function main() {
   const bgDir = path.join(rootDir, "assets", "ig", name);
   fs.mkdirSync(bgDir, { recursive: true });
 
-  const useRef = !args["no-ref"]; // use your uploaded art as img2img style reference
+  // Hero slides default to clean text-to-image GTA art. Pass --ref to instead
+  // style-seed them from your library images (img2img) — only worth it if those
+  // images are clean, full-bleed art (borders/text in a reference leak through).
+  const useRef = Boolean(args.ref);
   if (!falKey) {
     console.log("ℹ No FAL_KEY set → slides use the Vice City gradient. Add FAL_KEY to .env for AI images.");
-  } else if (lib.length === 0) {
-    console.log("ℹ No art library (assets/ig/library/). Hero slides are generated from text only. Add GTA images there to style-seed them.");
+  } else if (useRef && lib.length === 0) {
+    console.log("ℹ --ref set but no images in assets/ig/library/ → hero slides use text-to-image.");
   }
 
   if (wantImages && falKey) {
