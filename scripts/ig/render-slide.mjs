@@ -75,6 +75,9 @@ function toDataUri(filePath) {
 export async function renderSlide(slide, { handle = "@leonidatips", theme = {} } = {}) {
   const highlight = theme.highlight || "#FFD400";
   const bg = theme.bg || "#0a0a0a";
+  // Vice City sunset gradient used when a slide has no background photo, so
+  // AI-generated carousels are postable as-is.
+  const gradient = theme.gradient || "linear-gradient(140deg, #381d6b 0%, #b81e79 55%, #ff8a1f 100%)";
   const fontSize = slide.fontSize || 74;
 
   const bgUri = toDataUri(slide.background);
@@ -189,7 +192,7 @@ export async function renderSlide(slide, { handle = "@leonidatips", theme = {} }
           height: IMG_H,
           position: "relative",
           display: "flex",
-          backgroundColor: "#1d1340",
+          ...(bgUri ? { backgroundColor: "#1d1340" } : { backgroundImage: gradient }),
         },
         imageChildren,
       ),

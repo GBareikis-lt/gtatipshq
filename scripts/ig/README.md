@@ -4,7 +4,23 @@ Turns a JSON spec into ready-to-post **1080×1350 PNG slides** (bold text over a
 photo, white with yellow highlights, `@handle` watermark) — the faceless-IG
 carousel look. Same render engine as the site's OG image (Satori → PNG).
 
-## Usage
+## Fully automatic (AI picks topic + copy + hashtags)
+
+```bash
+# AI invents a topic and writes everything:
+node --env-file=.env scripts/ig/generate-ai-carousel.mjs
+# or steer the topic:
+node --env-file=.env scripts/ig/generate-ai-carousel.mjs --topic "GTA 6 money methods"
+npm run ig:ai -- --topic "GTA 6 map secrets" --slides 7
+```
+
+Needs `ANTHROPIC_API_KEY` (put it in `.env`). Output → `out/ig/<name>/`:
+`slide-01.png …`, `caption.txt` (caption + hashtags, copy-paste), and
+`backgrounds.txt` (a photo idea per slide, optional). The editable spec is saved
+to `content/ig/<name>.json`. Slides render on a Vice City gradient, so they're
+**postable as-is without photos**.
+
+## Manual (you write the spec)
 
 ```bash
 node scripts/ig/generate-carousel.mjs content/ig/gta6-by-the-numbers.json
