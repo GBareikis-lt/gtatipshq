@@ -1,0 +1,34 @@
+{
+  "name": "gtatipshq",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GTATipsHQ — the modern hub for GTA 6 news, tips, guides and the official countdown.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "new:post": "node scripts/new-post.mjs",
+    "auto:post": "node scripts/auto-post.mjs",
+    "auto:candidates": "node scripts/fetch-candidates.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.109.0",
+    "gray-matter": "^4.0.3",
+    "next": "^16.2.9",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "reading-time": "^1.5.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.3"
+  }
+}

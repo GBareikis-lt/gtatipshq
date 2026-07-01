@@ -1,0 +1,60 @@
+name: Auto-post GTA 6 content
+
+# Runs the AI auto-poster on a schedule: fetch reliable sources -> rewrite with
+# Claude -> write MDX -> commit. New commits to content/ can trigger your
+# Hostinger deploy (see docs/DEPLOY.md).
+
+on:
+  schedule:
+    # Every 6 hours (UTC). Adjust as you like.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Max posts this run"
+        required: false
+        default: "3"
+
+concurrency:
+  group: auto-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  auto-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run auto-poster
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AUTO_POST_MODEL: ${{ vars.AUTO_POST_MODEL || 'claude-sonnet-4-6' }}
+          AUTO_POST_MAX: ${{ github.event.inputs.max || '3' }}
+          # Hard monthly spend cap (USD). Override via repo variable.
+          AUTO_POST_MONTHLY_USD: ${{ vars.AUTO_POST_MONTHLY_USD || '5' }}
+        run: node scripts/auto-post.mjs --max "$AUTO_POST_MAX"
+
+      - name: Commit new content
+        run: |
+          git config user.name "gtatipshq-bot"
+          git config user.email "bot@leonidatips.com"
+          git add content data
+          if git diff --cached --quiet; then
+            echo "No new content to commit."
+          else
+            git commit -m "feat: auto-post GTA 6 content ($(date -u +%Y-%m-%d))"
+            git push
+          fi
