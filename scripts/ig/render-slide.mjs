@@ -1,12 +1,12 @@
 /**
  * Render one Instagram carousel slide (1080x1350) to a PNG buffer.
  *
- * Uses Satori (JSX-like layout -> SVG) + resvg (SVG -> PNG) — the same engine as
- * the site's OG image. Produces the "photo on top, bold text on black below"
- * faceless-carousel look with white text and highlighted (yellow) keywords.
+ * Layout: the background photo fills the frame and grows to take all the space
+ * the text doesn't need; the headline sits in a black band at the bottom whose
+ * height hugs the text. White text with sunset-gradient highlighted keywords,
+ * and the @handle in the bottom-right.
  *
  * Highlight markup: wrap words in *asterisks* in the headline to color them.
- *   "GTA 6 is the *biggest* game in *history*."
  */
 
 import fs from "node:fs";
@@ -16,7 +16,6 @@ import { Resvg } from "@resvg/resvg-js";
 
 const W = 1080;
 const H = 1350;
-const IMG_H = 760;
 
 const FONT_PATH = path.join(import.meta.dirname, "fonts", "Anton-Regular.ttf");
 const fontData = fs.readFileSync(FONT_PATH);
@@ -75,19 +74,16 @@ function toDataUri(filePath) {
 export async function renderSlide(slide, { handle = "@leonidatips", theme = {} } = {}) {
   const highlight = theme.highlight || "#FFD400";
   const bg = theme.bg || "#0a0a0a";
-  // Vice City sunset gradient used when a slide has no background photo, so
-  // AI-generated carousels are postable as-is.
   const gradient = theme.gradient || "linear-gradient(140deg, #381d6b 0%, #b81e79 55%, #ff8a1f 100%)";
+  const hlGradient = theme.highlightGradient;
   const fontSize = slide.fontSize || 74;
 
   const bgUri = toDataUri(slide.background);
 
-  const hlGradient = theme.highlightGradient;
   const words = parseHeadline(slide.headline || "");
   const headlineChildren = words.map((w) => {
     const base = { marginRight: 16, display: "flex" };
     if (w.hl && hlGradient) {
-      // Sunset gradient text (magenta → orange) via background-clip.
       return el(
         "span",
         {
@@ -103,84 +99,9 @@ export async function renderSlide(slide, { handle = "@leonidatips", theme = {} }
     return el("span", { ...base, color: w.hl ? highlight : "#ffffff" }, w.text);
   });
 
-  // Image area: background (or fallback), counter, handle watermark.
-  const imageChildren = [];
-  if (bgUri) {
-    imageChildren.push({
-      type: "img",
-      props: {
-        src: bgUri,
-        width: W,
-        height: IMG_H,
-        style: { objectFit: "cover" },
-      },
-    });
-  }
-  // dark scrim at the bottom of the image so it blends into the text band
-  imageChildren.push(
-    el("div", {
-      position: "absolute",
-      bottom: 0,
-      left: 0,
-      width: W,
-      height: 160,
-      display: "flex",
-      backgroundColor: bg,
-      opacity: 0.35,
-    }),
-  );
-  if (slide.counter) {
-    imageChildren.push(
-      el(
-        "div",
-        {
-          position: "absolute",
-          top: 28,
-          right: 28,
-          display: "flex",
-          paddingLeft: 20,
-          paddingRight: 20,
-          paddingTop: 8,
-          paddingBottom: 8,
-          borderRadius: 999,
-          backgroundColor: "rgba(0,0,0,0.6)",
-          color: "#fff",
-          fontSize: 30,
-        },
-        slide.counter,
-      ),
-    );
-  }
-  // handle watermark chip (bottom-left over image)
-  imageChildren.push(
-    el(
-      "div",
-      {
-        position: "absolute",
-        left: 28,
-        bottom: 28,
-        display: "flex",
-        alignItems: "center",
-        gap: 12,
-        paddingLeft: 16,
-        paddingRight: 22,
-        paddingTop: 8,
-        paddingBottom: 8,
-        borderRadius: 999,
-        backgroundColor: "rgba(0,0,0,0.55)",
-      },
-      [
-        el("div", {
-          width: 26,
-          height: 26,
-          borderRadius: 999,
-          display: "flex",
-          backgroundColor: highlight,
-        }),
-        el("div", { display: "flex", color: "#fff", fontSize: 28 }, handle),
-      ],
-    ),
-  );
+  const imageStyle = bgUri
+    ? { backgroundImage: `url("${bgUri}")`, backgroundSize: "cover", backgroundPosition: "center" }
+    : { backgroundImage: gradient };
 
   const tree = el(
     "div",
@@ -193,29 +114,34 @@ export async function renderSlide(slide, { handle = "@leonidatips", theme = {} }
       fontFamily: "Anton",
     },
     [
+      // Photo area — grows to fill whatever the text band doesn't use.
       el(
         "div",
-        {
-          width: W,
-          height: IMG_H,
-          position: "relative",
-          display: "flex",
-          ...(bgUri ? { backgroundColor: "#1d1340" } : { backgroundImage: gradient }),
-        },
-        imageChildren,
+        { display: "flex", flexGrow: 1, position: "relative", ...imageStyle },
+        [
+          // Soft scrim so the photo blends into the black text band.
+          el("div", {
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            width: W,
+            height: 170,
+            display: "flex",
+            backgroundImage: `linear-gradient(to bottom, rgba(10,10,10,0), ${bg})`,
+          }),
+        ],
       ),
+      // Text band — height hugs the content.
       el(
         "div",
         {
           display: "flex",
-          flex: 1,
           flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          paddingLeft: 70,
-          paddingRight: 70,
-          paddingTop: 30,
-          paddingBottom: 30,
+          backgroundColor: bg,
+          paddingLeft: 64,
+          paddingRight: 64,
+          paddingTop: 44,
+          paddingBottom: 40,
         },
         [
           el(
@@ -231,6 +157,27 @@ export async function renderSlide(slide, { handle = "@leonidatips", theme = {} }
               textTransform: "uppercase",
             },
             headlineChildren,
+          ),
+          // @handle, bottom-right.
+          el(
+            "div",
+            {
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "flex-end",
+              marginTop: 34,
+            },
+            [
+              el("div", {
+                width: 22,
+                height: 22,
+                borderRadius: 999,
+                display: "flex",
+                marginRight: 12,
+                backgroundColor: highlight,
+              }),
+              el("div", { display: "flex", color: "rgba(255,255,255,0.6)", fontSize: 30 }, handle),
+            ],
           ),
         ],
       ),
