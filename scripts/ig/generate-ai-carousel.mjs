@@ -23,7 +23,9 @@ import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { loadEnv } from "../lib/load-env.mjs";
 import { renderSlide } from "./render-slide.mjs";
-import { generateImage, IMAGE_COST, IMAGE_COST_REF, HERO_STYLE } from "./image-fal.mjs";
+import {
+  generateImage, IMAGE_COST, IMAGE_COST_HERO, IMAGE_COST_REF, HERO_STYLE, HERO_MODEL,
+} from "./image-fal.mjs";
 import { loadLibrary, pickImage } from "./library.mjs";
 import { slugify } from "../lib/create-post.mjs";
 
@@ -163,6 +165,7 @@ async function main() {
     console.log("ℹ --ref set but no images in assets/ig/library/ → hero slides use text-to-image.");
   }
 
+  let imgSpend = 0;
   if (wantImages && falKey) {
     console.log("▶ Generating backgrounds…");
     for (let i = 0; i < slides.length; i += 1) {
@@ -182,22 +185,27 @@ async function main() {
         if (pick) refUri = toDataUri(pick.file);
       }
 
+      // Hero characters use the higher-quality FLUX dev model (txt2img).
+      const heroTxtModel = isHero && !refUri ? HERO_MODEL : null;
+      const txtCost = isHero ? IMAGE_COST_HERO : IMAGE_COST;
+
       try {
-        const img = await generateImage(prompt, { key: falKey, imageUrl: refUri, styleAnchor });
+        const img = await generateImage(prompt, { key: falKey, imageUrl: refUri, styleAnchor, model: heroTxtModel });
         fs.writeFileSync(path.join(rootDir, rel), img);
         s.background = rel;
-        addUsage(budget, refUri ? IMAGE_COST_REF : IMAGE_COST, { key, calls: 0 });
+        { const c = refUri ? IMAGE_COST_REF : txtCost; imgSpend += c; addUsage(budget, c, { key, calls: 0 }); }
         console.log(`  ✔ slide ${i + 1}: ${isHero ? "hero art" : "scene"}${refUri ? " (styled from your art)" : ""}`);
         continue;
       } catch (err) {
         // img2img can fail → retry as plain text-to-image before giving up.
         if (refUri) {
           try {
-            const img = await generateImage(prompt, { key: falKey, styleAnchor });
+            const img = await generateImage(prompt, { key: falKey, styleAnchor, model: HERO_MODEL });
             fs.writeFileSync(path.join(rootDir, rel), img);
             s.background = rel;
-            addUsage(budget, IMAGE_COST, { key, calls: 0 });
-            console.log(`  ✔ slide ${i + 1}: ${isHero ? "hero art" : "scene"} (ref failed → txt2img)`);
+            imgSpend += IMAGE_COST_HERO;
+            addUsage(budget, IMAGE_COST_HERO, { key, calls: 0 });
+            console.log(`  ✔ slide ${i + 1}: hero art (ref failed → txt2img)`);
             continue;
           } catch (e2) {
             console.warn(`  ✖ slide ${i + 1} failed (${e2.message}) → gradient`);
@@ -248,7 +256,7 @@ async function main() {
   );
 
   console.log(`\n✅ Done → out/ig/${name}/`);
-  console.log(`   Cost ~$${cost.toFixed(4)} (month $${getMonthUsd(budget, key).toFixed(2)}/$${cap.toFixed(2)})`);
+  console.log(`   Cost ~$${(cost + imgSpend).toFixed(3)} (text $${cost.toFixed(4)} + images $${imgSpend.toFixed(3)}) · month $${getMonthUsd(budget, key).toFixed(2)}/$${cap.toFixed(2)}`);
   console.log("\n--- CAPTION (copy-paste) ---");
   console.log(data.caption);
   console.log((data.hashtags || []).join(" "));
