@@ -24,6 +24,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { loadEnv } from "../lib/load-env.mjs";
 import { renderSlide } from "./render-slide.mjs";
 import { generateImage, IMAGE_COST } from "./image-fal.mjs";
+import { loadLibrary, pickImage } from "./library.mjs";
 import { slugify } from "../lib/create-post.mjs";
 import {
   loadBudget, saveBudget, getMonthUsd, addUsage, estimateUsd, monthKey,
@@ -131,34 +132,70 @@ async function main() {
     counter: `${i + 1}/${data.slides.length}`,
   }));
 
-  // Generate a unique AI background per slide (fal.ai), unless disabled/no key.
+  // Backgrounds: hero slides (first + last) use real GTA art from the library;
+  // info slides (the middle) get a unique fal.ai image. Anything without a
+  // source falls back to the Vice City gradient.
   const falKey = process.env.FAL_KEY;
-  const wantImages = falKey && !args["no-images"];
+  const wantImages = !args["no-images"];
+  const lib = loadLibrary(rootDir);
+  const used = new Set();
+  const heroIdx = new Set([0, slides.length - 1]);
+  const bgDir = path.join(rootDir, "assets", "ig", name);
+  fs.mkdirSync(bgDir, { recursive: true });
+
+  if (lib.length === 0) {
+    console.log("ℹ No GTA art library yet (assets/ig/library/). Hero slides will use fal.ai/gradient. Add official GTA 6 images there for authentic hero slides.");
+  }
+  if (!falKey) {
+    console.log("ℹ No FAL_KEY set → info slides use the gradient. Add FAL_KEY to .env for AI images.");
+  }
+
   if (wantImages) {
-    const bgDir = path.join(rootDir, "assets", "ig", name);
-    fs.mkdirSync(bgDir, { recursive: true });
-    console.log("▶ Generating AI backgrounds (fal.ai)…");
+    console.log("▶ Preparing backgrounds…");
     for (let i = 0; i < slides.length; i += 1) {
-      const prompt = slides[i].imagePrompt || `Vice City neon sunset, GTA 6 aesthetic`;
-      try {
-        const img = await generateImage(prompt, { key: falKey });
-        fs.writeFileSync(path.join(bgDir, `${String(i + 1).padStart(2, "0")}.jpg`), img);
-        addUsage(budget, IMAGE_COST, { key, calls: 0 });
-        console.log(`  ✔ image ${i + 1}/${slides.length}`);
-      } catch (err) {
-        console.warn(`  ✖ image ${i + 1} failed (${err.message}) → gradient fallback`);
+      const s = slides[i];
+      const isHero = heroIdx.has(i);
+
+      // 1) Hero slide → pick authentic art from the library.
+      if (isHero && lib.length) {
+        const pick = pickImage(lib, { text: `${s.headline} ${s.imagePrompt}`, role: "hero", used });
+        if (pick) {
+          s.background = pick.file;
+          console.log(`  ✔ slide ${i + 1}: library (${path.basename(pick.file)})`);
+          continue;
+        }
       }
+
+      // 2) Otherwise → fal.ai AI image.
+      if (falKey) {
+        try {
+          const img = await generateImage(s.imagePrompt || "Vice City neon sunset, GTA aesthetic", { key: falKey });
+          const rel = `assets/ig/${name}/${String(i + 1).padStart(2, "0")}.jpg`;
+          fs.writeFileSync(path.join(rootDir, rel), img);
+          s.background = rel;
+          addUsage(budget, IMAGE_COST, { key, calls: 0 });
+          console.log(`  ✔ slide ${i + 1}: fal.ai`);
+          continue;
+        } catch (err) {
+          console.warn(`  ✖ slide ${i + 1} fal.ai failed (${err.message}) → gradient`);
+        }
+      }
+
+      // 3) Gradient fallback.
+      s.background = null;
     }
     saveBudget(budget, rootDir);
-  } else if (!falKey) {
-    console.log("ℹ No FAL_KEY set → using gradient backgrounds. Add FAL_KEY to .env for AI images.");
   }
 
   // Save editable spec.
   const spec = {
     name,
     handle,
-    theme: { highlight: "#FFD400", bg: "#0a0a0a" },
+    theme: {
+      highlight: "#ff8a1f",
+      highlightGradient: "linear-gradient(120deg, #ff2d8e 0%, #ff8a1f 100%)",
+      bg: "#0a0a0a",
+    },
     caption: data.caption,
     hashtags: data.hashtags || [],
     slides,

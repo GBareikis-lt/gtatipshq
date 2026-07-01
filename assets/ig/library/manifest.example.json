@@ -1,0 +1,18 @@
+{
+  "keyart-lucia-jason.jpg": {
+    "tags": ["lucia", "jason", "duo", "characters", "keyart", "hook"],
+    "role": "hero"
+  },
+  "vice-city-skyline-night.jpg": {
+    "tags": ["vice", "city", "skyline", "night", "neon", "map"],
+    "role": "hero"
+  },
+  "beach-sunset.jpg": {
+    "tags": ["beach", "sunset", "leonida", "coast"],
+    "role": "any"
+  },
+  "muscle-car.jpg": {
+    "tags": ["car", "vehicle", "muscle", "street"],
+    "role": "any"
+  }
+}

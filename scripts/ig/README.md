@@ -16,9 +16,20 @@ npm run ig:ai -- --topic "GTA 6 map secrets" --slides 7
 
 Needs `ANTHROPIC_API_KEY` (put it in `.env`). Output → `out/ig/<name>/`:
 `slide-01.png …`, `caption.txt` (caption + hashtags, copy-paste), and
-`backgrounds.txt` (a photo idea per slide, optional). The editable spec is saved
-to `content/ig/<name>.json`. Slides render on a Vice City gradient, so they're
-**postable as-is without photos**.
+`backgrounds.txt`. The editable spec is saved to `content/ig/<name>.json`.
+
+### How backgrounds work (so every post looks different)
+
+- **Hero slides** (first + last) use **real GTA art** from
+  `assets/ig/library/` (see its README) — the picker matches an image to the
+  slide topic and avoids repeats. Authentic key-art look.
+- **Info slides** (the middle) get a **unique fal.ai image** per slide (needs
+  `FAL_KEY` in `.env`, ~$0.003 each).
+- Anything without a source falls back to the **Vice City sunset gradient**, so
+  a carousel always renders — even with no library and no `FAL_KEY`.
+
+Highlights use the site's **magenta → orange sunset** gradient to match
+leonidatips.com. All IG images stay local (gitignored).
 
 ## Manual (you write the spec)
 

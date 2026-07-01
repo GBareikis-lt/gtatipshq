@@ -82,18 +82,26 @@ export async function renderSlide(slide, { handle = "@leonidatips", theme = {} }
 
   const bgUri = toDataUri(slide.background);
 
+  const hlGradient = theme.highlightGradient;
   const words = parseHeadline(slide.headline || "");
-  const headlineChildren = words.map((w, i) =>
-    el(
-      "span",
-      {
-        color: w.hl ? highlight : "#ffffff",
-        marginRight: 16,
-        display: "flex",
-      },
-      w.text,
-    ),
-  );
+  const headlineChildren = words.map((w) => {
+    const base = { marginRight: 16, display: "flex" };
+    if (w.hl && hlGradient) {
+      // Sunset gradient text (magenta → orange) via background-clip.
+      return el(
+        "span",
+        {
+          ...base,
+          backgroundImage: hlGradient,
+          backgroundClip: "text",
+          WebkitBackgroundClip: "text",
+          color: "transparent",
+        },
+        w.text,
+      );
+    }
+    return el("span", { ...base, color: w.hl ? highlight : "#ffffff" }, w.text);
+  });
 
   // Image area: background (or fallback), counter, handle watermark.
   const imageChildren = [];

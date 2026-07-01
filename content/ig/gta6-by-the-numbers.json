@@ -1,7 +1,7 @@
 {
   "name": "gta6-by-the-numbers",
   "handle": "@leonidatips",
-  "theme": { "highlight": "#FFD400", "bg": "#0a0a0a" },
+  "theme": { "highlight": "#ff8a1f", "highlightGradient": "linear-gradient(120deg, #ff2d8e 0%, #ff8a1f 100%)", "bg": "#0a0a0a" },
   "caption": "GTA 6 is shaping up to be the biggest entertainment launch in history. 🌴 Which number surprised you most? 👇 Follow @leonidatips for daily GTA 6 news, tips & the countdown to launch.",
   "hashtags": [
     "#GTA6", "#GTAVI", "#GTA6news", "#ViceCity", "#Leonida",

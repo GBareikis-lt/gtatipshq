@@ -30,3 +30,11 @@ yarn-error.log*
 
 # os
 Thumbs.db
+
+# Instagram images stay local (may be copyrighted GTA art or regenerated) —
+# only the docs/manifest example are tracked.
+/assets/ig/**/*.jpg
+/assets/ig/**/*.jpeg
+/assets/ig/**/*.png
+/assets/ig/**/*.webp
+/assets/ig/library/manifest.json
