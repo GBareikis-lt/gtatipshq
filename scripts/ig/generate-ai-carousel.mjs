@@ -23,9 +23,16 @@ import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { loadEnv } from "../lib/load-env.mjs";
 import { renderSlide } from "./render-slide.mjs";
-import { generateImage, IMAGE_COST } from "./image-fal.mjs";
+import { generateImage, IMAGE_COST, IMAGE_COST_REF, HERO_STYLE } from "./image-fal.mjs";
 import { loadLibrary, pickImage } from "./library.mjs";
 import { slugify } from "../lib/create-post.mjs";
+
+/** Read a local image file into a data URI (for fal.ai img2img reference). */
+function toDataUri(file) {
+  const ext = path.extname(file).slice(1).toLowerCase();
+  const mime = ext === "png" ? "image/png" : ext === "webp" ? "image/webp" : "image/jpeg";
+  return `data:${mime};base64,${fs.readFileSync(file).toString("base64")}`;
+}
 import {
   loadBudget, saveBudget, getMonthUsd, addUsage, estimateUsd, monthKey,
 } from "../lib/budget.mjs";
@@ -51,7 +58,10 @@ ACCURACY
 - GTA 6 releases November 19, 2026 (PS5, Xbox Series X|S). Never contradict this.
 - Do NOT invent "confirmed" facts, quotes, or numbers. Mark unconfirmed things as "reportedly" or "leaked". Flag story spoilers.
 
-FOR EACH SLIDE also give "imagePrompt": a vivid ATMOSPHERIC background scene for an AI image generator that fits the slide's topic — cinematic Miami / Vice City / neon-noir vibe (cityscapes, cars, beaches, sunsets, streets, rain, interiors, money, etc.). Make each slide's scene DIFFERENT for variety. IMPORTANT: no real celebrities, no copyrighted game characters, no logos, no text in the image.
+FOR EACH SLIDE also give "imagePrompt" for an AI image generator (make each one DIFFERENT for variety):
+- FIRST and LAST slide: an ORIGINAL GTA-style CHARACTER portrait — a fictional persona that fits the vibe (e.g. "a confident woman in a floral shirt and sunglasses on a neon Miami street at dusk", "a rugged guy leaning on a muscle car"). Invent a NEW character.
+- All other slides: a vivid ATMOSPHERIC scene — cinematic Vice City / neon-noir (cityscapes, cars, beaches, sunsets, streets, rain, money, interiors).
+IMPORTANT for every image: NO real celebrities, NO Lucia/Jason or any copyrighted game character, NO brand logos, NO text in the image.
 
 CAPTION: 1–2 engaging sentences + a question to drive comments + "Follow {HANDLE} for daily GTA 6 news & tips."
 HASHTAGS: 8–12 relevant, mixing broad (#GTA6, #gaming) and niche (#Leonida, #ViceCity).
@@ -143,46 +153,57 @@ async function main() {
   const bgDir = path.join(rootDir, "assets", "ig", name);
   fs.mkdirSync(bgDir, { recursive: true });
 
-  if (lib.length === 0) {
-    console.log("ℹ No GTA art library yet (assets/ig/library/). Hero slides will use fal.ai/gradient. Add official GTA 6 images there for authentic hero slides.");
-  }
+  const useRef = !args["no-ref"]; // use your uploaded art as img2img style reference
   if (!falKey) {
-    console.log("ℹ No FAL_KEY set → info slides use the gradient. Add FAL_KEY to .env for AI images.");
+    console.log("ℹ No FAL_KEY set → slides use the Vice City gradient. Add FAL_KEY to .env for AI images.");
+  } else if (lib.length === 0) {
+    console.log("ℹ No art library (assets/ig/library/). Hero slides are generated from text only. Add GTA images there to style-seed them.");
   }
 
-  if (wantImages) {
-    console.log("▶ Preparing backgrounds…");
+  if (wantImages && falKey) {
+    console.log("▶ Generating backgrounds…");
     for (let i = 0; i < slides.length; i += 1) {
       const s = slides[i];
       const isHero = heroIdx.has(i);
+      const styleAnchor = isHero ? HERO_STYLE : undefined; // undefined → scene style
+      const prompt =
+        s.imagePrompt ||
+        (isHero ? "a confident original character on a neon-lit Vice City street" : "Vice City neon sunset skyline");
+      const rel = `assets/ig/${name}/${String(i + 1).padStart(2, "0")}.jpg`;
 
-      // 1) Hero slide → pick authentic art from the library.
-      if (isHero && lib.length) {
+      // Hero slides: optionally seed the AI with one of your uploaded images
+      // (img2img) so the generated character matches your art style.
+      let refUri = null;
+      if (isHero && useRef && lib.length) {
         const pick = pickImage(lib, { text: `${s.headline} ${s.imagePrompt}`, role: "hero", used });
-        if (pick) {
-          s.background = pick.file;
-          console.log(`  ✔ slide ${i + 1}: library (${path.basename(pick.file)})`);
-          continue;
-        }
+        if (pick) refUri = toDataUri(pick.file);
       }
 
-      // 2) Otherwise → fal.ai AI image.
-      if (falKey) {
-        try {
-          const img = await generateImage(s.imagePrompt || "Vice City neon sunset, GTA aesthetic", { key: falKey });
-          const rel = `assets/ig/${name}/${String(i + 1).padStart(2, "0")}.jpg`;
-          fs.writeFileSync(path.join(rootDir, rel), img);
-          s.background = rel;
-          addUsage(budget, IMAGE_COST, { key, calls: 0 });
-          console.log(`  ✔ slide ${i + 1}: fal.ai`);
-          continue;
-        } catch (err) {
-          console.warn(`  ✖ slide ${i + 1} fal.ai failed (${err.message}) → gradient`);
+      try {
+        const img = await generateImage(prompt, { key: falKey, imageUrl: refUri, styleAnchor });
+        fs.writeFileSync(path.join(rootDir, rel), img);
+        s.background = rel;
+        addUsage(budget, refUri ? IMAGE_COST_REF : IMAGE_COST, { key, calls: 0 });
+        console.log(`  ✔ slide ${i + 1}: ${isHero ? "hero art" : "scene"}${refUri ? " (styled from your art)" : ""}`);
+        continue;
+      } catch (err) {
+        // img2img can fail → retry as plain text-to-image before giving up.
+        if (refUri) {
+          try {
+            const img = await generateImage(prompt, { key: falKey, styleAnchor });
+            fs.writeFileSync(path.join(rootDir, rel), img);
+            s.background = rel;
+            addUsage(budget, IMAGE_COST, { key, calls: 0 });
+            console.log(`  ✔ slide ${i + 1}: ${isHero ? "hero art" : "scene"} (ref failed → txt2img)`);
+            continue;
+          } catch (e2) {
+            console.warn(`  ✖ slide ${i + 1} failed (${e2.message}) → gradient`);
+          }
+        } else {
+          console.warn(`  ✖ slide ${i + 1} failed (${err.message}) → gradient`);
         }
       }
-
-      // 3) Gradient fallback.
-      s.background = null;
+      s.background = null; // gradient fallback
     }
     saveBudget(budget, rootDir);
   }

@@ -20,16 +20,22 @@ Needs `ANTHROPIC_API_KEY` (put it in `.env`). Output → `out/ig/<name>/`:
 
 ### How backgrounds work (so every post looks different)
 
-- **Hero slides** (first + last) use **real GTA art** from
-  `assets/ig/library/` (see its README) — the picker matches an image to the
-  slide topic and avoids repeats. Authentic key-art look.
-- **Info slides** (the middle) get a **unique fal.ai image** per slide (needs
-  `FAL_KEY` in `.env`, ~$0.003 each).
-- Anything without a source falls back to the **Vice City sunset gradient**, so
-  a carousel always renders — even with no library and no `FAL_KEY`.
+All AI-generated (needs `FAL_KEY` in `.env`):
 
-Highlights use the site's **magenta → orange sunset** gradient to match
-leonidatips.com. All IG images stay local (gitignored).
+- **Hero slides** (first + last): an **original GTA-VI-cover-art-style character**
+  (a fresh fictional persona — never a real/copyrighted character). If you have
+  images in `assets/ig/library/`, one is used as an **img2img style reference**
+  so the character matches your art style (FLUX dev, ~$0.03). No library → pure
+  text-to-image. Disable seeding with `--no-ref`.
+- **Info slides** (the middle): a **unique atmospheric fal.ai scene** per slide
+  (FLUX schnell, ~$0.003).
+- No `FAL_KEY` → everything falls back to the **Vice City sunset gradient**, so a
+  carousel always renders.
+
+The `assets/ig/library/` images are used only as **style seeds** (not posted
+directly), so the output is original AI art in your GTA aesthetic. Highlights use
+the site's **magenta → orange sunset** gradient. All IG images stay local
+(gitignored).
 
 ## Manual (you write the spec)
 
