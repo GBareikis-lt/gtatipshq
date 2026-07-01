@@ -19,7 +19,10 @@
  */
 
 import { execSync } from "node:child_process";
+import { loadEnv } from "./lib/load-env.mjs";
 import { getCandidates } from "./fetch-candidates.mjs";
+
+loadEnv();
 import { rewriteCandidate } from "./rewrite.mjs";
 import { createPost, ALLOWED_CATEGORIES } from "./lib/create-post.mjs";
 import { loadLog, recordPost, markSeen, saveLog, itemId } from "./lib/store.mjs";

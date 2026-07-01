@@ -21,8 +21,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
+import { loadEnv } from "../lib/load-env.mjs";
 import { renderSlide } from "./render-slide.mjs";
 import { slugify } from "../lib/create-post.mjs";
+
+loadEnv();
 import {
   loadBudget, saveBudget, getMonthUsd, addUsage, estimateUsd, monthKey,
 } from "../lib/budget.mjs";
