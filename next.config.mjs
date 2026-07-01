@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Standalone output keeps the deploy bundle small and works well on Node hosts (Hostinger).
-  output: "standalone",
+  // NOTE: no `output: "standalone"` — on Hostinger's managed Next.js runtime it
+  // caused a second server process to fight for port 3000 (restart loop → 503).
+  // Plain `next start` is what the managed runtime expects.
   reactStrictMode: true,
   poweredByHeader: false,
   images: {
