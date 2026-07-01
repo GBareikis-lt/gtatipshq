@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "description": "GTATipsHQ — the modern hub for GTA 6 news, tips, guides and the official countdown.",
+  "engines": {
+    "node": ">=20 <=22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
