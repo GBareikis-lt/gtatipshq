@@ -23,12 +23,13 @@ import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { loadEnv } from "../lib/load-env.mjs";
 import { renderSlide } from "./render-slide.mjs";
+import { generateImage, IMAGE_COST } from "./image-fal.mjs";
 import { slugify } from "../lib/create-post.mjs";
-
-loadEnv();
 import {
   loadBudget, saveBudget, getMonthUsd, addUsage, estimateUsd, monthKey,
 } from "../lib/budget.mjs";
+
+loadEnv();
 
 const MODEL = process.env.AUTO_POST_MODEL || "claude-sonnet-4-6";
 const DEFAULT_HANDLE = "@leonidatips";
@@ -49,7 +50,7 @@ ACCURACY
 - GTA 6 releases November 19, 2026 (PS5, Xbox Series X|S). Never contradict this.
 - Do NOT invent "confirmed" facts, quotes, or numbers. Mark unconfirmed things as "reportedly" or "leaked". Flag story spoilers.
 
-FOR EACH SLIDE also give "bgIdea": a short description of a background photo to use (e.g. "GTA 6 trailer screenshot of Lucia").
+FOR EACH SLIDE also give "imagePrompt": a vivid ATMOSPHERIC background scene for an AI image generator that fits the slide's topic — cinematic Miami / Vice City / neon-noir vibe (cityscapes, cars, beaches, sunsets, streets, rain, interiors, money, etc.). Make each slide's scene DIFFERENT for variety. IMPORTANT: no real celebrities, no copyrighted game characters, no logos, no text in the image.
 
 CAPTION: 1–2 engaging sentences + a question to drive comments + "Follow {HANDLE} for daily GTA 6 news & tips."
 HASHTAGS: 8–12 relevant, mixing broad (#GTA6, #gaming) and niche (#Leonida, #ViceCity).
@@ -59,7 +60,7 @@ OUTPUT: respond with ONLY this JSON (no prose, no code fence):
   "name": "short-kebab-case-slug",
   "caption": "…",
   "hashtags": ["#GTA6", "…"],
-  "slides": [ { "headline": "…with *highlights*", "bgIdea": "…" } ]
+  "slides": [ { "headline": "…with *highlights*", "imagePrompt": "vivid Vice City scene, no text" } ]
 }`;
 
 function parseArgs(argv) {
@@ -125,10 +126,33 @@ async function main() {
   const name = slugify(data.name || args.topic || "gta6-carousel");
   const slides = (data.slides || []).map((s, i) => ({
     headline: s.headline,
-    bgIdea: s.bgIdea || "",
+    imagePrompt: s.imagePrompt || "",
     background: `assets/ig/${name}/${String(i + 1).padStart(2, "0")}.jpg`,
     counter: `${i + 1}/${data.slides.length}`,
   }));
+
+  // Generate a unique AI background per slide (fal.ai), unless disabled/no key.
+  const falKey = process.env.FAL_KEY;
+  const wantImages = falKey && !args["no-images"];
+  if (wantImages) {
+    const bgDir = path.join(rootDir, "assets", "ig", name);
+    fs.mkdirSync(bgDir, { recursive: true });
+    console.log("▶ Generating AI backgrounds (fal.ai)…");
+    for (let i = 0; i < slides.length; i += 1) {
+      const prompt = slides[i].imagePrompt || `Vice City neon sunset, GTA 6 aesthetic`;
+      try {
+        const img = await generateImage(prompt, { key: falKey });
+        fs.writeFileSync(path.join(bgDir, `${String(i + 1).padStart(2, "0")}.jpg`), img);
+        addUsage(budget, IMAGE_COST, { key, calls: 0 });
+        console.log(`  ✔ image ${i + 1}/${slides.length}`);
+      } catch (err) {
+        console.warn(`  ✖ image ${i + 1} failed (${err.message}) → gradient fallback`);
+      }
+    }
+    saveBudget(budget, rootDir);
+  } else if (!falKey) {
+    console.log("ℹ No FAL_KEY set → using gradient backgrounds. Add FAL_KEY to .env for AI images.");
+  }
 
   // Save editable spec.
   const spec = {
@@ -159,7 +183,7 @@ async function main() {
   );
   fs.writeFileSync(
     path.join(outDir, "backgrounds.txt"),
-    slides.map((s, i) => `Slide ${i + 1}: ${s.bgIdea}`).join("\n") + "\n",
+    slides.map((s, i) => `Slide ${i + 1}: ${s.imagePrompt}`).join("\n") + "\n",
   );
 
   console.log(`\n✅ Done → out/ig/${name}/`);
