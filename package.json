@@ -15,7 +15,8 @@
     "auto:post": "node scripts/auto-post.mjs",
     "auto:candidates": "node scripts/fetch-candidates.mjs",
     "ig:carousel": "node scripts/ig/generate-carousel.mjs",
-    "ig:ai": "node scripts/ig/generate-ai-carousel.mjs"
+    "ig:ai": "node scripts/ig/generate-ai-carousel.mjs",
+    "ig:profile": "node scripts/ig/generate-profile.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.109.0",
