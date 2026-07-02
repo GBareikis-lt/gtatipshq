@@ -26,44 +26,48 @@ import fs from "node:fs";
 import path from "node:path";
 import { renderSlide } from "./render-slide.mjs";
 
-async function main() {
-  const specPath = process.argv[2];
-  if (!specPath) {
-    console.error("Usage: node scripts/ig/generate-carousel.mjs <spec.json>");
-    process.exit(1);
-  }
+// Where each format is written.
+const FORMAT_DIRS = { post: ["out", "ig"], reel: ["out", "tiktok"] };
 
-  const spec = JSON.parse(fs.readFileSync(path.resolve(specPath), "utf8"));
-  const name = spec.name || path.basename(specPath, ".json");
-  const outDir = path.join(process.cwd(), "out", "ig", name);
+async function renderFormat(spec, name, format) {
+  const outDir = path.join(process.cwd(), ...FORMAT_DIRS[format], name);
   fs.mkdirSync(outDir, { recursive: true });
-
   const total = spec.slides.length;
-  console.log(`▶ Rendering "${name}" — ${total} slides…`);
+  const dims = format === "reel" ? "1080x1920" : "1080x1350";
+  console.log(`▶ Rendering "${name}" [${format} ${dims}] — ${total} slides…`);
 
   for (let i = 0; i < total; i += 1) {
     const slide = spec.slides[i];
-    // Auto-fill the counter if not provided.
-    if (!slide.counter) slide.counter = `${i + 1}/${total}`;
-    const png = await renderSlide(slide, { handle: spec.handle, theme: spec.theme });
-    const file = path.join(outDir, `slide-${String(i + 1).padStart(2, "0")}.png`);
-    fs.writeFileSync(file, png);
-    const missing = slide.background && !fs.existsSync(path.resolve(slide.background));
-    console.log(`  ✔ slide-${String(i + 1).padStart(2, "0")}.png${missing ? "  (bg missing → fallback)" : ""}`);
+    const png = await renderSlide(slide, { handle: spec.handle, theme: spec.theme, format });
+    fs.writeFileSync(path.join(outDir, `slide-${String(i + 1).padStart(2, "0")}.png`), png);
   }
 
-  // Write the caption + hashtags for easy copy-paste.
   if (spec.caption || spec.hashtags) {
-    const caption = [
-      spec.caption || "",
-      "",
-      (spec.hashtags || []).join(" "),
-    ].join("\n");
+    const caption = [spec.caption || "", "", (spec.hashtags || []).join(" ")].join("\n");
     fs.writeFileSync(path.join(outDir, "caption.txt"), caption.trim() + "\n", "utf8");
-    console.log("  ✔ caption.txt");
+  }
+  console.log(`  ✔ ${path.relative(process.cwd(), outDir)} (${total} slides + caption)`);
+}
+
+async function main() {
+  const args = process.argv.slice(2);
+  const specPath = args.find((a) => !a.startsWith("--"));
+  const fmtArg = (() => {
+    const idx = args.indexOf("--format");
+    return idx !== -1 ? args[idx + 1] : "post";
+  })();
+  if (!specPath) {
+    console.error("Usage: node scripts/ig/generate-carousel.mjs <spec.json> [--format post|reel|both]");
+    process.exit(1);
   }
 
-  console.log(`\nDone → ${path.relative(process.cwd(), outDir)}`);
+  const formats = fmtArg === "both" ? ["post", "reel"] : [fmtArg];
+  const spec = JSON.parse(fs.readFileSync(path.resolve(specPath), "utf8"));
+  const name = spec.name || path.basename(specPath, ".json");
+
+  for (const format of formats) {
+    await renderFormat(spec, name, format);
+  }
 }
 
 main().catch((err) => {

@@ -14,8 +14,11 @@ import path from "node:path";
 import satori from "satori";
 import { Resvg } from "@resvg/resvg-js";
 
-const W = 1080;
-const H = 1350;
+// Output formats. "post" = IG carousel (4:5). "reel" = TikTok / IG Reels (9:16).
+export const FORMATS = {
+  post: { w: 1080, h: 1350, bottomPad: 40 },
+  reel: { w: 1080, h: 1920, bottomPad: 210 }, // extra bottom pad clears the app UI
+};
 
 const FONT_PATH = path.join(import.meta.dirname, "fonts", "Anton-Regular.ttf");
 const fontData = fs.readFileSync(FONT_PATH);
@@ -71,7 +74,10 @@ function toDataUri(filePath) {
   return `data:${mime};base64,${fs.readFileSync(abs).toString("base64")}`;
 }
 
-export async function renderSlide(slide, { handle = "@leonidatips", theme = {} } = {}) {
+export async function renderSlide(slide, { handle = "@leonidatips", theme = {}, format = "post" } = {}) {
+  const fmt = FORMATS[format] || FORMATS.post;
+  const W = fmt.w;
+  const H = fmt.h;
   const highlight = theme.highlight || "#FFD400";
   const bg = theme.bg || "#0a0a0a";
   const gradient = theme.gradient || "linear-gradient(140deg, #381d6b 0%, #b81e79 55%, #ff8a1f 100%)";
@@ -141,7 +147,7 @@ export async function renderSlide(slide, { handle = "@leonidatips", theme = {} }
           paddingLeft: 64,
           paddingRight: 64,
           paddingTop: 44,
-          paddingBottom: 40,
+          paddingBottom: fmt.bottomPad,
         },
         [
           el(

@@ -235,25 +235,30 @@ async function main() {
   fs.mkdirSync(path.join(rootDir, "content", "ig"), { recursive: true });
   fs.writeFileSync(path.join(rootDir, "content", "ig", `${name}.json`), JSON.stringify(spec, null, 2) + "\n");
 
-  // Render.
-  const outDir = path.join(rootDir, "out", "ig", name);
-  fs.mkdirSync(outDir, { recursive: true });
-  console.log(`▶ Rendering ${slides.length} slides for "${name}"…`);
-  for (let i = 0; i < slides.length; i += 1) {
-    const png = await renderSlide(slides[i], { handle, theme: spec.theme });
-    fs.writeFileSync(path.join(outDir, `slide-${String(i + 1).padStart(2, "0")}.png`), png);
-    console.log(`  ✔ slide-${String(i + 1).padStart(2, "0")}.png`);
-  }
+  // Render — post (4:5, out/ig) and/or reel (9:16, out/tiktok).
+  const FORMAT_DIRS = { post: ["out", "ig"], reel: ["out", "tiktok"] };
+  const fmtArg = args.format || "post";
+  const formats = fmtArg === "both" ? ["post", "reel"] : [fmtArg];
 
-  // Caption + hashtags (copy-paste) and background ideas.
-  fs.writeFileSync(
-    path.join(outDir, "caption.txt"),
-    `${data.caption}\n\n${(data.hashtags || []).join(" ")}\n`,
-  );
-  fs.writeFileSync(
-    path.join(outDir, "backgrounds.txt"),
-    slides.map((s, i) => `Slide ${i + 1}: ${s.imagePrompt}`).join("\n") + "\n",
-  );
+  for (const format of formats) {
+    const outDir = path.join(rootDir, ...FORMAT_DIRS[format], name);
+    fs.mkdirSync(outDir, { recursive: true });
+    const dims = format === "reel" ? "9:16" : "4:5";
+    console.log(`▶ Rendering ${slides.length} slides [${format} ${dims}]…`);
+    for (let i = 0; i < slides.length; i += 1) {
+      const png = await renderSlide(slides[i], { handle, theme: spec.theme, format });
+      fs.writeFileSync(path.join(outDir, `slide-${String(i + 1).padStart(2, "0")}.png`), png);
+    }
+    fs.writeFileSync(
+      path.join(outDir, "caption.txt"),
+      `${data.caption}\n\n${(data.hashtags || []).join(" ")}\n`,
+    );
+    fs.writeFileSync(
+      path.join(outDir, "backgrounds.txt"),
+      slides.map((s, i) => `Slide ${i + 1}: ${s.imagePrompt}`).join("\n") + "\n",
+    );
+    console.log(`  ✔ ${path.relative(rootDir, outDir)}`);
+  }
 
   console.log(`\n✅ Done → out/ig/${name}/`);
   console.log(`   Cost ~$${(cost + imgSpend).toFixed(3)} (text $${cost.toFixed(4)} + images $${imgSpend.toFixed(3)}) · month $${getMonthUsd(budget, key).toFixed(2)}/$${cap.toFixed(2)}`);
