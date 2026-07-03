@@ -8,9 +8,27 @@
     "d8c763a038ea18b1": "2026-07-02T03:28:29.235Z",
     "f8fe388e902506ba": "2026-07-02T03:28:42.495Z",
     "edfef00bec57e0b0": "2026-07-02T13:57:40.564Z",
-    "3fd5805eb2df7143": "2026-07-02T13:57:55.134Z"
+    "3fd5805eb2df7143": "2026-07-02T13:57:55.134Z",
+    "a7c205956113dc10": "2026-07-03T02:51:04.308Z",
+    "d734d497246054c8": "2026-07-03T02:51:19.408Z"
   },
   "posts": [
+    {
+      "id": "d734d497246054c8",
+      "slug": "gta-6-developer-rockstar-uk-faces-fresh-workplace-concerns",
+      "collection": "news",
+      "title": "GTA 6 Developer Rockstar UK Faces Fresh Workplace Concerns",
+      "source": "https://www.pcgamer.com/gaming-industry/rockstar-uk-employees-say-the-gta-6-developers-still-plagued-by-gender-pay-gaps-crunch-and-vague-bonuses-which-make-them-as-pliable-as-possible-to-their-bosss-whims/",
+      "postedAt": "2026-07-03T02:51:19.408Z"
+    },
+    {
+      "id": "a7c205956113dc10",
+      "slug": "gta-6-on-steam-machine-what-to-expect",
+      "collection": "news",
+      "title": "GTA 6 on Steam Machine: What to Expect",
+      "source": "https://www.ign.com/articles/gta-6-would-probably-run-on-the-steam-machine",
+      "postedAt": "2026-07-03T02:51:04.308Z"
+    },
     {
       "id": "3fd5805eb2df7143",
       "slug": "gta-6-flying-will-leonida-s-flat-map-hurt-aerial-fun",
