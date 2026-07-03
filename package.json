@@ -17,7 +17,8 @@
     "ig:carousel": "node scripts/ig/generate-carousel.mjs",
     "ig:ai": "node scripts/ig/generate-ai-carousel.mjs",
     "ig:profile": "node scripts/ig/generate-profile.mjs",
-    "ig:profile:ai": "node scripts/ig/generate-profile-ai.mjs"
+    "ig:profile:ai": "node scripts/ig/generate-profile-ai.mjs",
+    "ig:video": "node scripts/ig/make-video.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.109.0",
@@ -30,6 +31,7 @@
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.16",
