@@ -14,9 +14,27 @@
     "514b03fb3d38b2f0": "2026-07-03T14:01:14.804Z",
     "a04d2cae3507013b": "2026-07-03T14:01:28.511Z",
     "1694ff9328a874f5": "2026-07-04T02:47:15.300Z",
-    "6cb7a88865a14ea9": "2026-07-04T02:47:27.961Z"
+    "6cb7a88865a14ea9": "2026-07-04T02:47:27.961Z",
+    "2974b63bcf4b72ba": "2026-07-04T13:22:31.142Z",
+    "e35de430566ffcd8": "2026-07-04T13:22:46.537Z"
   },
   "posts": [
+    {
+      "id": "e35de430566ffcd8",
+      "slug": "gta-6-physical-copy-is-just-a-code-in-a-box",
+      "collection": "news",
+      "title": "GTA 6 Physical Copy Is Just a Code in a Box",
+      "source": "https://www.ign.com/articles/after-sony-kills-ps5-discs-and-gta-6-is-just-a-code-in-a-box-xbox-is-using-halo-campaign-evolveds-physical-disc-as-a-selling-point",
+      "postedAt": "2026-07-04T13:22:46.537Z"
+    },
+    {
+      "id": "2974b63bcf4b72ba",
+      "slug": "gta-6-dev-rockstar-faces-fresh-labour-allegations",
+      "collection": "news",
+      "title": "GTA 6 Dev Rockstar Faces Fresh Labour Allegations",
+      "source": "https://www.eurogamer.net/gta-6-rockstar-enforcing-crunch-weaponising-bonus-payments-ignoring-widening-gender-pay-gap",
+      "postedAt": "2026-07-04T13:22:31.142Z"
+    },
     {
       "id": "6cb7a88865a14ea9",
       "slug": "gta-6-on-ps6-may-be-digital-only-as-sony-goes-all-in",
