@@ -12,9 +12,27 @@
     "a7c205956113dc10": "2026-07-03T02:51:04.308Z",
     "d734d497246054c8": "2026-07-03T02:51:19.408Z",
     "514b03fb3d38b2f0": "2026-07-03T14:01:14.804Z",
-    "a04d2cae3507013b": "2026-07-03T14:01:28.511Z"
+    "a04d2cae3507013b": "2026-07-03T14:01:28.511Z",
+    "1694ff9328a874f5": "2026-07-04T02:47:15.300Z",
+    "6cb7a88865a14ea9": "2026-07-04T02:47:27.961Z"
   },
   "posts": [
+    {
+      "id": "6cb7a88865a14ea9",
+      "slug": "gta-6-on-ps6-may-be-digital-only-as-sony-goes-all-in",
+      "collection": "news",
+      "title": "GTA 6 on PS6 May Be Digital-Only as Sony Goes All-In",
+      "source": "https://www.gamespot.com/articles/nintendo-could-inherit-the-physical-gaming-crown-by-default/",
+      "postedAt": "2026-07-04T02:47:27.961Z"
+    },
+    {
+      "id": "1694ff9328a874f5",
+      "slug": "gta-6-for-2-how-one-player-scored-a-massive-discount",
+      "collection": "news",
+      "title": "GTA 6 for $2: How One Player Scored a Massive Discount",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/another-player-has-swiped-a-colossal-discount-on-gta-6-paying-just-usd2-thanks-to-a-forgotten-best-buy-card/",
+      "postedAt": "2026-07-04T02:47:15.300Z"
+    },
     {
       "id": "a04d2cae3507013b",
       "slug": "gta-6-could-empire-building-return-from-vice-city-stories",
