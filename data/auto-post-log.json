@@ -18,9 +18,27 @@
     "2974b63bcf4b72ba": "2026-07-04T13:22:31.142Z",
     "e35de430566ffcd8": "2026-07-04T13:22:46.537Z",
     "e1355d324431da6d": "2026-07-05T02:57:48.919Z",
-    "dd79814358bd02d5": "2026-07-05T02:58:02.780Z"
+    "dd79814358bd02d5": "2026-07-05T02:58:02.780Z",
+    "1ca2e9be12065d61": "2026-07-05T13:28:19.280Z",
+    "9fa4389dcfe6f2d3": "2026-07-05T13:28:34.055Z"
   },
   "posts": [
+    {
+      "id": "9fa4389dcfe6f2d3",
+      "slug": "gta-6-skips-pc-at-launch-what-pc-gamers-can-do",
+      "collection": "news",
+      "title": "GTA 6 Skips PC at Launch — What PC Gamers Can Do",
+      "source": "https://www.pcgamer.com/games/action/relax-pc-gamers-were-not-getting-gta-6-on-november-19-but-weve-got-um-phantom-vice-auto-launching-the-same-day-on-steam/",
+      "postedAt": "2026-07-05T13:28:34.055Z"
+    },
+    {
+      "id": "1ca2e9be12065d61",
+      "slug": "gta-6-weapons-lockers-what-they-mean-for-missions",
+      "collection": "news",
+      "title": "GTA 6 Weapons Lockers: What They Mean for Missions",
+      "source": "https://www.reddit.com/r/GTA6/comments/1unm9oj/about_weapons_lockers/",
+      "postedAt": "2026-07-05T13:28:19.280Z"
+    },
     {
       "id": "dd79814358bd02d5",
       "slug": "gta-6-tattoo-detail-may-hint-at-jason-lucia-s-fate",
