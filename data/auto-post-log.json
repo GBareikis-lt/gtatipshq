@@ -24,9 +24,27 @@
     "538a21b98459c1e9": "2026-07-06T03:24:50.047Z",
     "ab2f604021ab8581": "2026-07-06T03:25:04.230Z",
     "943482c62cc324b9": "2026-07-06T15:29:45.872Z",
-    "21d4e261584e7d8a": "2026-07-06T15:29:59.512Z"
+    "21d4e261584e7d8a": "2026-07-06T15:29:59.512Z",
+    "d9f2cb94ea1039f0": "2026-07-07T02:57:46.996Z",
+    "d4ff40f9c53a0692": "2026-07-07T02:58:02.284Z"
   },
   "posts": [
+    {
+      "id": "d4ff40f9c53a0692",
+      "slug": "gta-6-background-character-hides-two-real-true-crime-references",
+      "collection": "news",
+      "title": "GTA 6 Background Character Hides Two Real True-Crime References",
+      "source": "https://www.reddit.com/r/GTA6/comments/1up3w20/a_crazy_detail_some_people_may_have_missed_about/",
+      "postedAt": "2026-07-07T02:58:02.284Z"
+    },
+    {
+      "id": "d9f2cb94ea1039f0",
+      "slug": "gta-6-on-next-gen-will-project-helix-support-physical-discs",
+      "collection": "news",
+      "title": "GTA 6 on Next-Gen: Will Project Helix Support Physical Discs?",
+      "source": "https://www.pushsquare.com/news/2026/07/rumour-xbox-still-weighing-up-physical-disc-support-for-project-helix-after-sony-bombshell",
+      "postedAt": "2026-07-07T02:57:46.996Z"
+    },
     {
       "id": "21d4e261584e7d8a",
       "slug": "gta-6-cars-what-vehicle-improvements-fans-want",
