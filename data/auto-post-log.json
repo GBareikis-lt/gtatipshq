@@ -30,9 +30,19 @@
     "32e748839abc17c3": "2026-07-07T14:30:51.909Z",
     "767c0945e687dfc0": "2026-07-07T14:31:04.661Z",
     "729209ce31b04edc": "2026-07-08T02:34:15.799Z",
-    "2f52c4fa4f12ee35": "2026-07-08T02:34:30.833Z"
+    "2f52c4fa4f12ee35": "2026-07-08T02:34:30.833Z",
+    "72e6ac5d662d3208": "2026-07-08T14:02:10.597Z",
+    "10d30e18cf1878c1": "2026-07-08T14:02:11.705Z"
   },
   "posts": [
+    {
+      "id": "72e6ac5d662d3208",
+      "slug": "gta-6-online-age-verification-required-in-australia",
+      "collection": "news",
+      "title": "GTA 6 Online Age Verification Required in Australia",
+      "source": "https://www.reddit.com/r/GTA6/comments/1uqe862/this_has_to_be_the_most_australian_gta_6_headline/",
+      "postedAt": "2026-07-08T14:02:10.597Z"
+    },
     {
       "id": "2f52c4fa4f12ee35",
       "slug": "gta-6-on-base-ps5-will-performance-hold-up",
