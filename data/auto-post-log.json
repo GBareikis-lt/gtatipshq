@@ -58,9 +58,27 @@
     "0215af478e3eaf88": "2026-07-14T13:40:17.049Z",
     "510a95d0910651f9": "2026-07-14T13:40:30.950Z",
     "c2fcd01924423206": "2026-07-15T02:21:27.987Z",
-    "84f507715d1bf1ca": "2026-07-15T02:21:42.180Z"
+    "84f507715d1bf1ca": "2026-07-15T02:21:42.180Z",
+    "3e050a23e6e7a83a": "2026-07-15T13:41:03.019Z",
+    "01d8c572c7cc0ec8": "2026-07-15T13:41:17.264Z"
   },
   "posts": [
+    {
+      "id": "01d8c572c7cc0ec8",
+      "slug": "gta-6-pc-absence-explained-by-ex-rockstar-producer",
+      "collection": "news",
+      "title": "GTA 6 PC Absence Explained by Ex-Rockstar Producer",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-isnt-on-pc-at-launch-because-its-always-better-to-start-with-the-constraints-suggests-former-rockstar-producer/",
+      "postedAt": "2026-07-15T13:41:17.264Z"
+    },
+    {
+      "id": "3e050a23e6e7a83a",
+      "slug": "gta-6-pc-delay-explained-it-s-about-resources",
+      "collection": "news",
+      "title": "GTA 6 PC Delay Explained: It's About Resources",
+      "source": "https://www.videogameschronicle.com/news/gta-6-console-only-launch-isnt-anti-pc-but-a-case-of-resource-management-ex-rockstar-producer-says/",
+      "postedAt": "2026-07-15T13:41:03.019Z"
+    },
     {
       "id": "84f507715d1bf1ca",
       "slug": "gta-6-ps5-pro-enhancements-when-to-expect-news",
