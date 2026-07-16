@@ -62,9 +62,27 @@
     "3e050a23e6e7a83a": "2026-07-15T13:41:03.019Z",
     "01d8c572c7cc0ec8": "2026-07-15T13:41:17.264Z",
     "f87ba418d43c9cbe": "2026-07-16T02:28:41.781Z",
-    "56f11740273ee30e": "2026-07-16T02:28:57.254Z"
+    "56f11740273ee30e": "2026-07-16T02:28:57.254Z",
+    "3111436141b6e0f0": "2026-07-16T13:47:21.529Z",
+    "8bf58beff3833204": "2026-07-16T13:47:34.064Z"
   },
   "posts": [
+    {
+      "id": "8bf58beff3833204",
+      "slug": "gta-6-could-earn-5b-in-its-first-week",
+      "collection": "news",
+      "title": "GTA 6 Could Earn $5B in Its First Week",
+      "source": "https://www.gamespot.com/articles/gta-6-just-got-a-jaw-dropping-sales-prediction/",
+      "postedAt": "2026-07-16T13:47:34.064Z"
+    },
+    {
+      "id": "3111436141b6e0f0",
+      "slug": "gta-6-console-only-launch-why-pc-has-to-wait",
+      "collection": "news",
+      "title": "GTA 6 Console-Only Launch: Why PC Has to Wait",
+      "source": "https://www.eurogamer.net/gta-6-rockstar-pc-consoles-release",
+      "postedAt": "2026-07-16T13:47:21.529Z"
+    },
     {
       "id": "56f11740273ee30e",
       "slug": "gta-6-what-rockstar-should-leave-behind-from-gta-5",
