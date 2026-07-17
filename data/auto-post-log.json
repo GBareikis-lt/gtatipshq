@@ -64,9 +64,27 @@
     "f87ba418d43c9cbe": "2026-07-16T02:28:41.781Z",
     "56f11740273ee30e": "2026-07-16T02:28:57.254Z",
     "3111436141b6e0f0": "2026-07-16T13:47:21.529Z",
-    "8bf58beff3833204": "2026-07-16T13:47:34.064Z"
+    "8bf58beff3833204": "2026-07-16T13:47:34.064Z",
+    "20aad8878212c833": "2026-07-17T02:31:32.530Z",
+    "66f43cc208835efe": "2026-07-17T02:31:47.262Z"
   },
   "posts": [
+    {
+      "id": "66f43cc208835efe",
+      "slug": "gta-6-console-first-strategy-explained-by-ex-dev",
+      "collection": "news",
+      "title": "GTA 6 Console-First Strategy Explained by Ex-Dev",
+      "source": "https://www.gamespot.com/articles/former-rockstar-dev-explains-gta-6-console-first-approach/",
+      "postedAt": "2026-07-17T02:31:47.262Z"
+    },
+    {
+      "id": "20aad8878212c833",
+      "slug": "gta-6-leaker-arion-kurtaj-awaits-retrial-after-hospital-release",
+      "collection": "news",
+      "title": "GTA 6 Leaker Arion Kurtaj Awaits Retrial After Hospital Release",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-leaker-who-was-given-an-indefinite-sentence-in-2023-because-he-wouldnt-stop-hacking-is-now-out-of-hospital-and-awaiting-retrial/",
+      "postedAt": "2026-07-17T02:31:32.530Z"
+    },
     {
       "id": "8bf58beff3833204",
       "slug": "gta-6-could-earn-5b-in-its-first-week",
