@@ -66,9 +66,19 @@
     "3111436141b6e0f0": "2026-07-16T13:47:21.529Z",
     "8bf58beff3833204": "2026-07-16T13:47:34.064Z",
     "20aad8878212c833": "2026-07-17T02:31:32.530Z",
-    "66f43cc208835efe": "2026-07-17T02:31:47.262Z"
+    "66f43cc208835efe": "2026-07-17T02:31:47.262Z",
+    "408cf179281227c8": "2026-07-17T13:24:52.529Z",
+    "585a5a658811e373": "2026-07-17T13:24:54.066Z"
   },
   "posts": [
+    {
+      "id": "408cf179281227c8",
+      "slug": "gta-6-launch-week-sales-could-hit-5-2-billion",
+      "collection": "news",
+      "title": "GTA 6 Launch Week Sales Could Hit $5.2 Billion",
+      "source": "https://www.ign.com/articles/gta-6-predicted-to-make-up-to-52-billion-in-sales-by-end-of-launch-week-after-securing-an-estimated-260-million-via-preorders",
+      "postedAt": "2026-07-17T13:24:52.529Z"
+    },
     {
       "id": "66f43cc208835efe",
       "slug": "gta-6-console-first-strategy-explained-by-ex-dev",
