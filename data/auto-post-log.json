@@ -70,9 +70,27 @@
     "408cf179281227c8": "2026-07-17T13:24:52.529Z",
     "585a5a658811e373": "2026-07-17T13:24:54.066Z",
     "3f1b3d9423943049": "2026-07-18T02:22:47.692Z",
-    "d2cebe60f762eb48": "2026-07-18T02:22:49.346Z"
+    "d2cebe60f762eb48": "2026-07-18T02:22:49.346Z",
+    "438830b81d3872a3": "2026-07-18T13:11:42.010Z",
+    "86964456fdad3c36": "2026-07-18T13:11:57.254Z"
   },
   "posts": [
+    {
+      "id": "86964456fdad3c36",
+      "slug": "gta-6-pre-orders-already-top-260m-analysts-say",
+      "collection": "news",
+      "title": "GTA 6 Pre-Orders Already Top $260M, Analysts Say",
+      "source": "https://www.eurogamer.net/gta-6-pre-order-numbers-record",
+      "postedAt": "2026-07-18T13:11:57.254Z"
+    },
+    {
+      "id": "438830b81d3872a3",
+      "slug": "gta-6-random-events-could-rival-rdr2-s-best-moments",
+      "collection": "news",
+      "title": "GTA 6 Random Events Could Rival RDR2's Best Moments",
+      "source": "https://www.reddit.com/r/GTA6/comments/1uz5q1l/random_events_will_be_amazing/",
+      "postedAt": "2026-07-18T13:11:42.010Z"
+    },
     {
       "id": "3f1b3d9423943049",
       "slug": "gta-6-november-19-launch-still-on-track-says-take-two",
