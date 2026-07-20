@@ -78,9 +78,27 @@
     "88af1eb9f348f626": "2026-07-19T13:15:05.156Z",
     "a6a09dbf815e7a38": "2026-07-19T13:15:19.095Z",
     "97052add2592184c": "2026-07-20T02:49:36.399Z",
-    "9ccbf57a05af6df7": "2026-07-20T02:49:37.431Z"
+    "9ccbf57a05af6df7": "2026-07-20T02:49:37.431Z",
+    "9466d7cb33ba42f2": "2026-07-20T14:02:36.483Z",
+    "2e27b1f87a5a6191": "2026-07-20T14:02:50.686Z"
   },
   "posts": [
+    {
+      "id": "2e27b1f87a5a6191",
+      "slug": "gta-6-realism-where-should-rockstar-draw-the-line",
+      "collection": "news",
+      "title": "GTA 6 Realism: Where Should Rockstar Draw the Line?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v1in1s/how_realistic_is_too_realistic_for_gta/",
+      "postedAt": "2026-07-20T14:02:50.686Z"
+    },
+    {
+      "id": "9466d7cb33ba42f2",
+      "slug": "gta-6-hunting-could-rdr-2-mechanics-make-the-cut",
+      "collection": "news",
+      "title": "GTA 6 Hunting: Could RDR 2 Mechanics Make the Cut?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v1bs7b/hunting_in_gta_6_similar_to_rdr_2/",
+      "postedAt": "2026-07-20T14:02:36.483Z"
+    },
     {
       "id": "a6a09dbf815e7a38",
       "slug": "gta-6-trailer-3-at-the-world-cup-final-here-s-the-rumour",
