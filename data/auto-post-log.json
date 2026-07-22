@@ -84,9 +84,19 @@
     "fc9875e840e2745a": "2026-07-21T02:32:37.514Z",
     "521789c668764004": "2026-07-21T02:32:53.489Z",
     "56f3f3eea00eee83": "2026-07-21T13:45:59.124Z",
-    "3392be33a88927f0": "2026-07-21T13:46:00.354Z"
+    "3392be33a88927f0": "2026-07-21T13:46:00.354Z",
+    "6eedfd39324f65cc": "2026-07-22T02:31:15.984Z",
+    "9e00eb088615e4fa": "2026-07-22T02:31:28.716Z"
   },
   "posts": [
+    {
+      "id": "9e00eb088615e4fa",
+      "slug": "gta-6-60fps-optimisation-where-things-stand",
+      "collection": "news",
+      "title": "GTA 6 60fps Optimisation: Where Things Stand",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v32874/rockstar_trying_to_optimize_gta_vi_at_60fps/",
+      "postedAt": "2026-07-22T02:31:28.716Z"
+    },
     {
       "id": "521789c668764004",
       "slug": "gta-6-story-will-rockstar-break-its-secret-agent-habit",
