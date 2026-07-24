@@ -94,9 +94,27 @@
     "8587f60a3c6e2d9b": "2026-07-23T13:55:04.785Z",
     "b68986ca19104dae": "2026-07-23T13:55:07.494Z",
     "e1d9b6d3cb25fca2": "2026-07-24T02:33:19.853Z",
-    "71ffd2cd8339212e": "2026-07-24T02:33:20.931Z"
+    "71ffd2cd8339212e": "2026-07-24T02:33:20.931Z",
+    "6c973a2109b25205": "2026-07-24T13:42:07.356Z",
+    "d75ad277ce59586b": "2026-07-24T13:42:21.402Z"
   },
   "posts": [
+    {
+      "id": "d75ad277ce59586b",
+      "slug": "gta-6-companion-app-what-it-could-look-like",
+      "collection": "news",
+      "title": "GTA 6 Companion App: What It Could Look Like",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v4zw0t/an_idea_on_what_gta_vis_companion_app_could_be/",
+      "postedAt": "2026-07-24T13:42:21.402Z"
+    },
+    {
+      "id": "6c973a2109b25205",
+      "slug": "gta-6-online-could-gta-5-progress-carry-over",
+      "collection": "news",
+      "title": "GTA 6 Online: Could GTA 5 Progress Carry Over?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v590rh/gta_5_online_to_gta_6_online/",
+      "postedAt": "2026-07-24T13:42:07.356Z"
+    },
     {
       "id": "8587f60a3c6e2d9b",
       "slug": "gta-6-world-detail-what-rdr2-s-saint-denis-tells-us",
