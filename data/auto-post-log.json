@@ -96,9 +96,27 @@
     "e1d9b6d3cb25fca2": "2026-07-24T02:33:19.853Z",
     "71ffd2cd8339212e": "2026-07-24T02:33:20.931Z",
     "6c973a2109b25205": "2026-07-24T13:42:07.356Z",
-    "d75ad277ce59586b": "2026-07-24T13:42:21.402Z"
+    "d75ad277ce59586b": "2026-07-24T13:42:21.402Z",
+    "9088764a308794b0": "2026-07-25T02:31:28.791Z",
+    "3ba41b63566a5ed6": "2026-07-25T02:31:43.482Z"
   },
   "posts": [
+    {
+      "id": "3ba41b63566a5ed6",
+      "slug": "gta-6-why-rockstar-s-silence-has-always-been-the-plan",
+      "collection": "news",
+      "title": "GTA 6: Why Rockstar's Silence Has Always Been the Plan",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v5ry3b/an_old_rockstar_response_about_always_staying/",
+      "postedAt": "2026-07-25T02:31:43.482Z"
+    },
+    {
+      "id": "9088764a308794b0",
+      "slug": "gta-6-physical-codes-expire-in-japan-after-170-days",
+      "collection": "news",
+      "title": "GTA 6 Physical Codes Expire in Japan After 170 Days",
+      "source": "https://www.gamespot.com/articles/gta-6-is-the-first-game-ive-seen-with-a-best-before-date/",
+      "postedAt": "2026-07-25T02:31:28.792Z"
+    },
     {
       "id": "d75ad277ce59586b",
       "slug": "gta-6-companion-app-what-it-could-look-like",
