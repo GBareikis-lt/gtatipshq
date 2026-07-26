@@ -102,9 +102,27 @@
     "ea2aae4ff8c3c506": "2026-07-25T13:22:38.447Z",
     "fdc4733d46a4b0ab": "2026-07-25T13:22:39.496Z",
     "58d80afe6c71b611": "2026-07-26T02:38:36.969Z",
-    "c51ea9e00adfb0fb": "2026-07-26T02:38:50.573Z"
+    "c51ea9e00adfb0fb": "2026-07-26T02:38:50.573Z",
+    "531da8939cce373d": "2026-07-26T13:18:36.167Z",
+    "a48311930df52085": "2026-07-26T13:18:49.545Z"
   },
   "posts": [
+    {
+      "id": "a48311930df52085",
+      "slug": "gta-6-physical-edition-dan-houser-backs-disc-releases",
+      "collection": "news",
+      "title": "GTA 6 Physical Edition: Dan Houser Backs Disc Releases",
+      "source": "https://www.ign.com/articles/rockstar-co-founder-says-if-people-want-physical-game-releases-then-companies-should-provide-it",
+      "postedAt": "2026-07-26T13:18:49.545Z"
+    },
+    {
+      "id": "531da8939cce373d",
+      "slug": "gta-6-mount-kalaga-easter-egg-theories",
+      "collection": "tips",
+      "title": "GTA 6 Mount Kalaga Easter Egg Theories",
+      "source": "https://www.reddit.com/r/GTA6/comments/1v6sihl/potential_mount_kalaga_easter_eggs/",
+      "postedAt": "2026-07-26T13:18:36.167Z"
+    },
     {
       "id": "c51ea9e00adfb0fb",
       "slug": "gta-6-japan-physical-codes-expire-170-days-after-launch",
