@@ -128,9 +128,27 @@
     "0643252fb31d039a": "2026-08-01T13:16:57.559Z",
     "bb5e65ea921268c5": "2026-08-01T13:16:58.486Z",
     "f967c1df48c0775a": "2026-08-02T02:38:26.673Z",
-    "b258f35939f74823": "2026-08-02T02:38:27.511Z"
+    "b258f35939f74823": "2026-08-02T02:38:27.511Z",
+    "7b14bf54adc863db": "2026-08-02T13:17:29.847Z",
+    "4662e62700663785": "2026-08-02T13:17:44.628Z"
   },
   "posts": [
+    {
+      "id": "4662e62700663785",
+      "slug": "gta-6-online-will-rockstar-finally-ditch-p2p-servers",
+      "collection": "news",
+      "title": "GTA 6 Online: Will Rockstar Finally Ditch P2P Servers?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vd6rxz/if_it_exists_a_gta_6_online_would_it_have_better/",
+      "postedAt": "2026-08-02T13:17:44.628Z"
+    },
+    {
+      "id": "7b14bf54adc863db",
+      "slug": "gta-6-florida-easter-eggs-fans-want-in-leonida",
+      "collection": "news",
+      "title": "GTA 6: Florida Easter Eggs Fans Want in Leonida",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vd5e3b/florida_residents_what_hyper_local_landmark/",
+      "postedAt": "2026-08-02T13:17:29.847Z"
+    },
     {
       "id": "f967c1df48c0775a",
       "slug": "gta-6-six-star-wanted-level-will-it-return",
