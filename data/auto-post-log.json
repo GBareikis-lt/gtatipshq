@@ -132,9 +132,27 @@
     "7b14bf54adc863db": "2026-08-02T13:17:29.847Z",
     "4662e62700663785": "2026-08-02T13:17:44.628Z",
     "a5481f6950a6d1e8": "2026-08-03T02:39:50.588Z",
-    "849eee423a1bad8a": "2026-08-03T02:39:51.545Z"
+    "849eee423a1bad8a": "2026-08-03T02:39:51.545Z",
+    "34ea11ac9f1790ec": "2026-08-03T14:35:41.089Z",
+    "02df12a54e0c2cf9": "2026-08-03T14:35:56.622Z"
   },
   "posts": [
+    {
+      "id": "02df12a54e0c2cf9",
+      "slug": "gta-6-hype-why-are-fans-so-excited",
+      "collection": "news",
+      "title": "GTA 6 Hype: Why Are Fans So Excited?",
+      "source": "https://www.gamespot.com/articles/the-last-of-us-co-director-asks-why-you-even-care-about-gta-6-and-the-internet-has-thoughts/",
+      "postedAt": "2026-08-03T14:35:56.622Z"
+    },
+    {
+      "id": "34ea11ac9f1790ec",
+      "slug": "gta-6-launch-ps5-price-edge-over-xbox-grows",
+      "collection": "news",
+      "title": "GTA 6 Launch: PS5 Price Edge Over Xbox Grows",
+      "source": "https://www.pushsquare.com/news/2026/08/these-new-xbox-prices-are-truly-terrifying-for-ps6",
+      "postedAt": "2026-08-03T14:35:41.089Z"
+    },
     {
       "id": "4662e62700663785",
       "slug": "gta-6-online-will-rockstar-finally-ditch-p2p-servers",
