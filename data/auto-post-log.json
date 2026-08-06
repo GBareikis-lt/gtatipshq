@@ -144,9 +144,27 @@
     "3ba18b26924773ca": "2026-08-05T14:05:19.347Z",
     "0373171afba591f8": "2026-08-05T14:05:34.129Z",
     "4b9a355844b7bc58": "2026-08-06T02:26:36.119Z",
-    "604b6ee7eabc7909": "2026-08-06T02:26:48.650Z"
+    "604b6ee7eabc7909": "2026-08-06T02:26:48.650Z",
+    "d39bc3a5c226b3de": "2026-08-06T14:04:31.101Z",
+    "3472c5fbd383b56f": "2026-08-06T14:04:43.197Z"
   },
   "posts": [
+    {
+      "id": "3472c5fbd383b56f",
+      "slug": "gta-6-extended-look-reveal-set-for-august-27",
+      "collection": "news",
+      "title": "GTA 6 Extended Look Reveal Set for August 27",
+      "source": "https://www.purexbox.com/news/2026/08/new-gta-6-footage-to-be-revealed-in-special-extended-look-this-month",
+      "postedAt": "2026-08-06T14:04:43.197Z"
+    },
+    {
+      "id": "d39bc3a5c226b3de",
+      "slug": "gta-6-extended-look-trailer-drops-august-27-on-netflix",
+      "collection": "news",
+      "title": "GTA 6 Extended Look Trailer Drops August 27 on Netflix",
+      "source": "https://www.gamespot.com/articles/gta-6-extended-look-coming-august-27-on-netflix/",
+      "postedAt": "2026-08-06T14:04:31.101Z"
+    },
     {
       "id": "604b6ee7eabc7909",
       "slug": "gta-6-trailer-rumoured-for-august-6-ahead-of-earnings",
