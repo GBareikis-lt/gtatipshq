@@ -142,9 +142,27 @@
     "e89df91c319a3c30": "2026-08-05T02:23:50.055Z",
     "1e57b47e49ace137": "2026-08-05T02:24:04.274Z",
     "3ba18b26924773ca": "2026-08-05T14:05:19.347Z",
-    "0373171afba591f8": "2026-08-05T14:05:34.129Z"
+    "0373171afba591f8": "2026-08-05T14:05:34.129Z",
+    "4b9a355844b7bc58": "2026-08-06T02:26:36.119Z",
+    "604b6ee7eabc7909": "2026-08-06T02:26:48.650Z"
   },
   "posts": [
+    {
+      "id": "604b6ee7eabc7909",
+      "slug": "gta-6-trailer-rumoured-for-august-6-ahead-of-earnings",
+      "collection": "news",
+      "title": "GTA 6 Trailer Rumoured for August 6 Ahead of Earnings",
+      "source": "https://www.gamespot.com/articles/why-people-think-gta-6-news-is-coming-imminently/",
+      "postedAt": "2026-08-06T02:26:48.650Z"
+    },
+    {
+      "id": "4b9a355844b7bc58",
+      "slug": "gta-6-steve-haines-actor-auditioned-for-60-roles",
+      "collection": "news",
+      "title": "GTA 6: Steve Haines Actor Auditioned for 60 Roles",
+      "source": "https://www.ign.com/articles/gta-5-actor-auditioned-for-60-roles-in-gta-6-but-heard-nothing-from-rockstar",
+      "postedAt": "2026-08-06T02:26:36.119Z"
+    },
     {
       "id": "0373171afba591f8",
       "slug": "gta-6-is-causing-a-ps5-games-avalanche-this-fall",
