@@ -146,9 +146,27 @@
     "4b9a355844b7bc58": "2026-08-06T02:26:36.119Z",
     "604b6ee7eabc7909": "2026-08-06T02:26:48.650Z",
     "d39bc3a5c226b3de": "2026-08-06T14:04:31.101Z",
-    "3472c5fbd383b56f": "2026-08-06T14:04:43.197Z"
+    "3472c5fbd383b56f": "2026-08-06T14:04:43.197Z",
+    "203fccc23dc86fe8": "2026-08-07T02:35:29.873Z",
+    "6022c0ca26ffaa85": "2026-08-07T02:35:42.413Z"
   },
   "posts": [
+    {
+      "id": "6022c0ca26ffaa85",
+      "slug": "gta-6-delay-still-possible-says-ex-rockstar-dev",
+      "collection": "news",
+      "title": "GTA 6 Delay Still Possible, Says Ex-Rockstar Dev",
+      "source": "https://www.gamespot.com/articles/another-gta-6-delay-would-not-be-surprising-former-rockstar-dev-says/",
+      "postedAt": "2026-08-07T02:35:42.413Z"
+    },
+    {
+      "id": "203fccc23dc86fe8",
+      "slug": "gta-6-extended-look-locked-behind-netflix-paywall",
+      "collection": "news",
+      "title": "GTA 6 Extended Look Locked Behind Netflix Paywall",
+      "source": "https://www.ign.com/articles/this-is-unbelievably-scummy-gta-6-fans-are-annoyed-by-netflixs-paywalled-extended-look-at-the-game",
+      "postedAt": "2026-08-07T02:35:29.873Z"
+    },
     {
       "id": "3472c5fbd383b56f",
       "slug": "gta-6-extended-look-reveal-set-for-august-27",
