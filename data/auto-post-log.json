@@ -149,9 +149,27 @@
     "3472c5fbd383b56f": "2026-08-06T14:04:43.197Z",
     "203fccc23dc86fe8": "2026-08-07T02:35:29.873Z",
     "6022c0ca26ffaa85": "2026-08-07T02:35:42.413Z",
-    "7969057172aa67da": "2026-08-07T12:59:41.829Z"
+    "7969057172aa67da": "2026-08-07T12:59:41.829Z",
+    "4187d5eb58df21e7": "2026-08-08T01:25:10.093Z",
+    "8052c9e376770aa5": "2026-08-08T01:25:23.180Z"
   },
   "posts": [
+    {
+      "id": "8052c9e376770aa5",
+      "slug": "gta-6-launch-take-two-boss-unbothered-by-union-row",
+      "collection": "news",
+      "title": "GTA 6 Launch: Take-Two Boss Unbothered by Union Row",
+      "source": "https://www.eurogamer.net/take-two-strauss-zelnick-not-concerned-rockstar-union-busting-gta-6",
+      "postedAt": "2026-08-08T01:25:23.180Z"
+    },
+    {
+      "id": "4187d5eb58df21e7",
+      "slug": "gta-6-still-on-track-for-november-19-launch",
+      "collection": "news",
+      "title": "GTA 6 Still on Track for November 19 Launch",
+      "source": "https://www.gamespot.com/articles/gta-6-has-not-been-delayed-still-on-track-for-its-november-launch/",
+      "postedAt": "2026-08-08T01:25:10.093Z"
+    },
     {
       "id": "7969057172aa67da",
       "slug": "gta-6-release-date-confirmed-on-track-by-take-two",
