@@ -153,9 +153,27 @@
     "4187d5eb58df21e7": "2026-08-08T01:25:10.093Z",
     "8052c9e376770aa5": "2026-08-08T01:25:23.180Z",
     "2561007d6d58a5ef": "2026-08-08T12:43:56.110Z",
-    "fd317c46dcc6776f": "2026-08-08T12:44:09.282Z"
+    "fd317c46dcc6776f": "2026-08-08T12:44:09.282Z",
+    "32907c979349b030": "2026-08-09T01:37:36.870Z",
+    "080dc97af45e61a9": "2026-08-09T01:37:51.028Z"
   },
   "posts": [
+    {
+      "id": "080dc97af45e61a9",
+      "slug": "gta-6-set-to-drive-take-two-to-8-2b-revenue",
+      "collection": "news",
+      "title": "GTA 6 Set to Drive Take-Two to $8.2B Revenue",
+      "source": "https://www.gamespot.com/articles/unsurprisingly-gta-6-has-take-two-predicting-a-massively-profitable-year-ahead/",
+      "postedAt": "2026-08-09T01:37:51.028Z"
+    },
+    {
+      "id": "32907c979349b030",
+      "slug": "gta-6-priced-at-80-take-two-says-it-s-worth-every-cent",
+      "collection": "news",
+      "title": "GTA 6 Priced at $80 — Take-Two Says It's Worth Every Cent",
+      "source": "https://www.gamespot.com/articles/take-two-defends-gta-6s-80-price-calls-it-phenomenal-value/",
+      "postedAt": "2026-08-09T01:37:36.870Z"
+    },
     {
       "id": "fd317c46dcc6776f",
       "slug": "gta-6-won-t-have-early-access-here-s-why",
