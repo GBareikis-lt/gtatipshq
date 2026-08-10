@@ -157,9 +157,27 @@
     "32907c979349b030": "2026-08-09T01:37:36.870Z",
     "080dc97af45e61a9": "2026-08-09T01:37:51.028Z",
     "c78cf6a1736e7c18": "2026-08-09T12:46:07.882Z",
-    "58e016995610e596": "2026-08-09T12:46:21.000Z"
+    "58e016995610e596": "2026-08-09T12:46:21.000Z",
+    "bba01d2c686b9978": "2026-08-10T01:40:43.989Z",
+    "4044f08799387b54": "2026-08-10T01:40:57.939Z"
   },
   "posts": [
+    {
+      "id": "4044f08799387b54",
+      "slug": "gta-6-xbox-add-ons-screen-shows-two-mystery-placeholders",
+      "collection": "news",
+      "title": "GTA 6 Xbox Add-Ons Screen Shows Two Mystery Placeholders",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vjv3ye/it_has_probably_already_been_posted_on_a_number/",
+      "postedAt": "2026-08-10T01:40:57.939Z"
+    },
+    {
+      "id": "bba01d2c686b9978",
+      "slug": "gta-6-extended-look-trailer-drops-august-27",
+      "collection": "news",
+      "title": "GTA 6 Extended Look Trailer Drops August 27",
+      "source": "https://www.eurogamer.net/gta-6-extended-look-trailer-netflix-announcement",
+      "postedAt": "2026-08-10T01:40:43.989Z"
+    },
     {
       "id": "58e016995610e596",
       "slug": "gta-6-pre-orders-called-exceptional-by-take-two",
