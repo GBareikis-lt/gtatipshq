@@ -161,9 +161,27 @@
     "bba01d2c686b9978": "2026-08-10T01:40:43.989Z",
     "4044f08799387b54": "2026-08-10T01:40:57.939Z",
     "dc4e229b20e941e2": "2026-08-10T13:03:44.027Z",
-    "9164af04ecd9b945": "2026-08-10T13:03:45.752Z"
+    "9164af04ecd9b945": "2026-08-10T13:03:45.752Z",
+    "6ed8e936e1368b53": "2026-08-11T01:37:49.121Z",
+    "ea24703a072f6a5b": "2026-08-11T01:38:02.097Z"
   },
   "posts": [
+    {
+      "id": "ea24703a072f6a5b",
+      "slug": "gta-6-pre-orders-100-edition-is-outselling-standard",
+      "collection": "news",
+      "title": "GTA 6 Pre-Orders: $100 Edition Is Outselling Standard",
+      "source": "https://www.ign.com/articles/gta-6-boss-says-more-people-are-pre-ordering-the-100-version-of-the-game",
+      "postedAt": "2026-08-11T01:38:02.097Z"
+    },
+    {
+      "id": "6ed8e936e1368b53",
+      "slug": "gta-6-online-mode-why-rockstar-isn-t-talking-yet",
+      "collection": "news",
+      "title": "GTA 6 Online Mode: Why Rockstar Isn't Talking Yet",
+      "source": "https://www.gamespot.com/articles/dont-expect-to-hear-about-gta-6s-online-mode-soon/",
+      "postedAt": "2026-08-11T01:37:49.121Z"
+    },
     {
       "id": "dc4e229b20e941e2",
       "slug": "gta-6-trailer-premiering-on-netflix-what-it-means",
