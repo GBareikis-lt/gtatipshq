@@ -173,9 +173,27 @@
     "00140d3fe2414edf": "2026-08-13T01:50:26.215Z",
     "fd379069f9963e31": "2026-08-13T01:50:41.099Z",
     "3cad318b6e1fd609": "2026-08-13T13:06:15.405Z",
-    "2b288fc1843daf30": "2026-08-13T13:06:36.165Z"
+    "2b288fc1843daf30": "2026-08-13T13:06:36.165Z",
+    "3970177a64250f72": "2026-08-14T01:48:05.553Z",
+    "03f3afa4c41011bc": "2026-08-14T01:48:19.924Z"
   },
   "posts": [
+    {
+      "id": "03f3afa4c41011bc",
+      "slug": "gta-6-single-player-first-a-smart-move-by-rockstar",
+      "collection": "news",
+      "title": "GTA 6 Single-Player First: A Smart Move by Rockstar?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vndcum/what_are_yalls_opinions_on_rockstar_focusing_on/",
+      "postedAt": "2026-08-14T01:48:19.924Z"
+    },
+    {
+      "id": "3970177a64250f72",
+      "slug": "gta-6-preorders-could-hit-25-million-at-launch",
+      "collection": "news",
+      "title": "GTA 6 Preorders Could Hit 25 Million at Launch",
+      "source": "https://www.gamespot.com/articles/gta-6-preorders-alone-could-pay-for-production-budget-expert/",
+      "postedAt": "2026-08-14T01:48:05.553Z"
+    },
     {
       "id": "2b288fc1843daf30",
       "slug": "gta-6-pre-order-numbers-so-big-take-two-can-t-explain-them",
