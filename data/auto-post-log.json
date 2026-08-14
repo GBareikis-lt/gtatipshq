@@ -175,9 +175,27 @@
     "3cad318b6e1fd609": "2026-08-13T13:06:15.405Z",
     "2b288fc1843daf30": "2026-08-13T13:06:36.165Z",
     "3970177a64250f72": "2026-08-14T01:48:05.553Z",
-    "03f3afa4c41011bc": "2026-08-14T01:48:19.924Z"
+    "03f3afa4c41011bc": "2026-08-14T01:48:19.924Z",
+    "f75d4f81b6363b8e": "2026-08-14T13:02:17.092Z",
+    "e56d6b8ae702fc1b": "2026-08-14T13:02:33.315Z"
   },
   "posts": [
+    {
+      "id": "e56d6b8ae702fc1b",
+      "slug": "gta-6-organ-damage-could-rdr2-s-system-return",
+      "collection": "news",
+      "title": "GTA 6 Organ Damage: Could RDR2's System Return?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vnjfkr/rdr2_fatal_and_critical_organ_damage_in_gta_vi/",
+      "postedAt": "2026-08-14T13:02:33.315Z"
+    },
+    {
+      "id": "f75d4f81b6363b8e",
+      "slug": "gta-6-won-t-feature-take-two-ceo-strauss-zelnick",
+      "collection": "news",
+      "title": "GTA 6 Won't Feature Take-Two CEO Strauss Zelnick",
+      "source": "https://www.gamespot.com/articles/take-two-ceo-wont-be-in-gta-6-after-his-surprise-appearance-in-wwe-2k26/",
+      "postedAt": "2026-08-14T13:02:17.092Z"
+    },
     {
       "id": "03f3afa4c41011bc",
       "slug": "gta-6-single-player-first-a-smart-move-by-rockstar",
