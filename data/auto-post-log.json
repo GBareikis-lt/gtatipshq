@@ -179,9 +179,27 @@
     "f75d4f81b6363b8e": "2026-08-14T13:02:17.092Z",
     "e56d6b8ae702fc1b": "2026-08-14T13:02:33.315Z",
     "f3dca4172f1c4d3b": "2026-08-15T01:08:14.205Z",
-    "b0f6c6ee79077311": "2026-08-15T01:08:15.241Z"
+    "b0f6c6ee79077311": "2026-08-15T01:08:15.241Z",
+    "a61fbe0b3da5e99d": "2026-08-15T12:33:49.886Z",
+    "1208c2a94a01a9cf": "2026-08-15T12:34:03.916Z"
   },
   "posts": [
+    {
+      "id": "1208c2a94a01a9cf",
+      "slug": "gta-6-what-rockstar-should-borrow-from-gta-4",
+      "collection": "news",
+      "title": "GTA 6: What Rockstar Should Borrow From GTA 4",
+      "source": "https://www.ign.com/articles/i-hope-gta-6-borrows-a-lot-from-gta-4",
+      "postedAt": "2026-08-15T12:34:03.916Z"
+    },
+    {
+      "id": "a61fbe0b3da5e99d",
+      "slug": "gta-6-hits-netflix-front-page-across-europe",
+      "collection": "news",
+      "title": "GTA 6 Hits Netflix Front Page Across Europe",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vp06t7/gta_vi_is_on_the_front_page_of_netflix_now_eu/",
+      "postedAt": "2026-08-15T12:33:49.886Z"
+    },
     {
       "id": "f3dca4172f1c4d3b",
       "slug": "gta-6-map-vs-real-miami-what-the-fan-comparison-reveals",
