@@ -190,9 +190,27 @@
     "26726c573eac88c8": "2026-08-17T01:09:02.321Z",
     "8486ebbbe1f0785f": "2026-08-17T12:40:05.447Z",
     "2203372e729b8bf2": "2026-08-18T01:07:07.227Z",
-    "634f2ab98adc2224": "2026-08-18T01:07:24.413Z"
+    "634f2ab98adc2224": "2026-08-18T01:07:24.413Z",
+    "c8f7eb869ef3538c": "2026-08-18T12:41:35.112Z",
+    "f7685f64e614c941": "2026-08-18T12:41:52.932Z"
   },
   "posts": [
+    {
+      "id": "f7685f64e614c941",
+      "slug": "gta-6-immersion-vs-realism-where-s-the-line",
+      "collection": "news",
+      "title": "GTA 6: Immersion vs Realism — Where's the Line?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vrhwd4/have_you_ever_thought_about_the_difference/",
+      "postedAt": "2026-08-18T12:41:52.932Z"
+    },
+    {
+      "id": "c8f7eb869ef3538c",
+      "slug": "gta-6-boycott-fired-rockstar-workers-say-no",
+      "collection": "news",
+      "title": "GTA 6 Boycott? Fired Rockstar Workers Say No",
+      "source": "https://www.ign.com/articles/do-not-boycott-gta-6-fired-rockstar-workers-tell-fans-theres-a-better-way-to-support-us-and-hold-rockstar-to-account",
+      "postedAt": "2026-08-18T12:41:35.112Z"
+    },
     {
       "id": "634f2ab98adc2224",
       "slug": "gta-6-footage-looks-different-in-sony-ps5-promo",
