@@ -188,9 +188,27 @@
     "0f4eccbfd491261d": "2026-08-16T12:35:18.710Z",
     "06744159fd029368": "2026-08-17T01:09:01.038Z",
     "26726c573eac88c8": "2026-08-17T01:09:02.321Z",
-    "8486ebbbe1f0785f": "2026-08-17T12:40:05.447Z"
+    "8486ebbbe1f0785f": "2026-08-17T12:40:05.447Z",
+    "2203372e729b8bf2": "2026-08-18T01:07:07.227Z",
+    "634f2ab98adc2224": "2026-08-18T01:07:24.413Z"
   },
   "posts": [
+    {
+      "id": "634f2ab98adc2224",
+      "slug": "gta-6-footage-looks-different-in-sony-ps5-promo",
+      "collection": "news",
+      "title": "GTA 6 Footage Looks Different in Sony PS5 Promo",
+      "source": "https://www.gamespot.com/articles/gta-6-does-look-a-bit-different-in-new-ps5-promo/",
+      "postedAt": "2026-08-18T01:07:24.413Z"
+    },
+    {
+      "id": "2203372e729b8bf2",
+      "slug": "gta-6-is-now-a-us-army-reenlistment-perk",
+      "collection": "news",
+      "title": "GTA 6 Is Now a US Army Reenlistment Perk",
+      "source": "https://www.ign.com/articles/us-army-battalion-reportedly-giving-soldiers-time-off-to-play-gta-6-in-exchange-for-reenlisting",
+      "postedAt": "2026-08-18T01:07:07.227Z"
+    },
     {
       "id": "09e6ce05fd78787f",
       "slug": "gta-6-leak-drought-why-so-quiet-3-months-out",
