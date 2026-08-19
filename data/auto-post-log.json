@@ -194,9 +194,27 @@
     "c8f7eb869ef3538c": "2026-08-18T12:41:35.112Z",
     "f7685f64e614c941": "2026-08-18T12:41:52.932Z",
     "65db78d05d900840": "2026-08-19T01:08:16.121Z",
-    "3ad413b63a17329a": "2026-08-19T01:08:28.270Z"
+    "3ad413b63a17329a": "2026-08-19T01:08:28.270Z",
+    "451350fae2a3243b": "2026-08-19T12:42:13.742Z",
+    "4797a5b20a5d6a95": "2026-08-19T12:42:26.596Z"
   },
   "posts": [
+    {
+      "id": "4797a5b20a5d6a95",
+      "slug": "gta-6-gameplay-and-map-allegedly-leaked-online",
+      "collection": "news",
+      "title": "GTA 6 Gameplay and Map Allegedly Leaked Online",
+      "source": "https://www.eurogamer.net/gta-6-leaked-gameplay-map-cyberleek",
+      "postedAt": "2026-08-19T12:42:26.596Z"
+    },
+    {
+      "id": "451350fae2a3243b",
+      "slug": "gta-6-leaker-cyberleek-issues-demand-to-rockstar",
+      "collection": "news",
+      "title": "GTA 6 Leaker 'Cyberleek' Issues Demand to Rockstar",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-leaker-says-they-wont-stop-until-rockstar-and-take-two-apologize-for-anti-consumerism-and-make-a-concrete-commitment-to-do-better/",
+      "postedAt": "2026-08-19T12:42:13.742Z"
+    },
     {
       "id": "3ad413b63a17329a",
       "slug": "gta-6-devs-don-t-boycott-help-us-win-justice",
