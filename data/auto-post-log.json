@@ -192,9 +192,27 @@
     "2203372e729b8bf2": "2026-08-18T01:07:07.227Z",
     "634f2ab98adc2224": "2026-08-18T01:07:24.413Z",
     "c8f7eb869ef3538c": "2026-08-18T12:41:35.112Z",
-    "f7685f64e614c941": "2026-08-18T12:41:52.932Z"
+    "f7685f64e614c941": "2026-08-18T12:41:52.932Z",
+    "65db78d05d900840": "2026-08-19T01:08:16.121Z",
+    "3ad413b63a17329a": "2026-08-19T01:08:28.270Z"
   },
   "posts": [
+    {
+      "id": "3ad413b63a17329a",
+      "slug": "gta-6-devs-don-t-boycott-help-us-win-justice",
+      "collection": "news",
+      "title": "GTA 6 Devs: Don't Boycott, Help Us Win Justice",
+      "source": "https://www.gamespot.com/articles/dont-boycott-gta-6-help-win-justice-instead-fired-devs-say/",
+      "postedAt": "2026-08-19T01:08:28.270Z"
+    },
+    {
+      "id": "65db78d05d900840",
+      "slug": "gta-6-footage-and-map-reportedly-leaked-online",
+      "collection": "news",
+      "title": "GTA 6 Footage and Map Reportedly Leaked Online",
+      "source": "https://www.gamespot.com/articles/apparent-gta-6-footage-and-map-leak-as-rockstar-issues-takedowns/",
+      "postedAt": "2026-08-19T01:08:16.121Z"
+    },
     {
       "id": "f7685f64e614c941",
       "slug": "gta-6-immersion-vs-realism-where-s-the-line",
