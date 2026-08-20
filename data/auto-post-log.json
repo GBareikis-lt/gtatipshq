@@ -196,9 +196,27 @@
     "65db78d05d900840": "2026-08-19T01:08:16.121Z",
     "3ad413b63a17329a": "2026-08-19T01:08:28.270Z",
     "451350fae2a3243b": "2026-08-19T12:42:13.742Z",
-    "4797a5b20a5d6a95": "2026-08-19T12:42:26.596Z"
+    "4797a5b20a5d6a95": "2026-08-19T12:42:26.596Z",
+    "d4d57c26fce6bbc5": "2026-08-20T01:07:29.982Z",
+    "501c12476dd93719": "2026-08-20T01:07:43.141Z"
   },
   "posts": [
+    {
+      "id": "501c12476dd93719",
+      "slug": "gta-6-gameplay-leak-third-cyberleek-video-surfaces",
+      "collection": "news",
+      "title": "GTA 6 Gameplay Leak: Third CyberLeek Video Surfaces",
+      "source": "https://www.eurogamer.net/third-leaked-gta-6-footage-rockstar-cyberleek",
+      "postedAt": "2026-08-20T01:07:43.141Z"
+    },
+    {
+      "id": "d4d57c26fce6bbc5",
+      "slug": "gta-6-gameplay-leaked-hackers-memecoins-dmca",
+      "collection": "news",
+      "title": "GTA 6 Gameplay Leaked: Hackers, Memecoins & DMCA",
+      "source": "https://www.gamespot.com/articles/gta-6-leakers-say-they-acted-for-gamers-rights-while-pushing-a-memecoin/",
+      "postedAt": "2026-08-20T01:07:29.982Z"
+    },
     {
       "id": "4797a5b20a5d6a95",
       "slug": "gta-6-gameplay-and-map-allegedly-leaked-online",
