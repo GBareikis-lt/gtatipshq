@@ -200,9 +200,27 @@
     "d4d57c26fce6bbc5": "2026-08-20T01:07:29.982Z",
     "501c12476dd93719": "2026-08-20T01:07:43.141Z",
     "4cc660c93e0e32a3": "2026-08-20T12:44:32.540Z",
-    "3c85ec16cdee3bdc": "2026-08-20T12:44:46.035Z"
+    "3c85ec16cdee3bdc": "2026-08-20T12:44:46.035Z",
+    "faca45ed2542e9c9": "2026-08-21T01:11:23.981Z",
+    "0ee8eb45f8a71e69": "2026-08-21T01:11:37.193Z"
   },
   "posts": [
+    {
+      "id": "0ee8eb45f8a71e69",
+      "slug": "gta-6-leaker-cyberleek-what-we-know-so-far",
+      "collection": "news",
+      "title": "GTA 6 Leaker 'Cyberleek': What We Know So Far",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/",
+      "postedAt": "2026-08-21T01:11:37.193Z"
+    },
+    {
+      "id": "faca45ed2542e9c9",
+      "slug": "gta-6-leaker-claims-playable-build-access",
+      "collection": "news",
+      "title": "GTA 6 Leaker Claims Playable Build Access",
+      "source": "https://www.gamespot.com/articles/gta-6-leaker-might-have-playable-build-of-the-game/",
+      "postedAt": "2026-08-21T01:11:23.981Z"
+    },
     {
       "id": "3c85ec16cdee3bdc",
       "slug": "gta-6-leak-stop-killing-games-distances-itself-from-leakers",
