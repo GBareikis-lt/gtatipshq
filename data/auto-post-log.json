@@ -202,9 +202,27 @@
     "4cc660c93e0e32a3": "2026-08-20T12:44:32.540Z",
     "3c85ec16cdee3bdc": "2026-08-20T12:44:46.035Z",
     "faca45ed2542e9c9": "2026-08-21T01:11:23.981Z",
-    "0ee8eb45f8a71e69": "2026-08-21T01:11:37.193Z"
+    "0ee8eb45f8a71e69": "2026-08-21T01:11:37.193Z",
+    "8a453e5e3c0fb248": "2026-08-21T12:42:36.306Z",
+    "0bdbae7f68f0d6d2": "2026-08-21T12:42:51.932Z"
   },
   "posts": [
+    {
+      "id": "0bdbae7f68f0d6d2",
+      "slug": "gta-6-vice-city-leak-hints-at-unprecedented-world-scale",
+      "collection": "news",
+      "title": "GTA 6 Vice City Leak Hints at Unprecedented World Scale",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/ok-vice-city-does-look-pretty-damn-impressive-from-the-air/",
+      "postedAt": "2026-08-21T12:42:51.932Z"
+    },
+    {
+      "id": "8a453e5e3c0fb248",
+      "slug": "gta-6-s-80-price-tag-a-warning-for-the-industry",
+      "collection": "news",
+      "title": "GTA 6's $80 Price Tag: A Warning for the Industry",
+      "source": "https://www.gamespot.com/articles/game-companies-could-learn-wrong-lessons-from-gta-6s-80-price-analyst-says/",
+      "postedAt": "2026-08-21T12:42:36.306Z"
+    },
     {
       "id": "0ee8eb45f8a71e69",
       "slug": "gta-6-leaker-cyberleek-what-we-know-so-far",
