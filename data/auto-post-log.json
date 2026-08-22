@@ -206,9 +206,27 @@
     "8a453e5e3c0fb248": "2026-08-21T12:42:36.306Z",
     "0bdbae7f68f0d6d2": "2026-08-21T12:42:51.932Z",
     "8bd2c187ad434680": "2026-08-22T01:07:33.923Z",
-    "db63c175f19f620b": "2026-08-22T01:07:47.050Z"
+    "db63c175f19f620b": "2026-08-22T01:07:47.050Z",
+    "ffd8622204c1eaca": "2026-08-22T12:35:13.967Z",
+    "44488a7423cf44d8": "2026-08-22T12:35:28.642Z"
   },
   "posts": [
+    {
+      "id": "44488a7423cf44d8",
+      "slug": "gta-6-hype-may-still-fall-short-of-reality",
+      "collection": "news",
+      "title": "GTA 6 Hype May Still Fall Short of Reality",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vv35eq/maybe_a_hot_take_but_even_with_all_the_hype/",
+      "postedAt": "2026-08-22T12:35:28.642Z"
+    },
+    {
+      "id": "ffd8622204c1eaca",
+      "slug": "gta-6-leaker-hunt-take-two-subpoenas-microsoft-discord",
+      "collection": "news",
+      "title": "GTA 6 Leaker Hunt: Take-Two Subpoenas Microsoft & Discord",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/take-two-kicks-off-gta-6-leaker-hunt-with-subpoenas-demanding-records-from-microsoft-and-discord/",
+      "postedAt": "2026-08-22T12:35:13.967Z"
+    },
     {
       "id": "db63c175f19f620b",
       "slug": "gta-6-leaks-take-two-subpoenas-microsoft-discord-google",
