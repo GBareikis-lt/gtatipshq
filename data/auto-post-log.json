@@ -204,9 +204,27 @@
     "faca45ed2542e9c9": "2026-08-21T01:11:23.981Z",
     "0ee8eb45f8a71e69": "2026-08-21T01:11:37.193Z",
     "8a453e5e3c0fb248": "2026-08-21T12:42:36.306Z",
-    "0bdbae7f68f0d6d2": "2026-08-21T12:42:51.932Z"
+    "0bdbae7f68f0d6d2": "2026-08-21T12:42:51.932Z",
+    "8bd2c187ad434680": "2026-08-22T01:07:33.923Z",
+    "db63c175f19f620b": "2026-08-22T01:07:47.050Z"
   },
   "posts": [
+    {
+      "id": "db63c175f19f620b",
+      "slug": "gta-6-leaks-take-two-subpoenas-microsoft-discord-google",
+      "collection": "news",
+      "title": "GTA 6 Leaks: Take-Two Subpoenas Microsoft, Discord & Google",
+      "source": "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks",
+      "postedAt": "2026-08-22T01:07:47.050Z"
+    },
+    {
+      "id": "8bd2c187ad434680",
+      "slug": "gta-6-leak-take-two-subpoenas-microsoft-and-discord",
+      "collection": "news",
+      "title": "GTA 6 Leak: Take-Two Subpoenas Microsoft and Discord",
+      "source": "https://www.gamespot.com/articles/microsoft-and-discord-subpoenaed-in-gta-6-leak-case/",
+      "postedAt": "2026-08-22T01:07:33.923Z"
+    },
     {
       "id": "0bdbae7f68f0d6d2",
       "slug": "gta-6-vice-city-leak-hints-at-unprecedented-world-scale",
