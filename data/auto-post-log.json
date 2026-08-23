@@ -208,9 +208,27 @@
     "8bd2c187ad434680": "2026-08-22T01:07:33.923Z",
     "db63c175f19f620b": "2026-08-22T01:07:47.050Z",
     "ffd8622204c1eaca": "2026-08-22T12:35:13.967Z",
-    "44488a7423cf44d8": "2026-08-22T12:35:28.642Z"
+    "44488a7423cf44d8": "2026-08-22T12:35:28.642Z",
+    "e549ab6f2527b036": "2026-08-23T01:13:14.804Z",
+    "58e19319bb339f9a": "2026-08-23T01:13:28.704Z"
   },
   "posts": [
+    {
+      "id": "58e19319bb339f9a",
+      "slug": "gta-6-army-deal-convinces-20-soldiers-to-reenlist",
+      "collection": "news",
+      "title": "GTA 6 Army Deal Convinces 20+ Soldiers to Reenlist",
+      "source": "https://www.ign.com/articles/gta-6-us-army-deal-has-already-convinced-at-least-20-soldiers-to-reenlist",
+      "postedAt": "2026-08-23T01:13:28.704Z"
+    },
+    {
+      "id": "e549ab6f2527b036",
+      "slug": "gta-6-leaker-posts-more-videos-despite-take-two-subpoenas",
+      "collection": "news",
+      "title": "GTA 6 Leaker Posts More Videos Despite Take-Two Subpoenas",
+      "source": "https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas",
+      "postedAt": "2026-08-23T01:13:14.804Z"
+    },
     {
       "id": "44488a7423cf44d8",
       "slug": "gta-6-hype-may-still-fall-short-of-reality",
