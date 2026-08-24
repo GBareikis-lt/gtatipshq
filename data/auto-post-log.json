@@ -213,9 +213,27 @@
     "58e19319bb339f9a": "2026-08-23T01:13:28.704Z",
     "3c4dd3a11ea9af13": "2026-08-23T12:35:59.305Z",
     "d0fc3b71b8481490": "2026-08-23T12:36:13.218Z",
-    "4ccb01d72c20deb0": "2026-08-24T01:11:12.766Z"
+    "4ccb01d72c20deb0": "2026-08-24T01:11:12.766Z",
+    "9d9e9d7d7fafc8de": "2026-08-24T12:45:54.491Z",
+    "82fb7ee9616a5a54": "2026-08-24T12:46:09.164Z"
   },
   "posts": [
+    {
+      "id": "82fb7ee9616a5a54",
+      "slug": "gta-6-leaks-won-t-hurt-sales-says-ex-rockstar-dev",
+      "collection": "news",
+      "title": "GTA 6 Leaks Won't Hurt Sales, Says Ex-Rockstar Dev",
+      "source": "https://www.ign.com/articles/former-rockstar-dev-calls-gta-6-leaks-a-nothing-burger-insists-hot-coffee-was-much-much-worse",
+      "postedAt": "2026-08-24T12:46:09.164Z"
+    },
+    {
+      "id": "9d9e9d7d7fafc8de",
+      "slug": "gta-6-netflix-extended-look-how-to-watch",
+      "collection": "news",
+      "title": "GTA 6 Netflix Extended Look: How to Watch",
+      "source": "https://www.pushsquare.com/guides/gta-6-netflix-extended-look-when-and-how-to-watch",
+      "postedAt": "2026-08-24T12:45:54.491Z"
+    },
     {
       "id": "4ccb01d72c20deb0",
       "slug": "gta-6-leaks-shake-take-two-s-stock-value",
