@@ -217,9 +217,27 @@
     "9d9e9d7d7fafc8de": "2026-08-24T12:45:54.491Z",
     "82fb7ee9616a5a54": "2026-08-24T12:46:09.164Z",
     "dc193d8081cadc48": "2026-08-25T01:09:16.857Z",
-    "ac7e188de4e27747": "2026-08-25T01:09:31.706Z"
+    "ac7e188de4e27747": "2026-08-25T01:09:31.706Z",
+    "986aec231571012d": "2026-08-25T12:43:09.537Z",
+    "358bafb7bfe1408b": "2026-08-25T12:43:22.738Z"
   },
   "posts": [
+    {
+      "id": "358bafb7bfe1408b",
+      "slug": "gta-6-leak-subpoena-take-two-targets-discord-users",
+      "collection": "news",
+      "title": "GTA 6 Leak Subpoena: Take-Two Targets Discord Users",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/as-take-two-seeks-ip-addresses-and-phone-numbers-of-thousands-in-gta-6-subpoena-discord-says-its-not-been-served-the-order-just-yet/",
+      "postedAt": "2026-08-25T12:43:22.738Z"
+    },
+    {
+      "id": "986aec231571012d",
+      "slug": "gta-6-leak-subpoenas-discord-not-yet-served",
+      "collection": "news",
+      "title": "GTA 6 Leak Subpoenas: Discord Not Yet Served",
+      "source": "https://www.eurogamer.net/take-two-rockstar-gta-6-leaks-subpoena-discord-response",
+      "postedAt": "2026-08-25T12:43:09.537Z"
+    },
     {
       "id": "ac7e188de4e27747",
       "slug": "gta-6-cyberleek-timeline-what-s-been-leaked-so-far",
