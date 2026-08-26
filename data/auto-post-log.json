@@ -221,9 +221,27 @@
     "986aec231571012d": "2026-08-25T12:43:09.537Z",
     "358bafb7bfe1408b": "2026-08-25T12:43:22.738Z",
     "be2852b1de250541": "2026-08-26T01:11:46.282Z",
-    "e5ef752c6e04e62d": "2026-08-26T01:11:59.851Z"
+    "e5ef752c6e04e62d": "2026-08-26T01:11:59.851Z",
+    "fb580eb850497223": "2026-08-26T12:48:20.217Z",
+    "11df73205c3ecf81": "2026-08-26T12:48:34.848Z"
   },
   "posts": [
+    {
+      "id": "11df73205c3ecf81",
+      "slug": "gta-6-leaks-rockstar-calls-situation-heartbreaking",
+      "collection": "news",
+      "title": "GTA 6 Leaks: Rockstar Calls Situation 'Heartbreaking'",
+      "source": "https://www.gamespot.com/articles/rockstar-finally-comments-on-all-those-gta-6-leaks-heartbreaking-for-our-team/",
+      "postedAt": "2026-08-26T12:48:34.848Z"
+    },
+    {
+      "id": "fb580eb850497223",
+      "slug": "gta-6-leaks-rockstar-warns-of-spoiler-risk",
+      "collection": "news",
+      "title": "GTA 6 Leaks: Rockstar Warns of Spoiler Risk",
+      "source": "https://www.ign.com/articles/rockstar-games-finally-addresses-extraordinary-gta-6-leaks-warns-players-that-some-spoilers-may-now-impact-the-intended-game-experience",
+      "postedAt": "2026-08-26T12:48:20.217Z"
+    },
     {
       "id": "e5ef752c6e04e62d",
       "slug": "gta-6-phone-ui-what-we-know-and-don-t",
