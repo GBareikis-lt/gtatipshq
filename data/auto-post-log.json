@@ -219,9 +219,27 @@
     "dc193d8081cadc48": "2026-08-25T01:09:16.857Z",
     "ac7e188de4e27747": "2026-08-25T01:09:31.706Z",
     "986aec231571012d": "2026-08-25T12:43:09.537Z",
-    "358bafb7bfe1408b": "2026-08-25T12:43:22.738Z"
+    "358bafb7bfe1408b": "2026-08-25T12:43:22.738Z",
+    "be2852b1de250541": "2026-08-26T01:11:46.282Z",
+    "e5ef752c6e04e62d": "2026-08-26T01:11:59.851Z"
   },
   "posts": [
+    {
+      "id": "e5ef752c6e04e62d",
+      "slug": "gta-6-phone-ui-what-we-know-and-don-t",
+      "collection": "news",
+      "title": "GTA 6 Phone UI: What We Know (and Don't)",
+      "source": "https://www.reddit.com/r/GTA6/comments/1vxwrp9/weve_seen_hours_of_gameplay_and_dev_footage/",
+      "postedAt": "2026-08-26T01:11:59.851Z"
+    },
+    {
+      "id": "be2852b1de250541",
+      "slug": "gta-6-leaks-called-a-nothing-burger-by-ex-rockstar-dev",
+      "collection": "news",
+      "title": "GTA 6 Leaks Called a 'Nothing Burger' by Ex-Rockstar Dev",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/former-rockstar-dev-says-the-gta-6-leaks-are-a-nothing-burger-there-wont-be-much-damage/",
+      "postedAt": "2026-08-26T01:11:46.282Z"
+    },
     {
       "id": "358bafb7bfe1408b",
       "slug": "gta-6-leak-subpoena-take-two-targets-discord-users",
