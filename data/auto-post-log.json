@@ -225,9 +225,27 @@
     "fb580eb850497223": "2026-08-26T12:48:20.217Z",
     "11df73205c3ecf81": "2026-08-26T12:48:34.848Z",
     "0a4855c4f6294a3e": "2026-08-27T07:23:28.274Z",
-    "465b8a618b1fd8aa": "2026-08-27T07:23:42.230Z"
+    "465b8a618b1fd8aa": "2026-08-27T07:23:42.230Z",
+    "ffb68fdef020ffd4": "2026-08-27T21:47:38.097Z",
+    "1c2283cef5a6b5fd": "2026-08-27T21:47:52.463Z"
   },
   "posts": [
+    {
+      "id": "1c2283cef5a6b5fd",
+      "slug": "gta-6-map-is-3-bigger-than-rdr2-s",
+      "collection": "news",
+      "title": "GTA 6 Map Is 3× Bigger Than RDR2's",
+      "source": "https://www.gamespot.com/articles/gta-6-map-is-3x-bigger-than-red-dead-redemption-2s/",
+      "postedAt": "2026-08-27T21:47:52.463Z"
+    },
+    {
+      "id": "ffb68fdef020ffd4",
+      "slug": "gta-6-confirmed-no-microtransactions-or-ai-content",
+      "collection": "news",
+      "title": "GTA 6 Confirmed: No Microtransactions or AI Content",
+      "source": "https://www.gamespot.com/articles/grand-theft-auto-6-will-have-no-microtransactions-or-generative-ai/",
+      "postedAt": "2026-08-27T21:47:38.097Z"
+    },
     {
       "id": "465b8a618b1fd8aa",
       "slug": "gta-6-protagonist-switching-how-jason-lucia-work",
