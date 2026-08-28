@@ -227,9 +227,27 @@
     "0a4855c4f6294a3e": "2026-08-27T07:23:28.274Z",
     "465b8a618b1fd8aa": "2026-08-27T07:23:42.230Z",
     "ffb68fdef020ffd4": "2026-08-27T21:47:38.097Z",
-    "1c2283cef5a6b5fd": "2026-08-27T21:47:52.463Z"
+    "1c2283cef5a6b5fd": "2026-08-27T21:47:52.463Z",
+    "4c1a82b8ad893cc1": "2026-08-28T09:38:07.825Z",
+    "0b7c7f7c1adc75cd": "2026-08-28T09:38:22.363Z"
   },
   "posts": [
+    {
+      "id": "0b7c7f7c1adc75cd",
+      "slug": "gta-6-npcs-will-react-to-weapons-in-public",
+      "collection": "news",
+      "title": "GTA 6 NPCs Will React to Weapons in Public",
+      "source": "https://www.gamespot.com/articles/gta-6-npcs-will-notice-if-youre-carrying-a-weapon-in-public/",
+      "postedAt": "2026-08-28T09:38:22.363Z"
+    },
+    {
+      "id": "4c1a82b8ad893cc1",
+      "slug": "gta-6-map-size-compared-to-gta-5-and-rdr2",
+      "collection": "news",
+      "title": "GTA 6 Map Size Compared to GTA 5 and RDR2",
+      "source": "https://www.ign.com/articles/how-the-gta-6-map-size-stacks-up-to-other-rockstar-games-like-rdr2-and-gta-5",
+      "postedAt": "2026-08-28T09:38:07.825Z"
+    },
     {
       "id": "1c2283cef5a6b5fd",
       "slug": "gta-6-map-is-3-bigger-than-rdr2-s",
