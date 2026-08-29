@@ -231,9 +231,27 @@
     "4c1a82b8ad893cc1": "2026-08-28T09:38:07.825Z",
     "0b7c7f7c1adc75cd": "2026-08-28T09:38:22.363Z",
     "50bf30427411147f": "2026-08-28T21:44:15.023Z",
-    "88754a8eedea5b38": "2026-08-28T21:44:29.938Z"
+    "88754a8eedea5b38": "2026-08-28T21:44:29.938Z",
+    "95a66b2c5c1a207e": "2026-08-29T05:42:51.269Z",
+    "3060feda8d2d8002": "2026-08-29T05:43:05.307Z"
   },
   "posts": [
+    {
+      "id": "3060feda8d2d8002",
+      "slug": "gta-6-called-most-advanced-game-ever-but-30fps-explained",
+      "collection": "news",
+      "title": "GTA 6 Called Most Advanced Game Ever — But 30FPS Explained",
+      "source": "https://www.gamespot.com/articles/tech-experts-call-grand-theft-auto-6-the-most-visually-advanced-game-to-date-which-explains-why-its-stuck-at-30fps/",
+      "postedAt": "2026-08-29T05:43:05.307Z"
+    },
+    {
+      "id": "95a66b2c5c1a207e",
+      "slug": "gta-6-criminal-profile-system-tracks-how-violent-you-play",
+      "collection": "news",
+      "title": "GTA 6 Criminal Profile System Tracks How Violent You Play",
+      "source": "https://www.gamespot.com/articles/gta-6-has-a-red-dead-2-honor-style-system-tracking-how-violent-you-are/",
+      "postedAt": "2026-08-29T05:42:51.269Z"
+    },
     {
       "id": "88754a8eedea5b38",
       "slug": "gta-6-jason-duval-s-voice-divides-fans-online",
