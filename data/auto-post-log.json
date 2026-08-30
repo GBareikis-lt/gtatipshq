@@ -235,9 +235,27 @@
     "95a66b2c5c1a207e": "2026-08-29T05:42:51.269Z",
     "3060feda8d2d8002": "2026-08-29T05:43:05.307Z",
     "74f674186f9b49ae": "2026-08-29T16:14:03.712Z",
-    "12a57e8c78a89693": "2026-08-29T16:14:18.652Z"
+    "12a57e8c78a89693": "2026-08-29T16:14:18.652Z",
+    "d3333d1e162e1444": "2026-08-30T03:44:20.202Z",
+    "bcff1f7ef5dcb628": "2026-08-30T03:44:33.079Z"
   },
   "posts": [
+    {
+      "id": "bcff1f7ef5dcb628",
+      "slug": "gta-6-extended-look-biggest-things-we-learned",
+      "collection": "news",
+      "title": "GTA 6 Extended Look: Biggest Things We Learned",
+      "source": "https://www.gamespot.com/articles/gta-6s-big-reveal-all-the-things-we-learned/",
+      "postedAt": "2026-08-30T03:44:33.079Z"
+    },
+    {
+      "id": "d3333d1e162e1444",
+      "slug": "gta-6-launches-without-microtransactions-or-ai-rockstar-confirms",
+      "collection": "news",
+      "title": "GTA 6 Launches Without Microtransactions or AI, Rockstar Confirms",
+      "source": "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says",
+      "postedAt": "2026-08-30T03:44:20.202Z"
+    },
     {
       "id": "12a57e8c78a89693",
       "slug": "gta-6-car-theft-every-method-you-need-to-know",
