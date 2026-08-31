@@ -237,9 +237,27 @@
     "74f674186f9b49ae": "2026-08-29T16:14:03.712Z",
     "12a57e8c78a89693": "2026-08-29T16:14:18.652Z",
     "d3333d1e162e1444": "2026-08-30T03:44:20.202Z",
-    "bcff1f7ef5dcb628": "2026-08-30T03:44:33.079Z"
+    "bcff1f7ef5dcb628": "2026-08-30T03:44:33.079Z",
+    "54565202c7c0bd12": "2026-08-31T03:45:40.226Z",
+    "54c37ae14185d787": "2026-08-31T03:45:53.794Z"
   },
   "posts": [
+    {
+      "id": "54c37ae14185d787",
+      "slug": "gta-6-looks-nothing-like-gta-5-says-michael-actor",
+      "collection": "news",
+      "title": "GTA 6 Looks Nothing Like GTA 5, Says Michael Actor",
+      "source": "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar",
+      "postedAt": "2026-08-31T03:45:53.794Z"
+    },
+    {
+      "id": "54565202c7c0bd12",
+      "slug": "gta-6-fans-spot-real-life-inspiration-for-jason-lucia-s-apartment",
+      "collection": "news",
+      "title": "GTA 6: Fans Spot Real-Life Inspiration for Jason & Lucia's Apartment",
+      "source": "https://www.ign.com/articles/gta-6-fans-think-they-found-jason-and-lucias-vice-city-apartment-in-real-life",
+      "postedAt": "2026-08-31T03:45:40.226Z"
+    },
     {
       "id": "bcff1f7ef5dcb628",
       "slug": "gta-6-extended-look-biggest-things-we-learned",
