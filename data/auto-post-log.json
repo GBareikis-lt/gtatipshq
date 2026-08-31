@@ -239,9 +239,27 @@
     "d3333d1e162e1444": "2026-08-30T03:44:20.202Z",
     "bcff1f7ef5dcb628": "2026-08-30T03:44:33.079Z",
     "54565202c7c0bd12": "2026-08-31T03:45:40.226Z",
-    "54c37ae14185d787": "2026-08-31T03:45:53.794Z"
+    "54c37ae14185d787": "2026-08-31T03:45:53.794Z",
+    "fac17d7997bad2a1": "2026-08-31T18:47:35.832Z",
+    "d5b0c9c10fd41c4b": "2026-08-31T18:47:49.684Z"
   },
   "posts": [
+    {
+      "id": "d5b0c9c10fd41c4b",
+      "slug": "gta-6-download-size-how-big-will-it-be",
+      "collection": "news",
+      "title": "GTA 6 Download Size: How Big Will It Be?",
+      "source": "https://www.gamespot.com/articles/gta-6-fans-are-bracing-for-one-massive-download/",
+      "postedAt": "2026-08-31T18:47:49.684Z"
+    },
+    {
+      "id": "fac17d7997bad2a1",
+      "slug": "gta-6-extended-trailer-gets-letterboxd-movie-reviews",
+      "collection": "news",
+      "title": "GTA 6 Extended Trailer Gets Letterboxd Movie Reviews",
+      "source": "https://www.gamespot.com/articles/people-are-reviewing-the-gta-6-extended-look-on-letterboxd-like-its-a-movie/",
+      "postedAt": "2026-08-31T18:47:35.832Z"
+    },
     {
       "id": "54c37ae14185d787",
       "slug": "gta-6-looks-nothing-like-gta-5-says-michael-actor",
