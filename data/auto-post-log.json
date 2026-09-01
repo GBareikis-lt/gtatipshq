@@ -243,9 +243,27 @@
     "fac17d7997bad2a1": "2026-08-31T18:47:35.832Z",
     "d5b0c9c10fd41c4b": "2026-08-31T18:47:49.684Z",
     "825b4d707bd026af": "2026-09-01T03:39:55.164Z",
-    "4dc9743cbf94b019": "2026-09-01T03:39:56.245Z"
+    "4dc9743cbf94b019": "2026-09-01T03:39:56.245Z",
+    "849311308d1af88f": "2026-09-01T16:04:56.164Z",
+    "e4aa29c1efcb80af": "2026-09-01T16:05:09.312Z"
   },
   "posts": [
+    {
+      "id": "e4aa29c1efcb80af",
+      "slug": "gta-6-ditches-the-old-sprint-button-for-good",
+      "collection": "news",
+      "title": "GTA 6 Ditches the Old Sprint Button for Good",
+      "source": "https://www.gamespot.com/articles/gta-6-removes-the-series-worst-feature/",
+      "postedAt": "2026-09-01T16:05:09.312Z"
+    },
+    {
+      "id": "849311308d1af88f",
+      "slug": "gta-6-leak-hunt-take-two-files-sealed-discord-subpoena",
+      "collection": "news",
+      "title": "GTA 6 Leak Hunt: Take-Two Files Sealed Discord Subpoena",
+      "source": "https://www.eurogamer.net/gta-6-leaker-discord-subpoena-sealed-take-two",
+      "postedAt": "2026-09-01T16:04:56.164Z"
+    },
     {
       "id": "825b4d707bd026af",
       "slug": "gta-6-new-screenshots-rockstar-preps-november-launch",
