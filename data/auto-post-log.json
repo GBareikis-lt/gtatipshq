@@ -245,9 +245,27 @@
     "825b4d707bd026af": "2026-09-01T03:39:55.164Z",
     "4dc9743cbf94b019": "2026-09-01T03:39:56.245Z",
     "849311308d1af88f": "2026-09-01T16:04:56.164Z",
-    "e4aa29c1efcb80af": "2026-09-01T16:05:09.312Z"
+    "e4aa29c1efcb80af": "2026-09-01T16:05:09.312Z",
+    "68eb20825e13b69c": "2026-09-02T03:03:01.191Z",
+    "09baad882183e66b": "2026-09-02T03:03:14.281Z"
   },
   "posts": [
+    {
+      "id": "09baad882183e66b",
+      "slug": "gta-6-screenshots-30-new-shots-from-rockstar",
+      "collection": "news",
+      "title": "GTA 6 Screenshots: 30 New Shots from Rockstar",
+      "source": "https://www.purexbox.com/news/2026/09/heres-a-look-at-30-new-gta-6-screenshots-to-hype-you-up-after-the-extended-preview",
+      "postedAt": "2026-09-02T03:03:14.281Z"
+    },
+    {
+      "id": "68eb20825e13b69c",
+      "slug": "gta-6-rockstar-launches-official-gta-online-rp-server",
+      "collection": "news",
+      "title": "GTA 6: Rockstar Launches Official GTA Online RP Server",
+      "source": "https://www.eurogamer.net/rockstar-games-official-gta-online-rp-server-closed-beta",
+      "postedAt": "2026-09-02T03:03:01.191Z"
+    },
     {
       "id": "e4aa29c1efcb80af",
       "slug": "gta-6-ditches-the-old-sprint-button-for-good",
