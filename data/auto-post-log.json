@@ -247,9 +247,27 @@
     "849311308d1af88f": "2026-09-01T16:04:56.164Z",
     "e4aa29c1efcb80af": "2026-09-01T16:05:09.312Z",
     "68eb20825e13b69c": "2026-09-02T03:03:01.191Z",
-    "09baad882183e66b": "2026-09-02T03:03:14.281Z"
+    "09baad882183e66b": "2026-09-02T03:03:14.281Z",
+    "7d247f95792a34c2": "2026-09-02T15:59:37.980Z",
+    "f8f716b4fb55da02": "2026-09-02T15:59:49.964Z"
   },
   "posts": [
+    {
+      "id": "f8f716b4fb55da02",
+      "slug": "gta-6-extended-look-tops-netflix-charts-with-31m-views",
+      "collection": "news",
+      "title": "GTA 6 Extended Look Tops Netflix Charts with 31M Views",
+      "source": "https://www.pushsquare.com/news/2026/09/gta-6-extended-look-was-comfortably-netflixs-most-watched-title-of-last-week",
+      "postedAt": "2026-09-02T15:59:49.964Z"
+    },
+    {
+      "id": "7d247f95792a34c2",
+      "slug": "gta-6-honor-system-crime-has-real-consequences",
+      "collection": "news",
+      "title": "GTA 6 Honor System: Crime Has Real Consequences",
+      "source": "https://www.gamespot.com/articles/gta-6-morality-system-has-a-secret-breaking-point/",
+      "postedAt": "2026-09-02T15:59:37.980Z"
+    },
     {
       "id": "09baad882183e66b",
       "slug": "gta-6-screenshots-30-new-shots-from-rockstar",
