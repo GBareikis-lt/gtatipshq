@@ -249,9 +249,27 @@
     "68eb20825e13b69c": "2026-09-02T03:03:01.191Z",
     "09baad882183e66b": "2026-09-02T03:03:14.281Z",
     "7d247f95792a34c2": "2026-09-02T15:59:37.980Z",
-    "f8f716b4fb55da02": "2026-09-02T15:59:49.964Z"
+    "f8f716b4fb55da02": "2026-09-02T15:59:49.964Z",
+    "d72212f1075365b3": "2026-09-03T03:00:52.363Z",
+    "90255a1e782ebeb8": "2026-09-03T03:01:05.726Z"
   },
   "posts": [
+    {
+      "id": "90255a1e782ebeb8",
+      "slug": "gta-6-confirmed-no-microtransactions-or-ai-at-launch",
+      "collection": "news",
+      "title": "GTA 6 Confirmed: No Microtransactions or AI at Launch",
+      "source": "https://www.eurogamer.net/gta-6-microtransactions-generative-ai-rockstar",
+      "postedAt": "2026-09-03T03:01:05.726Z"
+    },
+    {
+      "id": "d72212f1075365b3",
+      "slug": "gta-6-changes-how-running-works-after-25-years",
+      "collection": "news",
+      "title": "GTA 6 Changes How Running Works After 25 Years",
+      "source": "https://www.eurogamer.net/gta-6-run-button-changes-tap-rockstar",
+      "postedAt": "2026-09-03T03:00:52.363Z"
+    },
     {
       "id": "f8f716b4fb55da02",
       "slug": "gta-6-extended-look-tops-netflix-charts-with-31m-views",
