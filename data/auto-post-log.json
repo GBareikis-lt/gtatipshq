@@ -256,9 +256,27 @@
     "a8e9081e5fa03292": "2026-09-03T15:48:50.737Z",
     "eb24be6478a3fe22": "2026-09-04T03:00:07.319Z",
     "ffc4d458c9f3f310": "2026-09-04T15:47:02.840Z",
-    "200871618cfa8ee0": "2026-09-04T15:47:17.586Z"
+    "200871618cfa8ee0": "2026-09-04T15:47:17.586Z",
+    "077d99a0ab015430": "2026-09-05T03:01:33.828Z",
+    "15577c1ef08f7370": "2026-09-05T03:01:48.234Z"
   },
   "posts": [
+    {
+      "id": "15577c1ef08f7370",
+      "slug": "gta-6-hype-drives-30-boost-in-ps5-xbox-sales",
+      "collection": "news",
+      "title": "GTA 6 Hype Drives 30% Boost in PS5 & Xbox Sales",
+      "source": "https://www.eurogamer.net/gta-6-hype-giving-ps5-xbox-series-sales-boost",
+      "postedAt": "2026-09-05T03:01:48.234Z"
+    },
+    {
+      "id": "077d99a0ab015430",
+      "slug": "gta-6-extended-trailer-gets-censored-cut-for-china",
+      "collection": "news",
+      "title": "GTA 6 Extended Trailer Gets Censored Cut for China",
+      "source": "https://www.ign.com/articles/rockstar-censors-gta-6-extended-look-trailer-for-china",
+      "postedAt": "2026-09-05T03:01:33.828Z"
+    },
     {
       "id": "200871618cfa8ee0",
       "slug": "gta-6-heist-masks-balaclavas-or-just-bandanas",
