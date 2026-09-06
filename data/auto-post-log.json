@@ -259,9 +259,19 @@
     "200871618cfa8ee0": "2026-09-04T15:47:17.586Z",
     "077d99a0ab015430": "2026-09-05T03:01:33.828Z",
     "15577c1ef08f7370": "2026-09-05T03:01:48.234Z",
-    "ae5f05e56a5a6d75": "2026-09-05T14:37:31.608Z"
+    "ae5f05e56a5a6d75": "2026-09-05T14:37:31.608Z",
+    "7db0a313627ecfbb": "2026-09-06T03:00:57.989Z",
+    "6ba54576805552b6": "2026-09-06T03:00:59.389Z"
   },
   "posts": [
+    {
+      "id": "7db0a313627ecfbb",
+      "slug": "gta-6-gets-two-limited-edition-dualsense-ps5-controllers",
+      "collection": "news",
+      "title": "GTA 6 Gets Two Limited Edition DualSense PS5 Controllers",
+      "source": "https://www.eurogamer.net/gta6-ps5-controllers-white-black-state-of-play",
+      "postedAt": "2026-09-06T03:00:57.989Z"
+    },
     {
       "id": "ae5f05e56a5a6d75",
       "slug": "gta-6-music-licences-will-songs-last-longer",
