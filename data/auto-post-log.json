@@ -261,9 +261,19 @@
     "15577c1ef08f7370": "2026-09-05T03:01:48.234Z",
     "ae5f05e56a5a6d75": "2026-09-05T14:37:31.608Z",
     "7db0a313627ecfbb": "2026-09-06T03:00:57.989Z",
-    "6ba54576805552b6": "2026-09-06T03:00:59.389Z"
+    "6ba54576805552b6": "2026-09-06T03:00:59.389Z",
+    "49cbd9bbefa7cb64": "2026-09-06T14:57:22.199Z",
+    "254fc82c34940b93": "2026-09-06T14:57:38.201Z"
   },
   "posts": [
+    {
+      "id": "254fc82c34940b93",
+      "slug": "gta-6-refuelling-takes-10-seconds-rockstar-defends-it",
+      "collection": "news",
+      "title": "GTA 6 Refuelling Takes 10 Seconds, Rockstar Defends It",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6s-controversial-refuelling-action-reportedly-takes-about-10-seconds-to-perform-which-rockstars-co-studio-head-says-is-pretty-fast-for-a-fill-up/",
+      "postedAt": "2026-09-06T14:57:38.201Z"
+    },
     {
       "id": "7db0a313627ecfbb",
       "slug": "gta-6-gets-two-limited-edition-dualsense-ps5-controllers",
