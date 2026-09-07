@@ -265,9 +265,27 @@
     "49cbd9bbefa7cb64": "2026-09-06T14:57:22.199Z",
     "254fc82c34940b93": "2026-09-06T14:57:38.201Z",
     "646cf5da2e9e413b": "2026-09-07T02:58:55.225Z",
-    "b099519fecdbc2cd": "2026-09-07T02:58:56.535Z"
+    "b099519fecdbc2cd": "2026-09-07T02:58:56.535Z",
+    "d019b702ddfee95d": "2026-09-07T17:16:55.190Z",
+    "aec6b4c8a2ad90b9": "2026-09-07T17:17:09.503Z"
   },
   "posts": [
+    {
+      "id": "aec6b4c8a2ad90b9",
+      "slug": "gta-6-performance-why-30-fps-on-ps5-is-a-big-deal",
+      "collection": "news",
+      "title": "GTA 6 Performance: Why 30 FPS on PS5 Is a Big Deal",
+      "source": "https://www.reddit.com/r/GTA6/comments/1w9fshw/people_dont_realize_how_optimized_gta_vi_is/",
+      "postedAt": "2026-09-07T17:17:09.503Z"
+    },
+    {
+      "id": "d019b702ddfee95d",
+      "slug": "gta-6-cameos-which-past-characters-could-return",
+      "collection": "news",
+      "title": "GTA 6 Cameos: Which Past Characters Could Return?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1w9ht55/gta_characters_from_the_past_who_we_might_see/",
+      "postedAt": "2026-09-07T17:16:55.190Z"
+    },
     {
       "id": "646cf5da2e9e413b",
       "slug": "gta-6-miami-dade-collab-idea-rejected-by-sheriff",
