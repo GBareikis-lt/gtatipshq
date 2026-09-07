@@ -263,9 +263,19 @@
     "7db0a313627ecfbb": "2026-09-06T03:00:57.989Z",
     "6ba54576805552b6": "2026-09-06T03:00:59.389Z",
     "49cbd9bbefa7cb64": "2026-09-06T14:57:22.199Z",
-    "254fc82c34940b93": "2026-09-06T14:57:38.201Z"
+    "254fc82c34940b93": "2026-09-06T14:57:38.201Z",
+    "646cf5da2e9e413b": "2026-09-07T02:58:55.225Z",
+    "b099519fecdbc2cd": "2026-09-07T02:58:56.535Z"
   },
   "posts": [
+    {
+      "id": "646cf5da2e9e413b",
+      "slug": "gta-6-miami-dade-collab-idea-rejected-by-sheriff",
+      "collection": "news",
+      "title": "GTA 6 Miami-Dade Collab Idea Rejected by Sheriff",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+      "postedAt": "2026-09-07T02:58:55.225Z"
+    },
     {
       "id": "254fc82c34940b93",
       "slug": "gta-6-refuelling-takes-10-seconds-rockstar-defends-it",
