@@ -269,9 +269,27 @@
     "d019b702ddfee95d": "2026-09-07T17:16:55.190Z",
     "aec6b4c8a2ad90b9": "2026-09-07T17:17:09.503Z",
     "83316da80cfff2d6": "2026-09-08T03:08:54.168Z",
-    "acc0b2f43f5f4e63": "2026-09-08T03:09:07.817Z"
+    "acc0b2f43f5f4e63": "2026-09-08T03:09:07.817Z",
+    "1cc39e712c804b0b": "2026-09-08T16:00:57.665Z",
+    "6098a5e51b672e25": "2026-09-08T16:01:11.176Z"
   },
   "posts": [
+    {
+      "id": "6098a5e51b672e25",
+      "slug": "gta-6-release-window-who-s-brave-enough-to-compete",
+      "collection": "news",
+      "title": "GTA 6 Release Window: Who's Brave Enough to Compete?",
+      "source": "https://www.purexbox.com/news/2026/09/gta-6-has-no-major-xbox-competitors-this-november-but-nintendo-is-going-against-it",
+      "postedAt": "2026-09-08T16:01:11.176Z"
+    },
+    {
+      "id": "1cc39e712c804b0b",
+      "slug": "gta-6-studio-faces-employment-tribunal-ahead-of-launch",
+      "collection": "news",
+      "title": "GTA 6 Studio Faces Employment Tribunal Ahead of Launch",
+      "source": "https://www.eurogamer.net/rockstar-north-employment-tribunal-gta-6",
+      "postedAt": "2026-09-08T16:00:57.665Z"
+    },
     {
       "id": "acc0b2f43f5f4e63",
       "slug": "gta-6-midnight-launch-play-early-with-nz-trick",
