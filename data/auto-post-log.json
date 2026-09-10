@@ -277,9 +277,27 @@
     "90ad1505446bb719": "2026-09-09T15:57:00.343Z",
     "e77dc1386713e9c5": "2026-09-09T15:57:03.545Z",
     "727631b9a7655e67": "2026-09-10T03:10:28.604Z",
-    "6238b46f2a6c6894": "2026-09-10T03:10:30.618Z"
+    "6238b46f2a6c6894": "2026-09-10T03:10:30.618Z",
+    "e3da0a7712bcf0b0": "2026-09-10T15:51:59.247Z",
+    "e20ef7db5819b8e6": "2026-09-10T15:52:12.672Z"
   },
   "posts": [
+    {
+      "id": "e20ef7db5819b8e6",
+      "slug": "gta-6-release-times-us-players-may-wait-longest",
+      "collection": "news",
+      "title": "GTA 6 Release Times: US Players May Wait Longest",
+      "source": "https://www.gamespot.com/articles/unofficial-gta-6-worldwide-release-times-revealed-and-the-us-gets-it-almost-last/",
+      "postedAt": "2026-09-10T15:52:12.672Z"
+    },
+    {
+      "id": "e3da0a7712bcf0b0",
+      "slug": "gta-6-nasa-parody-space-centre-rumour-explained",
+      "collection": "news",
+      "title": "GTA 6 NASA Parody & Space Centre Rumour Explained",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wc8t6v/cap_canaveral_in_gta_6/",
+      "postedAt": "2026-09-10T15:51:59.247Z"
+    },
     {
       "id": "727631b9a7655e67",
       "slug": "gta-6-extended-look-what-shifted-fan-expectations",
