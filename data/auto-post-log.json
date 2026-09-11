@@ -279,9 +279,27 @@
     "727631b9a7655e67": "2026-09-10T03:10:28.604Z",
     "6238b46f2a6c6894": "2026-09-10T03:10:30.618Z",
     "e3da0a7712bcf0b0": "2026-09-10T15:51:59.247Z",
-    "e20ef7db5819b8e6": "2026-09-10T15:52:12.672Z"
+    "e20ef7db5819b8e6": "2026-09-10T15:52:12.672Z",
+    "b7eb256a58197961": "2026-09-11T03:05:53.940Z",
+    "29f7ecd7b9ab7d13": "2026-09-11T03:06:06.127Z"
   },
   "posts": [
+    {
+      "id": "29f7ecd7b9ab7d13",
+      "slug": "gta-6-dev-tribunal-final-hearing-now-underway",
+      "collection": "news",
+      "title": "GTA 6 Dev Tribunal: Final Hearing Now Underway",
+      "source": "https://www.eurogamer.net/rockstar-employment-tribunal-fired-gta-6-employees-iwgb",
+      "postedAt": "2026-09-11T03:06:06.127Z"
+    },
+    {
+      "id": "b7eb256a58197961",
+      "slug": "gta-6-extended-look-drove-100k-netflix-sign-ups-in-a-day",
+      "collection": "news",
+      "title": "GTA 6 Extended Look Drove 100K Netflix Sign-Ups in a Day",
+      "source": "https://www.gamespot.com/articles/gta-6-trailer-drove-100000-netflix-sign-ups-in-the-us-alone-in-one-day-analyst-claims/",
+      "postedAt": "2026-09-11T03:05:53.940Z"
+    },
     {
       "id": "e20ef7db5819b8e6",
       "slug": "gta-6-release-times-us-players-may-wait-longest",
