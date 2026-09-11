@@ -281,9 +281,27 @@
     "e3da0a7712bcf0b0": "2026-09-10T15:51:59.247Z",
     "e20ef7db5819b8e6": "2026-09-10T15:52:12.672Z",
     "b7eb256a58197961": "2026-09-11T03:05:53.940Z",
-    "29f7ecd7b9ab7d13": "2026-09-11T03:06:06.127Z"
+    "29f7ecd7b9ab7d13": "2026-09-11T03:06:06.127Z",
+    "fbd5e61cae19db5c": "2026-09-11T15:53:25.138Z",
+    "29d4b5d06c43a82a": "2026-09-11T15:53:41.160Z"
   },
   "posts": [
+    {
+      "id": "29d4b5d06c43a82a",
+      "slug": "gta-6-dev-rockstar-adds-privacy-film-after-drone-spying",
+      "collection": "news",
+      "title": "GTA 6 Dev Rockstar Adds Privacy Film After Drone Spying",
+      "source": "https://www.ign.com/articles/gta-6-developer-rockstar-says-it-was-forced-to-put-privacy-films-on-its-buildings-after-drones-were-used-to-snap-photos-through-office-windows",
+      "postedAt": "2026-09-11T15:53:41.160Z"
+    },
+    {
+      "id": "fbd5e61cae19db5c",
+      "slug": "gta-6-miami-beach-ad-deal-approved-with-conditions",
+      "collection": "news",
+      "title": "GTA 6 Miami Beach Ad Deal Approved — With Conditions",
+      "source": "https://www.eurogamer.net/gta-6-miami-beach-marketing-campagin-negotiations-approved",
+      "postedAt": "2026-09-11T15:53:25.138Z"
+    },
     {
       "id": "29f7ecd7b9ab7d13",
       "slug": "gta-6-dev-tribunal-final-hearing-now-underway",
