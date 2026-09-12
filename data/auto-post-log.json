@@ -285,9 +285,27 @@
     "fbd5e61cae19db5c": "2026-09-11T15:53:25.138Z",
     "29d4b5d06c43a82a": "2026-09-11T15:53:41.160Z",
     "792faae2325cf05c": "2026-09-12T03:12:20.811Z",
-    "f8b2a92820267167": "2026-09-12T03:12:33.905Z"
+    "f8b2a92820267167": "2026-09-12T03:12:33.905Z",
+    "15163e4ab69f94ba": "2026-09-12T15:00:58.357Z",
+    "3cdbf4b03afdee27": "2026-09-12T15:01:10.179Z"
   },
   "posts": [
+    {
+      "id": "3cdbf4b03afdee27",
+      "slug": "gta-6-take-two-cfo-stock-sale-no-cause-for-alarm",
+      "collection": "news",
+      "title": "GTA 6 & Take-Two CFO Stock Sale: No Cause for Alarm",
+      "source": "https://www.gamespot.com/articles/a-top-boss-at-gta-6-company-take-two-sold-a-bunch-of-stock-but-its-not-what-you-think/",
+      "postedAt": "2026-09-12T15:01:10.179Z"
+    },
+    {
+      "id": "15163e4ab69f94ba",
+      "slug": "gta-6-dev-tribunal-rockstar-s-secrecy-culture-in-spotlight",
+      "collection": "news",
+      "title": "GTA 6 Dev Tribunal: Rockstar's Secrecy Culture in Spotlight",
+      "source": "https://www.eurogamer.net/rockstar-gta-6-fired-employees-tribunal-statements",
+      "postedAt": "2026-09-12T15:00:58.357Z"
+    },
     {
       "id": "f8b2a92820267167",
       "slug": "gta-6-secrets-how-rockstar-fights-drones-hackers",
