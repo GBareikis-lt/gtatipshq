@@ -283,9 +283,27 @@
     "b7eb256a58197961": "2026-09-11T03:05:53.940Z",
     "29f7ecd7b9ab7d13": "2026-09-11T03:06:06.127Z",
     "fbd5e61cae19db5c": "2026-09-11T15:53:25.138Z",
-    "29d4b5d06c43a82a": "2026-09-11T15:53:41.160Z"
+    "29d4b5d06c43a82a": "2026-09-11T15:53:41.160Z",
+    "792faae2325cf05c": "2026-09-12T03:12:20.811Z",
+    "f8b2a92820267167": "2026-09-12T03:12:33.905Z"
   },
   "posts": [
+    {
+      "id": "f8b2a92820267167",
+      "slug": "gta-6-secrets-how-rockstar-fights-drones-hackers",
+      "collection": "news",
+      "title": "GTA 6 Secrets: How Rockstar Fights Drones & Hackers",
+      "source": "https://www.gamespot.com/articles/gta-6-developer-is-fighting-drones-and-hackers-to-keep-the-games-secrets-safe/",
+      "postedAt": "2026-09-12T03:12:33.905Z"
+    },
+    {
+      "id": "792faae2325cf05c",
+      "slug": "gta-6-marketing-deal-approved-by-real-miami",
+      "collection": "news",
+      "title": "GTA 6 Marketing Deal Approved by Real Miami",
+      "source": "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field",
+      "postedAt": "2026-09-12T03:12:20.811Z"
+    },
     {
       "id": "29d4b5d06c43a82a",
       "slug": "gta-6-dev-rockstar-adds-privacy-film-after-drone-spying",
