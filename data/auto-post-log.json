@@ -287,9 +287,27 @@
     "792faae2325cf05c": "2026-09-12T03:12:20.811Z",
     "f8b2a92820267167": "2026-09-12T03:12:33.905Z",
     "15163e4ab69f94ba": "2026-09-12T15:00:58.357Z",
-    "3cdbf4b03afdee27": "2026-09-12T15:01:10.179Z"
+    "3cdbf4b03afdee27": "2026-09-12T15:01:10.179Z",
+    "74999a40eb8887ae": "2026-09-13T03:15:54.675Z",
+    "803c4f5d0caf9808": "2026-09-13T03:16:08.089Z"
   },
   "posts": [
+    {
+      "id": "803c4f5d0caf9808",
+      "slug": "gta-6-hype-is-high-so-why-is-take-two-s-stock-down",
+      "collection": "news",
+      "title": "GTA 6 Hype Is High — So Why Is Take-Two's Stock Down?",
+      "source": "https://www.gamespot.com/articles/gta-6-is-going-to-be-huge-so-why-is-take-twos-stock-having-such-a-bad-year/",
+      "postedAt": "2026-09-13T03:16:08.089Z"
+    },
+    {
+      "id": "74999a40eb8887ae",
+      "slug": "gta-6-city-sizes-how-big-is-leonida",
+      "collection": "news",
+      "title": "GTA 6 City Sizes: How Big Is Leonida?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wepd3z/gta_city_sizes/",
+      "postedAt": "2026-09-13T03:15:54.675Z"
+    },
     {
       "id": "3cdbf4b03afdee27",
       "slug": "gta-6-take-two-cfo-stock-sale-no-cause-for-alarm",
