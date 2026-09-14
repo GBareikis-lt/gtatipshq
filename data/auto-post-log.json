@@ -293,9 +293,19 @@
     "7e1c64235bc5e6df": "2026-09-13T15:38:53.324Z",
     "be499f2970afe0a6": "2026-09-13T15:39:08.742Z",
     "9926d48b3e078391": "2026-09-14T03:28:01.190Z",
-    "feb772f725a9c9e5": "2026-09-14T03:28:16.586Z"
+    "feb772f725a9c9e5": "2026-09-14T03:28:16.586Z",
+    "39487a6cf8fd2019": "2026-09-14T17:44:17.880Z",
+    "23439ea7772d4db2": "2026-09-14T17:44:19.060Z"
   },
   "posts": [
+    {
+      "id": "39487a6cf8fd2019",
+      "slug": "gta-6-stephen-root-officially-confirmed-in-cast",
+      "collection": "news",
+      "title": "GTA 6: Stephen Root Officially Confirmed in Cast",
+      "source": "https://www.gamespot.com/articles/first-gta-6-actor-officially-confirmed-and-its-a-big-name/",
+      "postedAt": "2026-09-14T17:44:17.880Z"
+    },
     {
       "id": "feb772f725a9c9e5",
       "slug": "gta-6-destructible-routes-fan-theory-explained",
