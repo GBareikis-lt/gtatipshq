@@ -295,9 +295,19 @@
     "9926d48b3e078391": "2026-09-14T03:28:01.190Z",
     "feb772f725a9c9e5": "2026-09-14T03:28:16.586Z",
     "39487a6cf8fd2019": "2026-09-14T17:44:17.880Z",
-    "23439ea7772d4db2": "2026-09-14T17:44:19.060Z"
+    "23439ea7772d4db2": "2026-09-14T17:44:19.060Z",
+    "44e3a4d0970025df": "2026-09-15T03:29:32.176Z",
+    "b570a46cf7c1a353": "2026-09-15T03:29:33.842Z"
   },
   "posts": [
+    {
+      "id": "44e3a4d0970025df",
+      "slug": "gta-6-cast-stephen-root-confirmed-as-first-named-actor",
+      "collection": "news",
+      "title": "GTA 6 Cast: Stephen Root Confirmed as First Named Actor",
+      "source": "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root",
+      "postedAt": "2026-09-15T03:29:32.176Z"
+    },
     {
       "id": "39487a6cf8fd2019",
       "slug": "gta-6-stephen-root-officially-confirmed-in-cast",
