@@ -297,9 +297,27 @@
     "39487a6cf8fd2019": "2026-09-14T17:44:17.880Z",
     "23439ea7772d4db2": "2026-09-14T17:44:19.060Z",
     "44e3a4d0970025df": "2026-09-15T03:29:32.176Z",
-    "b570a46cf7c1a353": "2026-09-15T03:29:33.842Z"
+    "b570a46cf7c1a353": "2026-09-15T03:29:33.842Z",
+    "76ea9578f91f8093": "2026-09-15T16:18:00.227Z",
+    "42eb12b24edf1f8d": "2026-09-15T16:18:13.081Z"
   },
   "posts": [
+    {
+      "id": "42eb12b24edf1f8d",
+      "slug": "gta-6-music-artists-tease-rockstar-collaborations",
+      "collection": "news",
+      "title": "GTA 6 Music: Artists Tease Rockstar Collaborations",
+      "source": "https://www.pushsquare.com/news/2026/09/multiple-music-artists-tease-gta-6-collaborations",
+      "postedAt": "2026-09-15T16:18:13.081Z"
+    },
+    {
+      "id": "76ea9578f91f8093",
+      "slug": "gta-6-ps5-deal-save-11-on-the-game-today",
+      "collection": "news",
+      "title": "GTA 6 PS5 Deal: Save $11 on the Game Today",
+      "source": "https://www.ign.com/articles/gta-6-for-ps5-save-11-today-only",
+      "postedAt": "2026-09-15T16:18:00.227Z"
+    },
     {
       "id": "44e3a4d0970025df",
       "slug": "gta-6-cast-stephen-root-confirmed-as-first-named-actor",
