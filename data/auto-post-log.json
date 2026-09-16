@@ -301,9 +301,27 @@
     "76ea9578f91f8093": "2026-09-15T16:18:00.227Z",
     "42eb12b24edf1f8d": "2026-09-15T16:18:13.081Z",
     "b445174080c47424": "2026-09-16T03:25:07.465Z",
-    "43ce179ea8d55e4c": "2026-09-16T03:25:21.309Z"
+    "43ce179ea8d55e4c": "2026-09-16T03:25:21.309Z",
+    "75ce21815b180f1a": "2026-09-16T16:10:26.002Z",
+    "8994306a13efd7c4": "2026-09-16T16:10:39.744Z"
   },
   "posts": [
+    {
+      "id": "8994306a13efd7c4",
+      "slug": "gta-6-artist-teasers-travis-scott-keith-richards-future",
+      "collection": "news",
+      "title": "GTA 6 Artist Teasers: Travis Scott, Keith Richards & Future",
+      "source": "https://www.videogameschronicle.com/news/musicians-including-travis-scott-keith-richards-and-future-have-started-teasing-that-theyll-be-in-gta-6/",
+      "postedAt": "2026-09-16T16:10:39.744Z"
+    },
+    {
+      "id": "75ce21815b180f1a",
+      "slug": "gta-6-reveal-on-gta-v-anniversary-what-to-expect",
+      "collection": "news",
+      "title": "GTA 6 Reveal on GTA V Anniversary? What to Expect",
+      "source": "https://www.reddit.com/r/GTA6/comments/1whoppl/is_rockstar_going_to_release_another_trailer_or/",
+      "postedAt": "2026-09-16T16:10:26.002Z"
+    },
     {
       "id": "43ce179ea8d55e4c",
       "slug": "gta-6-s-stephen-root-wins-emmy-after-cast-confirmation",
