@@ -299,9 +299,27 @@
     "44e3a4d0970025df": "2026-09-15T03:29:32.176Z",
     "b570a46cf7c1a353": "2026-09-15T03:29:33.842Z",
     "76ea9578f91f8093": "2026-09-15T16:18:00.227Z",
-    "42eb12b24edf1f8d": "2026-09-15T16:18:13.081Z"
+    "42eb12b24edf1f8d": "2026-09-15T16:18:13.081Z",
+    "b445174080c47424": "2026-09-16T03:25:07.465Z",
+    "43ce179ea8d55e4c": "2026-09-16T03:25:21.309Z"
   },
   "posts": [
+    {
+      "id": "43ce179ea8d55e4c",
+      "slug": "gta-6-s-stephen-root-wins-emmy-after-cast-confirmation",
+      "collection": "news",
+      "title": "GTA 6's Stephen Root Wins Emmy After Cast Confirmation",
+      "source": "https://www.gamespot.com/articles/gta-6s-stephen-root-is-the-franchises-second-ever-emmy-winning-actor/",
+      "postedAt": "2026-09-16T03:25:21.309Z"
+    },
+    {
+      "id": "b445174080c47424",
+      "slug": "gta-6-music-reveal-may-be-coming-soon",
+      "collection": "news",
+      "title": "GTA 6 Music Reveal May Be Coming Soon",
+      "source": "https://www.gamespot.com/articles/big-gta-6-news-could-be-coming-up-soon/",
+      "postedAt": "2026-09-16T03:25:07.465Z"
+    },
     {
       "id": "42eb12b24edf1f8d",
       "slug": "gta-6-music-artists-tease-rockstar-collaborations",
