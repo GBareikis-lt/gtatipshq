@@ -303,9 +303,27 @@
     "b445174080c47424": "2026-09-16T03:25:07.465Z",
     "43ce179ea8d55e4c": "2026-09-16T03:25:21.309Z",
     "75ce21815b180f1a": "2026-09-16T16:10:26.002Z",
-    "8994306a13efd7c4": "2026-09-16T16:10:39.744Z"
+    "8994306a13efd7c4": "2026-09-16T16:10:39.744Z",
+    "a7a9bd0b4320e5e7": "2026-09-17T03:30:52.867Z",
+    "bcd8b5aaa2aedf14": "2026-09-17T03:31:07.500Z"
   },
   "posts": [
+    {
+      "id": "bcd8b5aaa2aedf14",
+      "slug": "gta-6-license-plates-map-hints-or-just-realism",
+      "collection": "news",
+      "title": "GTA 6 License Plates: Map Hints or Just Realism?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1whw7be/different_license_plates/",
+      "postedAt": "2026-09-17T03:31:07.500Z"
+    },
+    {
+      "id": "a7a9bd0b4320e5e7",
+      "slug": "gta-6-x-spotify-a-collaboration-could-be-coming",
+      "collection": "news",
+      "title": "GTA 6 x Spotify: A Collaboration Could Be Coming",
+      "source": "https://www.ign.com/articles/spotify-seems-to-be-teasing-a-gta-6-collaboration-with-rockstar-games",
+      "postedAt": "2026-09-17T03:30:52.867Z"
+    },
     {
       "id": "8994306a13efd7c4",
       "slug": "gta-6-artist-teasers-travis-scott-keith-richards-future",
