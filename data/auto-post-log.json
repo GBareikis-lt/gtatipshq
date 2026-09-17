@@ -305,9 +305,27 @@
     "75ce21815b180f1a": "2026-09-16T16:10:26.002Z",
     "8994306a13efd7c4": "2026-09-16T16:10:39.744Z",
     "a7a9bd0b4320e5e7": "2026-09-17T03:30:52.867Z",
-    "bcd8b5aaa2aedf14": "2026-09-17T03:31:07.500Z"
+    "bcd8b5aaa2aedf14": "2026-09-17T03:31:07.500Z",
+    "6c4baa01ee937405": "2026-09-17T16:16:34.910Z",
+    "ebc4c59a700c874d": "2026-09-17T16:16:47.441Z"
   },
   "posts": [
+    {
+      "id": "ebc4c59a700c874d",
+      "slug": "gta-6-pc-release-take-two-signals-it-s-coming",
+      "collection": "news",
+      "title": "GTA 6 PC Release: Take-Two Signals It's Coming",
+      "source": "https://www.gamespot.com/articles/gta-6-boss-says-pc-is-becoming-more-and-more-important/",
+      "postedAt": "2026-09-17T16:16:47.441Z"
+    },
+    {
+      "id": "6c4baa01ee937405",
+      "slug": "gta-6-the-album-announced-with-34-songs",
+      "collection": "news",
+      "title": "GTA 6: The Album Announced With 34 Songs",
+      "source": "https://www.gamespot.com/articles/gta-6-the-album-announced-and-itll-be-on-physical-media/",
+      "postedAt": "2026-09-17T16:16:34.910Z"
+    },
     {
       "id": "bcd8b5aaa2aedf14",
       "slug": "gta-6-license-plates-map-hints-or-just-realism",
