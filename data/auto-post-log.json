@@ -309,9 +309,27 @@
     "6c4baa01ee937405": "2026-09-17T16:16:34.910Z",
     "ebc4c59a700c874d": "2026-09-17T16:16:47.441Z",
     "8830159d8bad8a47": "2026-09-18T03:16:58.816Z",
-    "4b31befd694c3ebb": "2026-09-18T03:16:59.754Z"
+    "4b31befd694c3ebb": "2026-09-18T03:16:59.754Z",
+    "22ffa6ccdf1c201c": "2026-09-18T15:51:54.386Z",
+    "fd143c5e57546c68": "2026-09-18T15:52:07.722Z"
   },
   "posts": [
+    {
+      "id": "fd143c5e57546c68",
+      "slug": "gta-6-original-soundtrack-34-songs-revealed",
+      "collection": "news",
+      "title": "GTA 6 Original Soundtrack: 34 Songs Revealed",
+      "source": "https://www.eurogamer.net/gta-6-original-soundtrack-six-track-preview",
+      "postedAt": "2026-09-18T15:52:07.722Z"
+    },
+    {
+      "id": "22ffa6ccdf1c201c",
+      "slug": "gta-6-online-twitch-ceo-thinks-it-arrives-in-2027",
+      "collection": "news",
+      "title": "GTA 6 Online: Twitch CEO Thinks It Arrives in 2027",
+      "source": "https://www.eurogamer.net/gta-6-online-release-date-twitch-ceo",
+      "postedAt": "2026-09-18T15:51:54.386Z"
+    },
     {
       "id": "8830159d8bad8a47",
       "slug": "gta-6-marketing-take-two-compares-it-to-barbie",
