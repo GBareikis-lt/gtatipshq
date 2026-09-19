@@ -311,9 +311,27 @@
     "8830159d8bad8a47": "2026-09-18T03:16:58.816Z",
     "4b31befd694c3ebb": "2026-09-18T03:16:59.754Z",
     "22ffa6ccdf1c201c": "2026-09-18T15:51:54.386Z",
-    "fd143c5e57546c68": "2026-09-18T15:52:07.722Z"
+    "fd143c5e57546c68": "2026-09-18T15:52:07.722Z",
+    "ecc4c291a591d7c7": "2026-09-19T03:13:18.943Z",
+    "d6659aa1c7bf67f5": "2026-09-19T03:13:33.960Z"
   },
   "posts": [
+    {
+      "id": "d6659aa1c7bf67f5",
+      "slug": "gta-6-massive-leak-hints-at-scrapped-liberty-city-dlc",
+      "collection": "news",
+      "title": "GTA 6: Massive Leak Hints at Scrapped Liberty City DLC",
+      "source": "https://www.eurogamer.net/new-gta-5-leak-rockstar-liberty-city-dlc-early-gta-6",
+      "postedAt": "2026-09-19T03:13:33.960Z"
+    },
+    {
+      "id": "ecc4c291a591d7c7",
+      "slug": "gta-6-map-how-long-has-leonida-been-planned",
+      "collection": "news",
+      "title": "GTA 6 Map: How Long Has Leonida Been Planned?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wjsnnm/how_much_of_gta_vis_map_was_already_decided_years/",
+      "postedAt": "2026-09-19T03:13:18.943Z"
+    },
     {
       "id": "fd143c5e57546c68",
       "slug": "gta-6-original-soundtrack-34-songs-revealed",
