@@ -313,9 +313,27 @@
     "22ffa6ccdf1c201c": "2026-09-18T15:51:54.386Z",
     "fd143c5e57546c68": "2026-09-18T15:52:07.722Z",
     "ecc4c291a591d7c7": "2026-09-19T03:13:18.943Z",
-    "d6659aa1c7bf67f5": "2026-09-19T03:13:33.960Z"
+    "d6659aa1c7bf67f5": "2026-09-19T03:13:33.960Z",
+    "8647d6cf35f98fe2": "2026-09-19T15:23:44.062Z",
+    "5e3e63db5c6c2a68": "2026-09-19T15:23:56.496Z"
   },
   "posts": [
+    {
+      "id": "5e3e63db5c6c2a68",
+      "slug": "gta-6-gunplay-what-we-know-so-far",
+      "collection": "news",
+      "title": "GTA 6 Gunplay: What We Know So Far",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wk8csg/i_am_interested_to_the_games_gunfight_the/",
+      "postedAt": "2026-09-19T15:23:56.496Z"
+    },
+    {
+      "id": "8647d6cf35f98fe2",
+      "slug": "gta-6-the-album-is-official-pre-order-now",
+      "collection": "news",
+      "title": "GTA 6: The Album Is Official – Pre-Order Now",
+      "source": "https://www.pushsquare.com/news/2026/09/gta-6-the-album-announced-pre-orders-available-now",
+      "postedAt": "2026-09-19T15:23:44.062Z"
+    },
     {
       "id": "d6659aa1c7bf67f5",
       "slug": "gta-6-massive-leak-hints-at-scrapped-liberty-city-dlc",
