@@ -315,9 +315,27 @@
     "ecc4c291a591d7c7": "2026-09-19T03:13:18.943Z",
     "d6659aa1c7bf67f5": "2026-09-19T03:13:33.960Z",
     "8647d6cf35f98fe2": "2026-09-19T15:23:44.062Z",
-    "5e3e63db5c6c2a68": "2026-09-19T15:23:56.496Z"
+    "5e3e63db5c6c2a68": "2026-09-19T15:23:56.496Z",
+    "cd1524f64f3e73cf": "2026-09-20T03:30:02.178Z",
+    "35c2eba5baf82929": "2026-09-20T03:30:15.392Z"
   },
   "posts": [
+    {
+      "id": "35c2eba5baf82929",
+      "slug": "gta-6-on-pc-take-two-boss-hints-it-s-a-priority",
+      "collection": "news",
+      "title": "GTA 6 on PC: Take-Two Boss Hints It's a Priority",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/the-pc-platform-is-becoming-more-and-more-important-take-two-chief-says-as-we-continue-to-wonder-when-were-going-to-get-gta-6/",
+      "postedAt": "2026-09-20T03:30:15.392Z"
+    },
+    {
+      "id": "cd1524f64f3e73cf",
+      "slug": "gta-6-multiplayer-could-arrive-in-2027-twitch-ceo-hints",
+      "collection": "news",
+      "title": "GTA 6 Multiplayer Could Arrive in 2027, Twitch CEO Hints",
+      "source": "https://www.gamespot.com/articles/gta-6-multiplayer-could-launch-in-2027-twitch-ceo-says/",
+      "postedAt": "2026-09-20T03:30:02.178Z"
+    },
     {
       "id": "5e3e63db5c6c2a68",
       "slug": "gta-6-gunplay-what-we-know-so-far",
