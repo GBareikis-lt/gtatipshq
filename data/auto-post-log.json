@@ -319,9 +319,27 @@
     "cd1524f64f3e73cf": "2026-09-20T03:30:02.178Z",
     "35c2eba5baf82929": "2026-09-20T03:30:15.392Z",
     "6c3160f284e173ef": "2026-09-20T15:28:39.050Z",
-    "67f3482f6b2fd495": "2026-09-20T15:28:52.828Z"
+    "67f3482f6b2fd495": "2026-09-20T15:28:52.828Z",
+    "d50c20b859a25c85": "2026-09-21T03:25:10.207Z",
+    "0608f1652bb0b19c": "2026-09-21T03:25:24.498Z"
   },
   "posts": [
+    {
+      "id": "0608f1652bb0b19c",
+      "slug": "gta-6-will-the-world-evolve-like-rdr2-s-did",
+      "collection": "news",
+      "title": "GTA 6: Will the World Evolve Like RDR2's Did?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wlpbzz/will_gta_6_have_time_progression_and_different/",
+      "postedAt": "2026-09-21T03:25:24.498Z"
+    },
+    {
+      "id": "d50c20b859a25c85",
+      "slug": "gta-6-community-map-v16-adds-leaked-roads-interiors",
+      "collection": "news",
+      "title": "GTA 6 Community Map V16 Adds Leaked Roads & Interiors",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wlo3yk/gta6_community_map_v16/",
+      "postedAt": "2026-09-21T03:25:10.207Z"
+    },
     {
       "id": "67f3482f6b2fd495",
       "slug": "gta-6-early-map-leak-what-the-surfaced-data-shows",
