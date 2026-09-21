@@ -321,9 +321,27 @@
     "6c3160f284e173ef": "2026-09-20T15:28:39.050Z",
     "67f3482f6b2fd495": "2026-09-20T15:28:52.828Z",
     "d50c20b859a25c85": "2026-09-21T03:25:10.207Z",
-    "0608f1652bb0b19c": "2026-09-21T03:25:24.498Z"
+    "0608f1652bb0b19c": "2026-09-21T03:25:24.498Z",
+    "67ea72383a9b4e20": "2026-09-21T17:53:30.989Z",
+    "d6cb897081e65245": "2026-09-21T17:53:44.782Z"
   },
   "posts": [
+    {
+      "id": "d6cb897081e65245",
+      "slug": "gta-6-map-is-key-west-hidden-in-vice-city",
+      "collection": "news",
+      "title": "GTA 6 Map: Is Key West Hidden in Vice City?",
+      "source": "https://www.eurogamer.net/grand-theft-auto-6-key-west-map",
+      "postedAt": "2026-09-21T17:53:44.782Z"
+    },
+    {
+      "id": "67ea72383a9b4e20",
+      "slug": "gta-6-modding-guidelines-what-you-can-and-can-t-do",
+      "collection": "news",
+      "title": "GTA 6 Modding Guidelines: What You Can and Can't Do",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wmby0v/new_modding_guidlines_for_gta_6_and_older_ones/",
+      "postedAt": "2026-09-21T17:53:30.989Z"
+    },
     {
       "id": "0608f1652bb0b19c",
       "slug": "gta-6-will-the-world-evolve-like-rdr2-s-did",
