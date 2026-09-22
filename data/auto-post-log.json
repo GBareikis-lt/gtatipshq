@@ -323,9 +323,27 @@
     "d50c20b859a25c85": "2026-09-21T03:25:10.207Z",
     "0608f1652bb0b19c": "2026-09-21T03:25:24.498Z",
     "67ea72383a9b4e20": "2026-09-21T17:53:30.989Z",
-    "d6cb897081e65245": "2026-09-21T17:53:44.782Z"
+    "d6cb897081e65245": "2026-09-21T17:53:44.782Z",
+    "da75079424ee8d9b": "2026-09-22T03:24:12.638Z",
+    "51c9351a48732661": "2026-09-22T03:24:25.591Z"
   },
   "posts": [
+    {
+      "id": "51c9351a48732661",
+      "slug": "gta-6-rockstar-tightens-mod-rules-ahead-of-launch",
+      "collection": "news",
+      "title": "GTA 6: Rockstar Tightens Mod Rules Ahead of Launch",
+      "source": "https://www.eurogamer.net/gta-6-rockstar-games-mod-guidelines-restrictions",
+      "postedAt": "2026-09-22T03:24:25.591Z"
+    },
+    {
+      "id": "da75079424ee8d9b",
+      "slug": "gta-6-rockstar-pulls-leaked-map-and-gta-5-dlc-content",
+      "collection": "news",
+      "title": "GTA 6: Rockstar Pulls Leaked Map and GTA 5 DLC Content",
+      "source": "https://www.ign.com/articles/rockstar-games-is-taking-down-footage-and-images-of-scrapped-gta-5-dlc-and-early-version-of-leaked-gta-6-map",
+      "postedAt": "2026-09-22T03:24:12.638Z"
+    },
     {
       "id": "d6cb897081e65245",
       "slug": "gta-6-map-is-key-west-hidden-in-vice-city",
