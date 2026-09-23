@@ -327,9 +327,27 @@
     "da75079424ee8d9b": "2026-09-22T03:24:12.638Z",
     "51c9351a48732661": "2026-09-22T03:24:25.591Z",
     "945da85df07b5f4a": "2026-09-22T16:18:57.627Z",
-    "9d3c3eeb5088aa46": "2026-09-22T16:19:14.106Z"
+    "9d3c3eeb5088aa46": "2026-09-22T16:19:14.106Z",
+    "124518eccffe17e6": "2026-09-23T03:25:17.116Z",
+    "7066cdd1e8b72a27": "2026-09-23T03:25:29.030Z"
   },
   "posts": [
+    {
+      "id": "7066cdd1e8b72a27",
+      "slug": "gta-6-hits-miami-welcome-to-vice-city-sign-at-kaseya-center",
+      "collection": "news",
+      "title": "GTA 6 Hits Miami: 'Welcome to Vice City' Sign at Kaseya Center",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wne9lu/sahara_arena_vs_kaseya_center/",
+      "postedAt": "2026-09-23T03:25:29.030Z"
+    },
+    {
+      "id": "124518eccffe17e6",
+      "slug": "gta-6-rockstar-spends-1m-on-miami-vice-city-sign",
+      "collection": "news",
+      "title": "GTA 6: Rockstar Spends $1M on Miami Vice City Sign",
+      "source": "https://www.ign.com/articles/grand-theft-auto-6s-miami-takeover-begins-as-rockstar-spends-nearly-1-million-on-welcome-to-vice-city-signage",
+      "postedAt": "2026-09-23T03:25:17.116Z"
+    },
     {
       "id": "9d3c3eeb5088aa46",
       "slug": "gta-6-everything-revealed-in-summer-2026",
