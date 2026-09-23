@@ -329,9 +329,27 @@
     "945da85df07b5f4a": "2026-09-22T16:18:57.627Z",
     "9d3c3eeb5088aa46": "2026-09-22T16:19:14.106Z",
     "124518eccffe17e6": "2026-09-23T03:25:17.116Z",
-    "7066cdd1e8b72a27": "2026-09-23T03:25:29.030Z"
+    "7066cdd1e8b72a27": "2026-09-23T03:25:29.030Z",
+    "49dc83058e1e1fe0": "2026-09-23T16:08:57.464Z",
+    "3643907d55320dcf": "2026-09-23T16:09:12.625Z"
   },
   "posts": [
+    {
+      "id": "3643907d55320dcf",
+      "slug": "gta-6-could-hurt-pro-sports-nba-star-jokes",
+      "collection": "news",
+      "title": "GTA 6 Could Hurt Pro Sports, NBA Star Jokes",
+      "source": "https://www.gamespot.com/articles/gta-6-will-make-pro-athletes-perform-worse-nba-star-says/",
+      "postedAt": "2026-09-23T16:09:12.625Z"
+    },
+    {
+      "id": "49dc83058e1e1fe0",
+      "slug": "gta-6-wwe-drops-vice-city-trademark-bid",
+      "collection": "news",
+      "title": "GTA 6: WWE Drops 'Vice City' Trademark Bid",
+      "source": "https://www.ign.com/articles/vice-city-trademark-abandoned-by-wwe-ahead-of-gta-6-launch",
+      "postedAt": "2026-09-23T16:08:57.464Z"
+    },
     {
       "id": "7066cdd1e8b72a27",
       "slug": "gta-6-hits-miami-welcome-to-vice-city-sign-at-kaseya-center",
