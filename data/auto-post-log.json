@@ -331,9 +331,27 @@
     "124518eccffe17e6": "2026-09-23T03:25:17.116Z",
     "7066cdd1e8b72a27": "2026-09-23T03:25:29.030Z",
     "49dc83058e1e1fe0": "2026-09-23T16:08:57.464Z",
-    "3643907d55320dcf": "2026-09-23T16:09:12.625Z"
+    "3643907d55320dcf": "2026-09-23T16:09:12.625Z",
+    "aa33a562db4ffa22": "2026-09-24T03:14:23.555Z",
+    "34ac375fa05dedd5": "2026-09-24T03:14:35.884Z"
   },
   "posts": [
+    {
+      "id": "34ac375fa05dedd5",
+      "slug": "gta-6-marketing-hits-miami-with-975k-vice-city-sign",
+      "collection": "news",
+      "title": "GTA 6 Marketing Hits Miami With $975K Vice City Sign",
+      "source": "https://www.reddit.com/r/GTA6/comments/1woe8q3/rockstar_just_started_gta_6_marketing_in_miami/",
+      "postedAt": "2026-09-24T03:14:35.884Z"
+    },
+    {
+      "id": "aa33a562db4ffa22",
+      "slug": "gta-6-launch-will-hurt-rivals-says-rainbow-six-siege-dev",
+      "collection": "news",
+      "title": "GTA 6 Launch Will Hurt Rivals, Says Rainbow Six Siege Dev",
+      "source": "https://www.gamespot.com/articles/rainbow-six-siege-dev-on-competing-with-gta-6-and-why-there-are-no-plans-for-siege-2/",
+      "postedAt": "2026-09-24T03:14:23.555Z"
+    },
     {
       "id": "3643907d55320dcf",
       "slug": "gta-6-could-hurt-pro-sports-nba-star-jokes",
