@@ -333,9 +333,27 @@
     "49dc83058e1e1fe0": "2026-09-23T16:08:57.464Z",
     "3643907d55320dcf": "2026-09-23T16:09:12.625Z",
     "aa33a562db4ffa22": "2026-09-24T03:14:23.555Z",
-    "34ac375fa05dedd5": "2026-09-24T03:14:35.884Z"
+    "34ac375fa05dedd5": "2026-09-24T03:14:35.884Z",
+    "226b6252caa82af1": "2026-09-24T16:32:02.481Z",
+    "b2087d3c90b8382d": "2026-09-24T16:32:16.832Z"
   },
   "posts": [
+    {
+      "id": "b2087d3c90b8382d",
+      "slug": "gta-6-349-collector-s-box-what-s-inside",
+      "collection": "news",
+      "title": "GTA 6 £349 Collector's Box: What's Inside?",
+      "source": "https://www.eurogamer.net/gta-6-collectible-suspicious-mirror-keychain-spoon",
+      "postedAt": "2026-09-24T16:32:16.832Z"
+    },
+    {
+      "id": "226b6252caa82af1",
+      "slug": "gta-6-400-collector-s-edition-what-s-inside",
+      "collection": "news",
+      "title": "GTA 6 $400 Collector's Edition: What's Inside?",
+      "source": "https://www.gamespot.com/articles/gta-6-400-collectors-edition-comes-with-everything-except-the-game/",
+      "postedAt": "2026-09-24T16:32:02.481Z"
+    },
     {
       "id": "34ac375fa05dedd5",
       "slug": "gta-6-marketing-hits-miami-with-975k-vice-city-sign",
