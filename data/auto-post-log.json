@@ -341,9 +341,27 @@
     "4232774efe1da3e1": "2026-09-25T16:35:03.323Z",
     "d6f5046d5c7db8a6": "2026-09-25T16:35:18.572Z",
     "dfd72f208b29129a": "2026-09-26T03:37:13.273Z",
-    "ff2ca6c83b5308c0": "2026-09-26T03:37:26.560Z"
+    "ff2ca6c83b5308c0": "2026-09-26T03:37:26.560Z",
+    "d892fda093fb68ae": "2026-09-26T15:49:18.303Z",
+    "b50a6228e787771c": "2026-09-26T15:49:30.603Z"
   },
   "posts": [
+    {
+      "id": "b50a6228e787771c",
+      "slug": "gta-6-xbox-sales-cso-pushes-back-on-ps5-skew-report",
+      "collection": "news",
+      "title": "GTA 6 Xbox Sales: CSO Pushes Back on PS5 Skew Report",
+      "source": "https://www.purexbox.com/news/2026/09/xbox-cso-issues-response-to-report-about-gta-6-sales-being-heavily-skewed-towards-ps5",
+      "postedAt": "2026-09-26T15:49:30.603Z"
+    },
+    {
+      "id": "d892fda093fb68ae",
+      "slug": "gta-6-pre-orders-heavily-skewed-toward-ps5",
+      "collection": "news",
+      "title": "GTA 6 Pre-Orders Heavily Skewed Toward PS5",
+      "source": "https://www.pushsquare.com/news/2026/09/gta-6-pre-orders-heavily-skewed-towards-ps5-xbox-exec-responds",
+      "postedAt": "2026-09-26T15:49:18.303Z"
+    },
     {
       "id": "ff2ca6c83b5308c0",
       "slug": "gta-6-collector-s-edition-items-already-being-3d-printed",
