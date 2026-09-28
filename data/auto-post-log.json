@@ -347,9 +347,19 @@
     "1596e34703090c3a": "2026-09-27T03:46:10.092Z",
     "7002d969a28e1794": "2026-09-27T03:46:24.125Z",
     "ec1a58bb67c0adaf": "2026-09-27T16:25:53.485Z",
-    "01e26e85e986b9c8": "2026-09-27T16:26:08.682Z"
+    "01e26e85e986b9c8": "2026-09-27T16:26:08.682Z",
+    "1d6e26d0c9844ddb": "2026-09-28T03:45:33.115Z",
+    "f2d01fc704861ffd": "2026-09-28T03:45:33.985Z"
   },
   "posts": [
+    {
+      "id": "1d6e26d0c9844ddb",
+      "slug": "gta-6-release-is-now-closer-than-the-extended-look-reveal",
+      "collection": "news",
+      "title": "GTA 6 Release Is Now Closer Than the Extended Look Reveal",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wrxzna/were_now_closer_to_the_release_of_gta_6_than_when/",
+      "postedAt": "2026-09-28T03:45:33.115Z"
+    },
     {
       "id": "01e26e85e986b9c8",
       "slug": "gta-6-preview-french-mag-compares-it-to-seeing-avatar",
