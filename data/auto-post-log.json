@@ -353,9 +353,27 @@
     "78617ea25a46144a": "2026-09-28T19:15:45.371Z",
     "a08791e5a085ff12": "2026-09-28T19:15:46.601Z",
     "5bd8f182f7100400": "2026-09-29T04:20:21.977Z",
-    "0cf485519faf7e55": "2026-09-29T04:20:36.785Z"
+    "0cf485519faf7e55": "2026-09-29T04:20:36.785Z",
+    "ea1b27fb516272cc": "2026-09-29T17:40:11.439Z",
+    "707e893c26b02efc": "2026-09-29T17:40:25.198Z"
   },
   "posts": [
+    {
+      "id": "707e893c26b02efc",
+      "slug": "gta-6-world-details-weather-wildlife-npc-diversity",
+      "collection": "news",
+      "title": "GTA 6 World Details: Weather, Wildlife & NPC Diversity",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wtfaao/new_details_about_gta_vi_from_game_informer/",
+      "postedAt": "2026-09-29T17:40:25.198Z"
+    },
+    {
+      "id": "ea1b27fb516272cc",
+      "slug": "gta-6-weather-system-wildlife-npc-detail-revealed",
+      "collection": "news",
+      "title": "GTA 6: Weather System, Wildlife & NPC Detail Revealed",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wtfdgx/gameinformer_article_summary/",
+      "postedAt": "2026-09-29T17:40:11.439Z"
+    },
     {
       "id": "0cf485519faf7e55",
       "slug": "gta-6-npc-routines-feature-or-clever-workaround",
