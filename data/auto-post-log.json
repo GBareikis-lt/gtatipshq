@@ -357,9 +357,27 @@
     "ea1b27fb516272cc": "2026-09-29T17:40:11.439Z",
     "707e893c26b02efc": "2026-09-29T17:40:25.198Z",
     "7c8e26e424d77f7a": "2026-09-30T04:04:02.138Z",
-    "93b219f5c3d13a33": "2026-09-30T04:04:18.294Z"
+    "93b219f5c3d13a33": "2026-09-30T04:04:18.294Z",
+    "90d8609c68be0a83": "2026-09-30T17:38:25.828Z",
+    "e88048cf2b69a6ee": "2026-09-30T17:38:39.722Z"
   },
   "posts": [
+    {
+      "id": "e88048cf2b69a6ee",
+      "slug": "gta-6-weather-system-re-engineered-for-hurricanes-rainbows",
+      "collection": "news",
+      "title": "GTA 6 Weather System Re-Engineered for Hurricanes & Rainbows",
+      "source": "https://www.eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "postedAt": "2026-09-30T17:38:39.722Z"
+    },
+    {
+      "id": "90d8609c68be0a83",
+      "slug": "gta-6-50-new-details-from-gameinformer-revealed",
+      "collection": "news",
+      "title": "GTA 6: 50+ New Details from GameInformer Revealed",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wtvo39/50_plus_details_from_gta_6_gameinformer_article/",
+      "postedAt": "2026-09-30T17:38:25.828Z"
+    },
     {
       "id": "93b219f5c3d13a33",
       "slug": "gta-6-weather-tropical-storms-and-hurricanes-confirmed",
