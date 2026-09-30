@@ -355,9 +355,27 @@
     "5bd8f182f7100400": "2026-09-29T04:20:21.977Z",
     "0cf485519faf7e55": "2026-09-29T04:20:36.785Z",
     "ea1b27fb516272cc": "2026-09-29T17:40:11.439Z",
-    "707e893c26b02efc": "2026-09-29T17:40:25.198Z"
+    "707e893c26b02efc": "2026-09-29T17:40:25.198Z",
+    "7c8e26e424d77f7a": "2026-09-30T04:04:02.138Z",
+    "93b219f5c3d13a33": "2026-09-30T04:04:18.294Z"
   },
   "posts": [
+    {
+      "id": "93b219f5c3d13a33",
+      "slug": "gta-6-weather-tropical-storms-and-hurricanes-confirmed",
+      "collection": "news",
+      "title": "GTA 6 Weather: Tropical Storms and Hurricanes Confirmed",
+      "source": "https://www.ign.com/articles/rockstar-confirms-gta-6-simulates-tropical-storms-and-hurricanes",
+      "postedAt": "2026-09-30T04:04:18.294Z"
+    },
+    {
+      "id": "7c8e26e424d77f7a",
+      "slug": "gta-6-world-revealed-regions-wildlife-dense-leonida",
+      "collection": "news",
+      "title": "GTA 6 World Revealed: Regions, Wildlife & Dense Leonida",
+      "source": "https://www.pushsquare.com/news/2026/09/gta-6-reveals-massive-dense-open-world-in-13-new-screenshots-details",
+      "postedAt": "2026-09-30T04:04:02.138Z"
+    },
     {
       "id": "707e893c26b02efc",
       "slug": "gta-6-world-details-weather-wildlife-npc-diversity",
