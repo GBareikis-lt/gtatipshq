@@ -359,9 +359,19 @@
     "7c8e26e424d77f7a": "2026-09-30T04:04:02.138Z",
     "93b219f5c3d13a33": "2026-09-30T04:04:18.294Z",
     "90d8609c68be0a83": "2026-09-30T17:38:25.828Z",
-    "e88048cf2b69a6ee": "2026-09-30T17:38:39.722Z"
+    "e88048cf2b69a6ee": "2026-09-30T17:38:39.722Z",
+    "603165fc37bb5c18": "2026-10-01T04:15:52.355Z",
+    "7afe6626ffbeb2b5": "2026-10-01T04:15:53.310Z"
   },
   "posts": [
+    {
+      "id": "603165fc37bb5c18",
+      "slug": "gta-6-is-rockstar-hiding-a-secret-northern-region",
+      "collection": "news",
+      "title": "GTA 6: Is Rockstar Hiding a Secret Northern Region?",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wubb5d/gta_6_the_north_is_there_something_hidden/",
+      "postedAt": "2026-10-01T04:15:52.355Z"
+    },
     {
       "id": "e88048cf2b69a6ee",
       "slug": "gta-6-weather-system-re-engineered-for-hurricanes-rainbows",
