@@ -361,9 +361,19 @@
     "90d8609c68be0a83": "2026-09-30T17:38:25.828Z",
     "e88048cf2b69a6ee": "2026-09-30T17:38:39.722Z",
     "603165fc37bb5c18": "2026-10-01T04:15:52.355Z",
-    "7afe6626ffbeb2b5": "2026-10-01T04:15:53.310Z"
+    "7afe6626ffbeb2b5": "2026-10-01T04:15:53.310Z",
+    "b770fdb4e67e8214": "2026-10-01T18:03:22.020Z",
+    "54f4df00b1ee44a1": "2026-10-01T18:03:23.203Z"
   },
   "posts": [
+    {
+      "id": "b770fdb4e67e8214",
+      "slug": "gta-6-world-no-compromises-on-scale-or-detail",
+      "collection": "news",
+      "title": "GTA 6 World: No Compromises on Scale or Detail",
+      "source": "https://www.gamespot.com/articles/gta-6-doesnt-compromise-scale-for-detail-rockstar-says/",
+      "postedAt": "2026-10-01T18:03:22.020Z"
+    },
     {
       "id": "603165fc37bb5c18",
       "slug": "gta-6-is-rockstar-hiding-a-secret-northern-region",
