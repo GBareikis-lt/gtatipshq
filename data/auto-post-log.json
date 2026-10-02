@@ -365,9 +365,27 @@
     "b770fdb4e67e8214": "2026-10-01T18:03:22.020Z",
     "54f4df00b1ee44a1": "2026-10-01T18:03:23.203Z",
     "6ac2d0e72166cd39": "2026-10-02T04:09:05.306Z",
-    "f810e6605c98c171": "2026-10-02T04:09:06.402Z"
+    "f810e6605c98c171": "2026-10-02T04:09:06.402Z",
+    "ea28ef8aa058c1b6": "2026-10-02T17:29:50.087Z",
+    "47ca362d53afdbfe": "2026-10-02T17:30:06.587Z"
   },
   "posts": [
+    {
+      "id": "47ca362d53afdbfe",
+      "slug": "gta-6-may-feature-actual-sex-scenes-rating-hints",
+      "collection": "news",
+      "title": "GTA 6 May Feature Actual Sex Scenes, Rating Hints",
+      "source": "https://www.eurogamer.net/gta-6-sex-scenes-pegi-esrb-ratings-boards",
+      "postedAt": "2026-10-02T17:30:06.587Z"
+    },
+    {
+      "id": "ea28ef8aa058c1b6",
+      "slug": "gta-6-miami-heat-becomes-vice-city-for-one-night",
+      "collection": "news",
+      "title": "GTA 6: Miami Heat Becomes Vice City for One Night",
+      "source": "https://www.pushsquare.com/news/2026/10/gta-6-rebrands-miami-basketball-team-to-vice-city-for-one-night-only",
+      "postedAt": "2026-10-02T17:29:50.087Z"
+    },
     {
       "id": "6ac2d0e72166cd39",
       "slug": "gta-6-weather-system-rebuilt-for-leonida",
