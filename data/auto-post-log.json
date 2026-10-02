@@ -363,9 +363,19 @@
     "603165fc37bb5c18": "2026-10-01T04:15:52.355Z",
     "7afe6626ffbeb2b5": "2026-10-01T04:15:53.310Z",
     "b770fdb4e67e8214": "2026-10-01T18:03:22.020Z",
-    "54f4df00b1ee44a1": "2026-10-01T18:03:23.203Z"
+    "54f4df00b1ee44a1": "2026-10-01T18:03:23.203Z",
+    "6ac2d0e72166cd39": "2026-10-02T04:09:05.306Z",
+    "f810e6605c98c171": "2026-10-02T04:09:06.402Z"
   },
   "posts": [
+    {
+      "id": "6ac2d0e72166cd39",
+      "slug": "gta-6-weather-system-rebuilt-for-leonida",
+      "collection": "news",
+      "title": "GTA 6 Weather System Rebuilt for Leonida",
+      "source": "https://www.gamespot.com/articles/gta-6s-weather-system-sounds-like-a-big-step-up/",
+      "postedAt": "2026-10-02T04:09:05.306Z"
+    },
     {
       "id": "b770fdb4e67e8214",
       "slug": "gta-6-world-no-compromises-on-scale-or-detail",
