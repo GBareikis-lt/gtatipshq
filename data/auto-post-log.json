@@ -368,9 +368,27 @@
     "f810e6605c98c171": "2026-10-02T04:09:06.402Z",
     "ea28ef8aa058c1b6": "2026-10-02T17:29:50.087Z",
     "47ca362d53afdbfe": "2026-10-02T17:30:06.587Z",
-    "ecbbaeb4a24133cf": "2026-10-03T03:52:23.819Z"
+    "ecbbaeb4a24133cf": "2026-10-03T03:52:23.819Z",
+    "6aea8b50fef2acb9": "2026-10-03T15:44:47.055Z",
+    "1a945d8ddd8fc94f": "2026-10-03T15:45:00.767Z"
   },
   "posts": [
+    {
+      "id": "1a945d8ddd8fc94f",
+      "slug": "gta-6-dan-houser-says-he-s-avoiding-the-game",
+      "collection": "news",
+      "title": "GTA 6: Dan Houser Says He's Avoiding the Game",
+      "source": "https://www.videogameschronicle.com/news/dan-houser-still-hasnt-seen-gta-6-i-will-try-and-avoid-it/",
+      "postedAt": "2026-10-03T15:45:00.767Z"
+    },
+    {
+      "id": "6aea8b50fef2acb9",
+      "slug": "gta-6-s-world-is-designed-to-be-louder-than-reality",
+      "collection": "news",
+      "title": "GTA 6's World Is Designed to Be Louder Than Reality",
+      "source": "https://www.gamespot.com/articles/gta-6-takes-the-ridiculous-world-we-live-in-and-turns-it-up-to-11/",
+      "postedAt": "2026-10-03T15:44:47.055Z"
+    },
     {
       "id": "ecbbaeb4a24133cf",
       "slug": "gta-6-screenshot-hints-at-pulp-fiction-nod",
