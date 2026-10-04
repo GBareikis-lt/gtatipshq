@@ -370,9 +370,27 @@
     "47ca362d53afdbfe": "2026-10-02T17:30:06.587Z",
     "ecbbaeb4a24133cf": "2026-10-03T03:52:23.819Z",
     "6aea8b50fef2acb9": "2026-10-03T15:44:47.055Z",
-    "1a945d8ddd8fc94f": "2026-10-03T15:45:00.767Z"
+    "1a945d8ddd8fc94f": "2026-10-03T15:45:00.767Z",
+    "3b5a81c5d3823682": "2026-10-04T04:24:21.090Z",
+    "6118968541128a31": "2026-10-04T04:24:35.459Z"
   },
   "posts": [
+    {
+      "id": "6118968541128a31",
+      "slug": "gta-6-miami-heat-rebranding-as-vice-city-in-marketing-stunt",
+      "collection": "news",
+      "title": "GTA 6: Miami Heat Rebranding as Vice City in Marketing Stunt",
+      "source": "https://www.videogameschronicle.com/news/miami-heat-nba-team-to-rebrand-as-vice-city-in-gta-6-marketing-stunt/",
+      "postedAt": "2026-10-04T04:24:35.459Z"
+    },
+    {
+      "id": "3b5a81c5d3823682",
+      "slug": "gta-6-s-80-price-tag-could-lead-the-industry",
+      "collection": "news",
+      "title": "GTA 6's $80 Price Tag Could Lead the Industry",
+      "source": "https://www.gamespot.com/articles/gta-6-should-blaze-a-trail-to-more-expensive-games-dev-says/",
+      "postedAt": "2026-10-04T04:24:21.090Z"
+    },
     {
       "id": "1a945d8ddd8fc94f",
       "slug": "gta-6-dan-houser-says-he-s-avoiding-the-game",
