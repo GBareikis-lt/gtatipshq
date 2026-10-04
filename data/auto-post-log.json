@@ -372,9 +372,27 @@
     "6aea8b50fef2acb9": "2026-10-03T15:44:47.055Z",
     "1a945d8ddd8fc94f": "2026-10-03T15:45:00.767Z",
     "3b5a81c5d3823682": "2026-10-04T04:24:21.090Z",
-    "6118968541128a31": "2026-10-04T04:24:35.459Z"
+    "6118968541128a31": "2026-10-04T04:24:35.459Z",
+    "8fabdae8b7b464f1": "2026-10-04T16:28:21.762Z",
+    "2ca43cc148d9986e": "2026-10-04T16:28:34.205Z"
   },
   "posts": [
+    {
+      "id": "2ca43cc148d9986e",
+      "slug": "gta-6-pegi-rating-reveals-graphic-violence-and-drug-use",
+      "collection": "news",
+      "title": "GTA 6 PEGI Rating Reveals Graphic Violence and Drug Use",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-features-detailed-decapitation-and-frequent-and-prominent-drug-use-according-to-hastily-deleted-pegi-rating/",
+      "postedAt": "2026-10-04T16:28:34.205Z"
+    },
+    {
+      "id": "8fabdae8b7b464f1",
+      "slug": "gta-6-x-miami-heat-branded-jerseys-court-on-nov-18",
+      "collection": "news",
+      "title": "GTA 6 x Miami Heat: Branded Jerseys & Court on Nov 18",
+      "source": "https://www.gamespot.com/articles/nbas-miami-heat-will-wear-gta-6-jerseys-and-play-on-a-branded-court-the-day-before-release/",
+      "postedAt": "2026-10-04T16:28:21.762Z"
+    },
     {
       "id": "6118968541128a31",
       "slug": "gta-6-miami-heat-rebranding-as-vice-city-in-marketing-stunt",
