@@ -374,9 +374,27 @@
     "3b5a81c5d3823682": "2026-10-04T04:24:21.090Z",
     "6118968541128a31": "2026-10-04T04:24:35.459Z",
     "8fabdae8b7b464f1": "2026-10-04T16:28:21.762Z",
-    "2ca43cc148d9986e": "2026-10-04T16:28:34.205Z"
+    "2ca43cc148d9986e": "2026-10-04T16:28:34.205Z",
+    "f55b4b7880867e07": "2026-10-05T04:09:23.675Z",
+    "d08a9ef5091606c4": "2026-10-05T04:09:35.921Z"
   },
   "posts": [
+    {
+      "id": "d08a9ef5091606c4",
+      "slug": "gta-6-box-art-will-be-hand-painted-by-colossal-media",
+      "collection": "news",
+      "title": "GTA 6 Box Art Will Be Hand-Painted by Colossal Media",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wxkfqj/colossal_media_is_returning_to_paint_the_gta_6/",
+      "postedAt": "2026-10-05T04:09:35.921Z"
+    },
+    {
+      "id": "f55b4b7880867e07",
+      "slug": "gta-6-and-sam-houser-s-20-year-vision-for-living-worlds",
+      "collection": "news",
+      "title": "GTA 6 and Sam Houser's 20-Year Vision for Living Worlds",
+      "source": "https://www.reddit.com/r/GTA6/comments/1wxvd2i/sam_housers_vision_for_gta_vi/",
+      "postedAt": "2026-10-05T04:09:23.675Z"
+    },
     {
       "id": "2ca43cc148d9986e",
       "slug": "gta-6-pegi-rating-reveals-graphic-violence-and-drug-use",
