@@ -376,9 +376,27 @@
     "8fabdae8b7b464f1": "2026-10-04T16:28:21.762Z",
     "2ca43cc148d9986e": "2026-10-04T16:28:34.205Z",
     "f55b4b7880867e07": "2026-10-05T04:09:23.675Z",
-    "d08a9ef5091606c4": "2026-10-05T04:09:35.921Z"
+    "d08a9ef5091606c4": "2026-10-05T04:09:35.921Z",
+    "4c120f77e5663964": "2026-10-06T04:58:01.388Z",
+    "ce94ff011d9eccd3": "2026-10-06T04:58:14.161Z"
   },
   "posts": [
+    {
+      "id": "ce94ff011d9eccd3",
+      "slug": "gta-6-how-rockstar-actually-builds-its-games",
+      "collection": "news",
+      "title": "GTA 6: How Rockstar Actually Builds Its Games",
+      "source": "https://www.gamespot.com/articles/how-is-a-game-like-gta-6-actually-made-heres-how-rockstar-gets-it-done/",
+      "postedAt": "2026-10-06T04:58:14.161Z"
+    },
+    {
+      "id": "4c120f77e5663964",
+      "slug": "gta-6-map-confirmed-twice-the-size-of-gta-5",
+      "collection": "news",
+      "title": "GTA 6 Map Confirmed Twice the Size of GTA 5",
+      "source": "https://www.gamespot.com/articles/10-new-things-we-just-learned-about-gta-6/",
+      "postedAt": "2026-10-06T04:58:01.388Z"
+    },
     {
       "id": "d08a9ef5091606c4",
       "slug": "gta-6-box-art-will-be-hand-painted-by-colossal-media",
