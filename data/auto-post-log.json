@@ -382,9 +382,27 @@
     "63cd4475aeeaba1f": "2026-10-06T17:57:27.779Z",
     "3445f70cebd44af1": "2026-10-06T17:57:43.484Z",
     "05f18e2cd3363593": "2026-10-07T04:24:56.192Z",
-    "ec2aeac6af673617": "2026-10-07T04:25:09.757Z"
+    "ec2aeac6af673617": "2026-10-07T04:25:09.757Z",
+    "8715754dc84fc0b5": "2026-10-07T18:27:18.338Z",
+    "6881f3f2882a1ead": "2026-10-07T18:27:30.607Z"
   },
   "posts": [
+    {
+      "id": "6881f3f2882a1ead",
+      "slug": "gta-6-pc-launch-day-streaming-rumour-debunked",
+      "collection": "news",
+      "title": "GTA 6 PC Launch Day Streaming Rumour Debunked",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/for-a-moment-it-looked-like-grand-theft-auto-6-might-be-playable-on-pc-on-launch-day-then-xboxs-chief-strategy-officer-crashed-the-party/",
+      "postedAt": "2026-10-07T18:27:30.607Z"
+    },
+    {
+      "id": "8715754dc84fc0b5",
+      "slug": "gta-6-won-t-stream-to-pc-via-xbox-cloud-gaming",
+      "collection": "news",
+      "title": "GTA 6 Won't Stream to PC via Xbox Cloud Gaming",
+      "source": "https://www.gamespot.com/articles/gta-6-will-not-stream-to-pc-through-xbox-despite-earlier-report/",
+      "postedAt": "2026-10-07T18:27:18.338Z"
+    },
     {
       "id": "ec2aeac6af673617",
       "slug": "gta-6-miami-dade-sheriff-clarifies-stance-on-vice-city-nba-deal",
