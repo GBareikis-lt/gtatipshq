@@ -380,9 +380,27 @@
     "4c120f77e5663964": "2026-10-06T04:58:01.388Z",
     "ce94ff011d9eccd3": "2026-10-06T04:58:14.161Z",
     "63cd4475aeeaba1f": "2026-10-06T17:57:27.779Z",
-    "3445f70cebd44af1": "2026-10-06T17:57:43.484Z"
+    "3445f70cebd44af1": "2026-10-06T17:57:43.484Z",
+    "05f18e2cd3363593": "2026-10-07T04:24:56.192Z",
+    "ec2aeac6af673617": "2026-10-07T04:25:09.757Z"
   },
   "posts": [
+    {
+      "id": "ec2aeac6af673617",
+      "slug": "gta-6-miami-dade-sheriff-clarifies-stance-on-vice-city-nba-deal",
+      "collection": "news",
+      "title": "GTA 6: Miami-Dade Sheriff Clarifies Stance on Vice City NBA Deal",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/despite-calling-grand-theft-auto-a-videogame-franchise-built-around-criminal-activity-miami-dade-sheriff-isnt-mad-about-the-nbas-vice-city-transformation/",
+      "postedAt": "2026-10-07T04:25:09.757Z"
+    },
+    {
+      "id": "05f18e2cd3363593",
+      "slug": "gta-6-100-ultimate-edition-how-to-get-it-for-80",
+      "collection": "tips",
+      "title": "GTA 6 $100 Ultimate Edition: How to Get It for $80",
+      "source": "https://www.gamespot.com/articles/how-to-get-gta-6-100-edition-for-80-right-now/",
+      "postedAt": "2026-10-07T04:24:56.192Z"
+    },
     {
       "id": "3445f70cebd44af1",
       "slug": "gta-6-s-big-conspiracy-fib-vs-iaa-theory-explained",
