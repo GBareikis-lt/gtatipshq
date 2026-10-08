@@ -384,9 +384,27 @@
     "05f18e2cd3363593": "2026-10-07T04:24:56.192Z",
     "ec2aeac6af673617": "2026-10-07T04:25:09.757Z",
     "8715754dc84fc0b5": "2026-10-07T18:27:18.338Z",
-    "6881f3f2882a1ead": "2026-10-07T18:27:30.607Z"
+    "6881f3f2882a1ead": "2026-10-07T18:27:30.607Z",
+    "ce6bac751defecab": "2026-10-08T04:36:09.952Z",
+    "d0dc72f2438a6fd9": "2026-10-08T04:36:23.714Z"
   },
   "posts": [
+    {
+      "id": "d0dc72f2438a6fd9",
+      "slug": "gta-6-xbox-exclusive-streaming-rights-rumour-denied",
+      "collection": "news",
+      "title": "GTA 6 Xbox Exclusive Streaming Rights: Rumour Denied",
+      "source": "https://www.eurogamer.net/xbox-cloud-gta-6-streaming-rights",
+      "postedAt": "2026-10-08T04:36:23.714Z"
+    },
+    {
+      "id": "ce6bac751defecab",
+      "slug": "gta-6-wanted-system-designed-to-feel-like-a-hit-and-run",
+      "collection": "news",
+      "title": "GTA 6 Wanted System Designed to Feel Like a Hit-And-Run",
+      "source": "https://www.gamespot.com/articles/gta-6-wants-losing-your-wanted-level-to-feel-like-a-hit-and-run/",
+      "postedAt": "2026-10-08T04:36:09.952Z"
+    },
     {
       "id": "6881f3f2882a1ead",
       "slug": "gta-6-pc-launch-day-streaming-rumour-debunked",
