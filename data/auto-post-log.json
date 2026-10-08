@@ -386,9 +386,27 @@
     "8715754dc84fc0b5": "2026-10-07T18:27:18.338Z",
     "6881f3f2882a1ead": "2026-10-07T18:27:30.607Z",
     "ce6bac751defecab": "2026-10-08T04:36:09.952Z",
-    "d0dc72f2438a6fd9": "2026-10-08T04:36:23.714Z"
+    "d0dc72f2438a6fd9": "2026-10-08T04:36:23.714Z",
+    "9e70c4d3a8d156fe": "2026-10-08T18:26:43.730Z",
+    "f157c91fa885309c": "2026-10-08T18:26:56.348Z"
   },
   "posts": [
+    {
+      "id": "f157c91fa885309c",
+      "slug": "gta-6-official-merch-is-here-meet-macca-the-gator",
+      "collection": "news",
+      "title": "GTA 6 Official Merch Is Here — Meet Macca the Gator",
+      "source": "https://www.gamespot.com/articles/gta-6-merch-revealed-including-t-shirt-with-alligator-wearing-sunglasses-and-drinking-a-cocktail/",
+      "postedAt": "2026-10-08T18:26:56.348Z"
+    },
+    {
+      "id": "9e70c4d3a8d156fe",
+      "slug": "gta-6-radio-stations-revealed-plus-on-foot-podcasts",
+      "collection": "news",
+      "title": "GTA 6 Radio Stations Revealed — Plus On-Foot Podcasts",
+      "source": "https://www.gamespot.com/articles/gta-6-reveals-6-radio-stations-plus-podcasts-you-can-listen-to-on-foot/",
+      "postedAt": "2026-10-08T18:26:43.730Z"
+    },
     {
       "id": "d0dc72f2438a6fd9",
       "slug": "gta-6-xbox-exclusive-streaming-rights-rumour-denied",
