@@ -388,9 +388,27 @@
     "ce6bac751defecab": "2026-10-08T04:36:09.952Z",
     "d0dc72f2438a6fd9": "2026-10-08T04:36:23.714Z",
     "9e70c4d3a8d156fe": "2026-10-08T18:26:43.730Z",
-    "f157c91fa885309c": "2026-10-08T18:26:56.348Z"
+    "f157c91fa885309c": "2026-10-08T18:26:56.348Z",
+    "e78dbfb4e2a6637a": "2026-10-09T04:39:28.225Z",
+    "ff3a74f3da241302": "2026-10-09T04:39:40.912Z"
   },
   "posts": [
+    {
+      "id": "ff3a74f3da241302",
+      "slug": "gta-6-lets-you-listen-to-radio-anywhere-via-headphones",
+      "collection": "news",
+      "title": "GTA 6 Lets You Listen to Radio Anywhere via Headphones",
+      "source": "https://www.eurogamer.net/gta-6-headpones-earbuds-radio-podcasts",
+      "postedAt": "2026-10-09T04:39:40.912Z"
+    },
+    {
+      "id": "e78dbfb4e2a6637a",
+      "slug": "gta-6-radio-stations-revealed-listen-now",
+      "collection": "news",
+      "title": "GTA 6 Radio Stations Revealed – Listen Now",
+      "source": "https://www.pushsquare.com/news/2026/10/gta-6-in-game-radio-stations-announced-and-you-can-preview-them-right-now",
+      "postedAt": "2026-10-09T04:39:28.225Z"
+    },
     {
       "id": "f157c91fa885309c",
       "slug": "gta-6-official-merch-is-here-meet-macca-the-gator",
