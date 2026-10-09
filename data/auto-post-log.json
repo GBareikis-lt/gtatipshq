@@ -390,9 +390,27 @@
     "9e70c4d3a8d156fe": "2026-10-08T18:26:43.730Z",
     "f157c91fa885309c": "2026-10-08T18:26:56.348Z",
     "e78dbfb4e2a6637a": "2026-10-09T04:39:28.225Z",
-    "ff3a74f3da241302": "2026-10-09T04:39:40.912Z"
+    "ff3a74f3da241302": "2026-10-09T04:39:40.912Z",
+    "db3ea5e1dd0bab90": "2026-10-09T17:59:06.756Z",
+    "41074ed2fd54b154": "2026-10-09T17:59:19.801Z"
   },
   "posts": [
+    {
+      "id": "41074ed2fd54b154",
+      "slug": "gta-6-on-switch-2-nintendo-passes-the-buck-to-rockstar",
+      "collection": "news",
+      "title": "GTA 6 on Switch 2? Nintendo Passes the Buck to Rockstar",
+      "source": "https://www.ign.com/articles/gta-6-switch-2-nintendo-president",
+      "postedAt": "2026-10-09T17:59:19.802Z"
+    },
+    {
+      "id": "db3ea5e1dd0bab90",
+      "slug": "gta-6-radio-lana-del-rey-morgan-wallen-join-star-studded-lineup",
+      "collection": "news",
+      "title": "GTA 6 Radio: Lana Del Rey, Morgan Wallen Join Star-Studded Lineup",
+      "source": "https://www.gamespot.com/articles/video-games-singer-cant-wait-to-play-new-video-game-gta-6/",
+      "postedAt": "2026-10-09T17:59:06.756Z"
+    },
     {
       "id": "ff3a74f3da241302",
       "slug": "gta-6-lets-you-listen-to-radio-anywhere-via-headphones",
