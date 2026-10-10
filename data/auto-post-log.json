@@ -394,9 +394,27 @@
     "db3ea5e1dd0bab90": "2026-10-09T17:59:06.756Z",
     "41074ed2fd54b154": "2026-10-09T17:59:19.801Z",
     "ff2bbef8786449b1": "2026-10-10T04:25:19.747Z",
-    "ca8dee97e7e54a26": "2026-10-10T04:25:35.001Z"
+    "ca8dee97e7e54a26": "2026-10-10T04:25:35.001Z",
+    "27cc488712ef5680": "2026-10-10T16:59:34.078Z",
+    "c2d46727953be5c7": "2026-10-10T16:59:48.056Z"
   },
   "posts": [
+    {
+      "id": "c2d46727953be5c7",
+      "slug": "gta-6-s-story-era-means-gta-online-is-now-in-its-future",
+      "collection": "news",
+      "title": "GTA 6's Story Era Means GTA Online Is Now in Its Future",
+      "source": "https://www.reddit.com/r/GTA6/comments/1x2ijwv/friendly_reminder_that_gtaol_is_now_happening/",
+      "postedAt": "2026-10-10T16:59:48.056Z"
+    },
+    {
+      "id": "27cc488712ef5680",
+      "slug": "gta-6-on-switch-2-nintendo-points-to-rockstar",
+      "collection": "news",
+      "title": "GTA 6 on Switch 2? Nintendo Points to Rockstar",
+      "source": "https://www.videogameschronicle.com/news/will-gta-6-make-its-way-to-switch-2-nintendo-isnt-saying/",
+      "postedAt": "2026-10-10T16:59:34.078Z"
+    },
     {
       "id": "ca8dee97e7e54a26",
       "slug": "gta-6-radio-afrobank-fm-brings-vice-city-home",
