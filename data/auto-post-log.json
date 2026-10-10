@@ -392,9 +392,27 @@
     "e78dbfb4e2a6637a": "2026-10-09T04:39:28.225Z",
     "ff3a74f3da241302": "2026-10-09T04:39:40.912Z",
     "db3ea5e1dd0bab90": "2026-10-09T17:59:06.756Z",
-    "41074ed2fd54b154": "2026-10-09T17:59:19.801Z"
+    "41074ed2fd54b154": "2026-10-09T17:59:19.801Z",
+    "ff2bbef8786449b1": "2026-10-10T04:25:19.747Z",
+    "ca8dee97e7e54a26": "2026-10-10T04:25:35.001Z"
   },
   "posts": [
+    {
+      "id": "ca8dee97e7e54a26",
+      "slug": "gta-6-radio-afrobank-fm-brings-vice-city-home",
+      "collection": "news",
+      "title": "GTA 6 Radio: Afrobank FM Brings Vice City Home",
+      "source": "https://www.reddit.com/r/GTA6/comments/1x1wpz9/a_single_line_from_afrobank_fm_that_almost_made/",
+      "postedAt": "2026-10-10T04:25:35.001Z"
+    },
+    {
+      "id": "ff2bbef8786449b1",
+      "slug": "gta-6-fan-gets-free-poster-from-rockstar-just-by-asking",
+      "collection": "news",
+      "title": "GTA 6 Fan Gets Free Poster From Rockstar Just by Asking",
+      "source": "https://www.ign.com/articles/gta-6-fan-says-rockstar-sent-them-a-poster-just-because-they-asked-nicely",
+      "postedAt": "2026-10-10T04:25:19.747Z"
+    },
     {
       "id": "41074ed2fd54b154",
       "slug": "gta-6-on-switch-2-nintendo-passes-the-buck-to-rockstar",
