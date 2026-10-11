@@ -398,9 +398,27 @@
     "27cc488712ef5680": "2026-10-10T16:59:34.078Z",
     "c2d46727953be5c7": "2026-10-10T16:59:48.056Z",
     "c78c8c350952fe37": "2026-10-11T04:06:47.351Z",
-    "0c06567db951890a": "2026-10-11T04:07:03.631Z"
+    "0c06567db951890a": "2026-10-11T04:07:03.631Z",
+    "cc7e4d3337395e54": "2026-10-11T17:21:22.486Z",
+    "704399c8d47f397d": "2026-10-11T17:21:35.274Z"
   },
   "posts": [
+    {
+      "id": "704399c8d47f397d",
+      "slug": "gta-6-cyberleek-returns-with-25-min-gameplay-footage",
+      "collection": "news",
+      "title": "GTA 6 Cyberleek Returns With 25-Min Gameplay Footage",
+      "source": "https://www.gamespot.com/articles/gta-6-leaks-arent-over-yet-as-new-25-minute-gameplay-footage-appears/",
+      "postedAt": "2026-10-11T17:21:35.274Z"
+    },
+    {
+      "id": "cc7e4d3337395e54",
+      "slug": "gta-6-leak-threat-group-demands-physical-edition-reversal",
+      "collection": "news",
+      "title": "GTA 6 Leak Threat: Group Demands Physical Edition Reversal",
+      "source": "https://www.videogameschronicle.com/news/group-threatens-to-leak-full-gta-6-build-if-physical-plans-arent-reversed/",
+      "postedAt": "2026-10-11T17:21:22.486Z"
+    },
     {
       "id": "0c06567db951890a",
       "slug": "gta-6-on-switch-2-nintendo-says-ask-rockstar",
