@@ -396,9 +396,27 @@
     "ff2bbef8786449b1": "2026-10-10T04:25:19.747Z",
     "ca8dee97e7e54a26": "2026-10-10T04:25:35.001Z",
     "27cc488712ef5680": "2026-10-10T16:59:34.078Z",
-    "c2d46727953be5c7": "2026-10-10T16:59:48.056Z"
+    "c2d46727953be5c7": "2026-10-10T16:59:48.056Z",
+    "c78c8c350952fe37": "2026-10-11T04:06:47.351Z",
+    "0c06567db951890a": "2026-10-11T04:07:03.631Z"
   },
   "posts": [
+    {
+      "id": "0c06567db951890a",
+      "slug": "gta-6-on-switch-2-nintendo-says-ask-rockstar",
+      "collection": "news",
+      "title": "GTA 6 on Switch 2? Nintendo Says Ask Rockstar",
+      "source": "https://www.gamespot.com/articles/is-gta-6-coming-to-switch-2-ask-rockstar-nintendo-says/",
+      "postedAt": "2026-10-11T04:07:03.631Z"
+    },
+    {
+      "id": "c78c8c350952fe37",
+      "slug": "gta-6-reddit-wiki-gets-major-overhaul",
+      "collection": "news",
+      "title": "GTA 6 Reddit Wiki Gets Major Overhaul",
+      "source": "https://www.reddit.com/r/GTA6/comments/1x2m2zf/the_rgta6_wiki_has_received_major_updates/",
+      "postedAt": "2026-10-11T04:06:47.351Z"
+    },
     {
       "id": "c2d46727953be5c7",
       "slug": "gta-6-s-story-era-means-gta-online-is-now-in-its-future",
