@@ -400,9 +400,27 @@
     "c78c8c350952fe37": "2026-10-11T04:06:47.351Z",
     "0c06567db951890a": "2026-10-11T04:07:03.631Z",
     "cc7e4d3337395e54": "2026-10-11T17:21:22.486Z",
-    "704399c8d47f397d": "2026-10-11T17:21:35.274Z"
+    "704399c8d47f397d": "2026-10-11T17:21:35.274Z",
+    "488c9017bb4cd2da": "2026-10-12T04:25:41.569Z",
+    "e7f776205d5baa63": "2026-10-12T04:25:55.380Z"
   },
   "posts": [
+    {
+      "id": "e7f776205d5baa63",
+      "slug": "gta-6-leaker-threatens-full-story-mode-upload",
+      "collection": "news",
+      "title": "GTA 6 Leaker Threatens Full Story Mode Upload",
+      "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-to-upload-a-build-with-full-story-mode/",
+      "postedAt": "2026-10-12T04:25:55.380Z"
+    },
+    {
+      "id": "488c9017bb4cd2da",
+      "slug": "gta-6-radio-stations-first-six-revealed-with-audio",
+      "collection": "news",
+      "title": "GTA 6 Radio Stations: First Six Revealed with Audio",
+      "source": "https://www.purexbox.com/news/2026/10/the-first-six-radio-stations-have-been-revealed-for-gta-6-complete-with-audio-previews",
+      "postedAt": "2026-10-12T04:25:41.569Z"
+    },
     {
       "id": "704399c8d47f397d",
       "slug": "gta-6-cyberleek-returns-with-25-min-gameplay-footage",
