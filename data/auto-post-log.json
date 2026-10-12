@@ -402,9 +402,27 @@
     "cc7e4d3337395e54": "2026-10-11T17:21:22.486Z",
     "704399c8d47f397d": "2026-10-11T17:21:35.274Z",
     "488c9017bb4cd2da": "2026-10-12T04:25:41.569Z",
-    "e7f776205d5baa63": "2026-10-12T04:25:55.380Z"
+    "e7f776205d5baa63": "2026-10-12T04:25:55.380Z",
+    "d0afa6a0199e1b9b": "2026-10-12T20:55:40.301Z",
+    "31c163a6bf276d85": "2026-10-12T20:55:52.709Z"
   },
   "posts": [
+    {
+      "id": "31c163a6bf276d85",
+      "slug": "gta-6-leaker-threatens-to-drop-full-playable-build",
+      "collection": "news",
+      "title": "GTA 6 Leaker Threatens to Drop Full Playable Build",
+      "source": "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak",
+      "postedAt": "2026-10-12T20:55:52.709Z"
+    },
+    {
+      "id": "d0afa6a0199e1b9b",
+      "slug": "gta-6-leaker-cyberleek-posts-more-unauthorised-footage",
+      "collection": "news",
+      "title": "GTA 6 Leaker CyberLeek Posts More Unauthorised Footage",
+      "source": "https://www.eurogamer.net/gta-6-leaker-cyberleek-naked-lucia-parachute-video",
+      "postedAt": "2026-10-12T20:55:40.301Z"
+    },
     {
       "id": "e7f776205d5baa63",
       "slug": "gta-6-leaker-threatens-full-story-mode-upload",
