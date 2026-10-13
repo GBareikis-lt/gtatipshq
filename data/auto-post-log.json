@@ -404,9 +404,19 @@
     "488c9017bb4cd2da": "2026-10-12T04:25:41.569Z",
     "e7f776205d5baa63": "2026-10-12T04:25:55.380Z",
     "d0afa6a0199e1b9b": "2026-10-12T20:55:40.301Z",
-    "31c163a6bf276d85": "2026-10-12T20:55:52.709Z"
+    "31c163a6bf276d85": "2026-10-12T20:55:52.709Z",
+    "67daa90efedb2b86": "2026-10-13T05:33:23.203Z",
+    "05e50d14ad0fff3a": "2026-10-13T05:33:36.006Z"
   },
   "posts": [
+    {
+      "id": "05e50d14ad0fff3a",
+      "slug": "gta-6-marketing-budget-reportedly-tops-150m",
+      "collection": "news",
+      "title": "GTA 6 Marketing Budget Reportedly Tops $150M",
+      "source": "https://www.reddit.com/r/GTA6/comments/1x446s2/crazy_marketing_from_rockstar_re_gta_6_costing_at/",
+      "postedAt": "2026-10-13T05:33:36.006Z"
+    },
     {
       "id": "31c163a6bf276d85",
       "slug": "gta-6-leaker-threatens-to-drop-full-playable-build",
