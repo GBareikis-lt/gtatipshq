@@ -406,9 +406,27 @@
     "d0afa6a0199e1b9b": "2026-10-12T20:55:40.301Z",
     "31c163a6bf276d85": "2026-10-12T20:55:52.709Z",
     "67daa90efedb2b86": "2026-10-13T05:33:23.203Z",
-    "05e50d14ad0fff3a": "2026-10-13T05:33:36.006Z"
+    "05e50d14ad0fff3a": "2026-10-13T05:33:36.006Z",
+    "8df448f1c2ec80ba": "2026-10-13T18:53:58.645Z",
+    "f315f67f0bb70e0f": "2026-10-13T18:54:11.456Z"
   },
   "posts": [
+    {
+      "id": "f315f67f0bb70e0f",
+      "slug": "gta-6-rockstar-s-miami-marketing-blitz-explained",
+      "collection": "news",
+      "title": "GTA 6: Rockstar's Miami Marketing Blitz Explained",
+      "source": "https://www.ign.com/articles/rockstars-multi-million-dollar-miami-takeover-continues-to-expand-ahead-of-gta-6-launch-despite-protests-from-some-officials",
+      "postedAt": "2026-10-13T18:54:11.456Z"
+    },
+    {
+      "id": "8df448f1c2ec80ba",
+      "slug": "gta-6-pc-release-could-come-far-sooner-than-expected",
+      "collection": "news",
+      "title": "GTA 6 PC Release Could Come Far Sooner Than Expected",
+      "source": "https://www.gamespot.com/articles/gta-6-will-reportedly-come-to-pc-much-earlier-than-expected/",
+      "postedAt": "2026-10-13T18:53:58.645Z"
+    },
     {
       "id": "05e50d14ad0fff3a",
       "slug": "gta-6-marketing-budget-reportedly-tops-150m",
