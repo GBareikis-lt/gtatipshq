@@ -410,9 +410,27 @@
     "8df448f1c2ec80ba": "2026-10-13T18:53:58.645Z",
     "f315f67f0bb70e0f": "2026-10-13T18:54:11.456Z",
     "9b30074f03f2e024": "2026-10-14T03:36:45.114Z",
-    "f6a53595410b4be0": "2026-10-14T03:36:58.147Z"
+    "f6a53595410b4be0": "2026-10-14T03:36:58.147Z",
+    "1dced3a2472b4997": "2026-10-14T16:34:48.411Z",
+    "0b1d0883ea9c5da0": "2026-10-14T16:35:01.740Z"
   },
   "posts": [
+    {
+      "id": "0b1d0883ea9c5da0",
+      "slug": "gta-6-budget-rockstar-denies-1-5b-figure",
+      "collection": "news",
+      "title": "GTA 6 Budget: Rockstar Denies $1.5B Figure",
+      "source": "https://www.gamespot.com/articles/rockstar-says-gta-6-didnt-cost-1-5-billion-to-make-but-wont-reveal-the-real-number/",
+      "postedAt": "2026-10-14T16:35:01.740Z"
+    },
+    {
+      "id": "1dced3a2472b4997",
+      "slug": "gta-6-nightclubs-feature-music-synced-lighting-and-unique-npcs",
+      "collection": "news",
+      "title": "GTA 6 Nightclubs Feature Music-Synced Lighting and Unique NPCs",
+      "source": "https://www.gamespot.com/articles/gta-6-nightclubs-have-an-absurd-amount-of-detail-right-down-to-the-lighting/",
+      "postedAt": "2026-10-14T16:34:48.411Z"
+    },
     {
       "id": "f6a53595410b4be0",
       "slug": "gta-6-take-two-earnings-call-set-for-november-9",
