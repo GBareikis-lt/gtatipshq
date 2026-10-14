@@ -408,9 +408,27 @@
     "67daa90efedb2b86": "2026-10-13T05:33:23.203Z",
     "05e50d14ad0fff3a": "2026-10-13T05:33:36.006Z",
     "8df448f1c2ec80ba": "2026-10-13T18:53:58.645Z",
-    "f315f67f0bb70e0f": "2026-10-13T18:54:11.456Z"
+    "f315f67f0bb70e0f": "2026-10-13T18:54:11.456Z",
+    "9b30074f03f2e024": "2026-10-14T03:36:45.114Z",
+    "f6a53595410b4be0": "2026-10-14T03:36:58.147Z"
   },
   "posts": [
+    {
+      "id": "f6a53595410b4be0",
+      "slug": "gta-6-take-two-earnings-call-set-for-november-9",
+      "collection": "news",
+      "title": "GTA 6: Take-Two Earnings Call Set for November 9",
+      "source": "https://www.gamespot.com/articles/gta-6-fans-are-excited-for-another-date-in-november-and-its-not-release-day/",
+      "postedAt": "2026-10-14T03:36:58.147Z"
+    },
+    {
+      "id": "9b30074f03f2e024",
+      "slug": "gta-6-art-hits-real-life-at-wynwood-walls-miami",
+      "collection": "news",
+      "title": "GTA 6 Art Hits Real Life at Wynwood Walls Miami",
+      "source": "https://www.reddit.com/r/GTA6/comments/1x4xwat/partnership_between_rockstar_games_and_wynwood/",
+      "postedAt": "2026-10-14T03:36:45.114Z"
+    },
     {
       "id": "f315f67f0bb70e0f",
       "slug": "gta-6-rockstar-s-miami-marketing-blitz-explained",
