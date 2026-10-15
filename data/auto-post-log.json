@@ -414,9 +414,27 @@
     "1dced3a2472b4997": "2026-10-14T16:34:48.411Z",
     "0b1d0883ea9c5da0": "2026-10-14T16:35:01.740Z",
     "c9a016d26750934d": "2026-10-15T03:17:11.932Z",
-    "fef23068c144e6d0": "2026-10-15T03:17:23.626Z"
+    "fef23068c144e6d0": "2026-10-15T03:17:23.626Z",
+    "5d6b694d32057f16": "2026-10-15T16:20:40.133Z",
+    "73b7372a85c179ae": "2026-10-15T16:20:53.262Z"
   },
   "posts": [
+    {
+      "id": "73b7372a85c179ae",
+      "slug": "gta-6-launch-trailer-vice-city-lucia-jason-revealed",
+      "collection": "news",
+      "title": "GTA 6 Launch Trailer: Vice City, Lucia & Jason Revealed",
+      "source": "https://www.gamespot.com/articles/gta-6-launch-trailer-is-here/",
+      "postedAt": "2026-10-15T16:20:53.262Z"
+    },
+    {
+      "id": "5d6b694d32057f16",
+      "slug": "gta-6-who-is-boobie-ike-and-why-is-he-hidden",
+      "collection": "news",
+      "title": "GTA 6: Who Is Boobie Ike and Why Is He Hidden?",
+      "source": "https://www.gamespot.com/articles/gta-6-isnt-showing-boobie-in-promotional-material/",
+      "postedAt": "2026-10-15T16:20:40.133Z"
+    },
     {
       "id": "fef23068c144e6d0",
       "slug": "gta-6-launch-shadowed-by-rockstar-employment-tribunal",
