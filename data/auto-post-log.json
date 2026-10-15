@@ -412,9 +412,27 @@
     "9b30074f03f2e024": "2026-10-14T03:36:45.114Z",
     "f6a53595410b4be0": "2026-10-14T03:36:58.147Z",
     "1dced3a2472b4997": "2026-10-14T16:34:48.411Z",
-    "0b1d0883ea9c5da0": "2026-10-14T16:35:01.740Z"
+    "0b1d0883ea9c5da0": "2026-10-14T16:35:01.740Z",
+    "c9a016d26750934d": "2026-10-15T03:17:11.932Z",
+    "fef23068c144e6d0": "2026-10-15T03:17:23.626Z"
   },
   "posts": [
+    {
+      "id": "fef23068c144e6d0",
+      "slug": "gta-6-launch-shadowed-by-rockstar-employment-tribunal",
+      "collection": "news",
+      "title": "GTA 6 Launch Shadowed by Rockstar Employment Tribunal",
+      "source": "https://www.eurogamer.net/rockstar-iwgb-employment-tribunal-delay-november",
+      "postedAt": "2026-10-15T03:17:23.626Z"
+    },
+    {
+      "id": "c9a016d26750934d",
+      "slug": "gta-6-s-map-scope-what-was-cut-and-why",
+      "collection": "news",
+      "title": "GTA 6's Map & Scope: What Was Cut and Why",
+      "source": "https://www.gamespot.com/articles/gta-6-could-have-been-even-bigger-and-released-years-sooner-but-then-these-things-happened/",
+      "postedAt": "2026-10-15T03:17:11.932Z"
+    },
     {
       "id": "0b1d0883ea9c5da0",
       "slug": "gta-6-budget-rockstar-denies-1-5b-figure",
