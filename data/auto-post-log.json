@@ -418,9 +418,27 @@
     "5d6b694d32057f16": "2026-10-15T16:20:40.133Z",
     "73b7372a85c179ae": "2026-10-15T16:20:53.262Z",
     "d4bf4860a048f082": "2026-10-16T03:13:00.522Z",
-    "c98cdc696d68e144": "2026-10-16T03:13:17.855Z"
+    "c98cdc696d68e144": "2026-10-16T03:13:17.855Z",
+    "43326a125896e24f": "2026-10-16T16:06:40.308Z",
+    "e7e324fa57434f5a": "2026-10-16T16:06:52.806Z"
   },
   "posts": [
+    {
+      "id": "e7e324fa57434f5a",
+      "slug": "gta-6-marketing-floods-miami-amid-official-pushback",
+      "collection": "news",
+      "title": "GTA 6 Marketing Floods Miami Amid Official Pushback",
+      "source": "https://www.gamespot.com/articles/gta-6-is-taking-over-miami-amid-pushback-from-officials-were-depicting-miami-like-a-murder-capital/",
+      "postedAt": "2026-10-16T16:06:52.806Z"
+    },
+    {
+      "id": "43326a125896e24f",
+      "slug": "gta-6-cars-hit-miami-streets-in-wild-marketing-stunt",
+      "collection": "news",
+      "title": "GTA 6 Cars Hit Miami Streets in Wild Marketing Stunt",
+      "source": "https://www.pushsquare.com/news/2026/10/gta-6-cars-appear-in-real-life-as-part-of-insane-miami-marketing-push",
+      "postedAt": "2026-10-16T16:06:40.308Z"
+    },
     {
       "id": "c98cdc696d68e144",
       "slug": "gta-6-was-originally-project-americas-with-a-much-bigger-map",
