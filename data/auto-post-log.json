@@ -416,9 +416,27 @@
     "c9a016d26750934d": "2026-10-15T03:17:11.932Z",
     "fef23068c144e6d0": "2026-10-15T03:17:23.626Z",
     "5d6b694d32057f16": "2026-10-15T16:20:40.133Z",
-    "73b7372a85c179ae": "2026-10-15T16:20:53.262Z"
+    "73b7372a85c179ae": "2026-10-15T16:20:53.262Z",
+    "d4bf4860a048f082": "2026-10-16T03:13:00.522Z",
+    "c98cdc696d68e144": "2026-10-16T03:13:17.855Z"
   },
   "posts": [
+    {
+      "id": "c98cdc696d68e144",
+      "slug": "gta-6-was-originally-project-americas-with-a-much-bigger-map",
+      "collection": "news",
+      "title": "GTA 6 Was Originally 'Project Americas' With a Much Bigger Map",
+      "source": "https://www.eurogamer.net/gta-6-project-americas-rockstar-crunch-delays-leaks",
+      "postedAt": "2026-10-16T03:13:17.855Z"
+    },
+    {
+      "id": "d4bf4860a048f082",
+      "slug": "gta-6-eligible-for-the-game-awards-2026-here-s-why",
+      "collection": "news",
+      "title": "GTA 6 Eligible for The Game Awards 2026 — Here's Why",
+      "source": "https://www.gamespot.com/articles/put-down-your-pitchforks-gta-vi-was-always-eligible-for-the-game-awards-this-year/",
+      "postedAt": "2026-10-16T03:13:00.522Z"
+    },
     {
       "id": "73b7372a85c179ae",
       "slug": "gta-6-launch-trailer-vice-city-lucia-jason-revealed",
