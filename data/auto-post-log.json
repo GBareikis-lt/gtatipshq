@@ -420,9 +420,27 @@
     "d4bf4860a048f082": "2026-10-16T03:13:00.522Z",
     "c98cdc696d68e144": "2026-10-16T03:13:17.855Z",
     "43326a125896e24f": "2026-10-16T16:06:40.308Z",
-    "e7e324fa57434f5a": "2026-10-16T16:06:52.806Z"
+    "e7e324fa57434f5a": "2026-10-16T16:06:52.806Z",
+    "b34908e32f9d3792": "2026-10-17T03:04:13.409Z",
+    "007a2df597860f5f": "2026-10-17T03:04:26.234Z"
   },
   "posts": [
+    {
+      "id": "007a2df597860f5f",
+      "slug": "gta-6-supercars-spotted-cruising-miami-streets",
+      "collection": "news",
+      "title": "GTA 6 Supercars Spotted Cruising Miami Streets",
+      "source": "https://www.reddit.com/r/GTA6/comments/1x7ukrm/rockstar_is_literally_turning_miami_into_vice/",
+      "postedAt": "2026-10-17T03:04:26.234Z"
+    },
+    {
+      "id": "b34908e32f9d3792",
+      "slug": "gta-6-launch-gta-5-leaving-ps-plus-nov-17",
+      "collection": "news",
+      "title": "GTA 6 Launch: GTA 5 Leaving PS Plus Nov 17",
+      "source": "https://www.gamespot.com/articles/gta-5-will-be-removed-from-ps-plus-just-before-gta-6-releases-it-seems/",
+      "postedAt": "2026-10-17T03:04:13.409Z"
+    },
     {
       "id": "e7e324fa57434f5a",
       "slug": "gta-6-marketing-floods-miami-amid-official-pushback",
