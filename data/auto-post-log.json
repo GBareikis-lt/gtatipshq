@@ -422,9 +422,27 @@
     "43326a125896e24f": "2026-10-16T16:06:40.308Z",
     "e7e324fa57434f5a": "2026-10-16T16:06:52.806Z",
     "b34908e32f9d3792": "2026-10-17T03:04:13.409Z",
-    "007a2df597860f5f": "2026-10-17T03:04:26.234Z"
+    "007a2df597860f5f": "2026-10-17T03:04:26.234Z",
+    "439092d850041c51": "2026-10-17T14:59:18.332Z",
+    "af96a70f11bc98e3": "2026-10-17T14:59:31.111Z"
   },
   "posts": [
+    {
+      "id": "af96a70f11bc98e3",
+      "slug": "gta-6-original-score-composed-by-justice",
+      "collection": "news",
+      "title": "GTA 6 Original Score Composed by Justice",
+      "source": "https://www.gamespot.com/articles/gta-6-is-getting-an-original-score-from-electronic-duo-justice/",
+      "postedAt": "2026-10-17T14:59:31.111Z"
+    },
+    {
+      "id": "439092d850041c51",
+      "slug": "gta-6-eligible-for-the-game-awards-2026-by-one-day",
+      "collection": "news",
+      "title": "GTA 6 Eligible for The Game Awards 2026 by One Day",
+      "source": "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley",
+      "postedAt": "2026-10-17T14:59:18.332Z"
+    },
     {
       "id": "007a2df597860f5f",
       "slug": "gta-6-supercars-spotted-cruising-miami-streets",
